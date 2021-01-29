@@ -134,7 +134,7 @@ body {
   font-size: 20px;
 }
 
-.md-typeset .admonition, .md-typeset details {
+.md-typeset .admonition, .md-typeset details, .md-typeset table:not([class]) {
   font-size: 80%;
 }
 
