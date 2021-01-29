@@ -12,8 +12,6 @@ theme:
     - header.autohide
       #- navigation.tabs
       #- navigation.sections
-extra_css:
-  - stylesheets/extra.css
 plugins:
   - search: 
       lang:
@@ -25,11 +23,23 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - def_list
+  - fancyboxmd
   - pymdownx.tasklist:
       custom_checkbox: true
       # clickable_checkbox: true
   - toc:
       slugify: !!python/name:slugify.slugify #pip install python-slugify
+extra_css:
+  - stylesheets/extra.css
+  - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+  - https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
+  - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+google_analytics:
+  - G-HX1RPQ876D
+  - auto
 copyright: Copyright &copy; 2021 OwlbearDM
 extra:
   social:
@@ -39,7 +49,3 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/OwlbearDm
       name: OwlbearDm on Twitter
-      
-extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
-  - javascripts/tables.js
