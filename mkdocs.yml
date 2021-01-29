@@ -1,0 +1,45 @@
+site_name: Kedôm
+dev_addr: 'localhost:8003'
+docs_dir: docs/public
+theme:
+  name: material
+  logo: assets/world_icon.png
+  favicon: assets/world_fav.png
+  palette:
+    scheme: youtube
+  features:
+    - navigation.instant
+    - header.autohide
+      #- navigation.tabs
+      #- navigation.sections
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - search: 
+      lang:
+        - en
+        - ru
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      # clickable_checkbox: true
+  - toc:
+      slugify: !!python/name:slugify.slugify #pip install python-slugify
+copyright: Copyright &copy; 2021 OwlbearDM
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/OwlbearDm
+      name: OwlbearDm on Twitter
+    - icon: fontawesome/solid/dragon
+      link: https://owlbeardm.com/
+      name: OwlbearDm.com
+      
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
