@@ -18,12 +18,15 @@ plugins:
         - en
         - ru
 markdown_extensions:
-  - attr_list
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+  - attr_list
   - def_list
   - fancyboxmd
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
       # clickable_checkbox: true
