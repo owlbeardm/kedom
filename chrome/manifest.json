@@ -1,0 +1,21 @@
+{
+  "name": "Pathfinder proficiency without level",
+  "description": "Removes level from pathfinder 2e proficiency",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": "OwlbearDM",
+  "content_scripts": [
+    {
+      "matches": ["*://character.pf2.tools/*"],
+      "all_frames": true,
+      "js": ["character.pf2.tools.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["*://2e.aonprd.com/Monsters*"],
+      "all_frames": true,
+      "js": ["2e.aonprd.com_Monsters.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
