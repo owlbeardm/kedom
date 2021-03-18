@@ -12,7 +12,7 @@
       "run_at": "document_idle"
     },
     {
-      "matches": ["*://2e.aonprd.com/Monsters*"],
+      "matches": ["*://2e.aonprd.com/Monsters*", "*://2e.aonprd.com/NPC*"],
       "all_frames": true,
       "js": ["2e.aonprd.com_Monsters.js"],
       "run_at": "document_idle"

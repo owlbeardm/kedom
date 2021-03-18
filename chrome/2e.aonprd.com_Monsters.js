@@ -23,7 +23,9 @@ function replaceSimpleDc(node) {
   }
 }
 // const digit = /(?<=[+-])\d+/;
-const digit = /(?<!\d)[+-]\d+/;
+// (AC|DC)\s  \d
+
+const digit = /((?<!\d|(Str|Dex|Con|Int|Wis|Cha|<b>Str<\/b>|<b>Dex<\/b>|<b>Con<\/b>|<b>Int<\/b>|<b>Wis<\/b>|<b>Cha<\/b>)\s)[+-]\d+(?!\s(status|item))|(?<=AC\s|<b>AC<\/b>\s|<b>DC<\/b>\s|DC\s)\d+)/;
 function sDC() {
   setTimeout(function () {
     let main = document.querySelectorAll("#main");
@@ -100,7 +102,7 @@ function replaceInnerNode(node, from, length, original, level) {
   node.innerHTML =
     node.innerHTML.substring(0, from) +
     `<span style="border-bottom: 1px dotted;" title="${original} original">${
-      to > 0 ? "+" + to : to
+      to > 0 && original.includes("+") ? "+" + to : to
     }</span>` +
     node.innerHTML.substring(from + length);
 }
