@@ -17,13 +17,19 @@ plugins:
       lang:
         - en
         - ru
+  - exclude:
+      glob:
+        - include/*
+
 markdown_extensions:
   - admonition
+  - abbr
   - attr_list
   - def_list
   - fancyboxmd
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.snippets
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
