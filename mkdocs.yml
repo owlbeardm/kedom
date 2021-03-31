@@ -17,9 +17,9 @@ plugins:
       lang:
         - en
         - ru
-  - exclude:
-      glob:
-        - include/*
+  # - exclude:
+  #     glob:
+  #       - include/*
 
 markdown_extensions:
   - admonition
