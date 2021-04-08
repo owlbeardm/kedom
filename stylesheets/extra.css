@@ -152,6 +152,14 @@ body {
   margin-bottom: .0em;
 }
 
+.md-typeset figcaption {
+  margin: 0;
+}
+
+.md-typeset figure {
+  margin: 8px auto;
+}
+
 /* ------------------------------------------------------ */
 .dwarf-font {
   font-family: "Noto Serif", serif;
