@@ -17,10 +17,6 @@ plugins:
       lang:
         - en
         - ru
-  # - exclude:
-  #     glob:
-  #       - include/*
-
 markdown_extensions:
   - admonition
   - abbr
@@ -47,9 +43,9 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
   - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
 google_analytics:
-  - G-HX1RPQ876D
+  - UA-115918011-6
   - auto
-copyright: Copyright &copy; 2021 OwlbearDM
+copyright: Copyright &copy; 2020–2021 OwlbearDM
 extra:
   social:
     - icon: fontawesome/solid/dragon
