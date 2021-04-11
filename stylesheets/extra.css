@@ -36,6 +36,7 @@
 }
 
 
+.md-typeset .info>summary,
 .md-typeset .admonition.info,
 .md-typeset details.info {
   border-color: #4F70A3;
@@ -52,6 +53,7 @@
 }
 
 
+.md-typeset .comment>summary,
 .md-typeset .admonition.comment,
 .md-typeset details.comment {
   border-color: #2E6171;
@@ -67,6 +69,7 @@
           mask-image: var(--md-admonition-icon--comment);
 }
 
+.md-typeset .success>summary,
 .md-typeset .admonition.success,
 .md-typeset details.success {
   border-color: #568A21;
@@ -82,6 +85,7 @@
           mask-image: var(--md-admonition-icon--success);
 }
 
+.md-typeset .warning>summary,
 .md-typeset .admonition.warning,
 .md-typeset details.warning {
   border-color: #B7A036;
@@ -97,6 +101,7 @@
           mask-image: var(--md-admonition-icon--warning);
 }
 
+.md-typeset .danger>summary,
 .md-typeset .admonition.danger,
 .md-typeset details.danger {
   border-color: #BF2020;
@@ -112,6 +117,7 @@
           mask-image: var(--md-admonition-icon--danger);
 }
 
+.md-typeset .accent>summary,
 .md-typeset .admonition.accent,
 .md-typeset details.accent {
   border-color: #B5B5B5;
@@ -145,11 +151,11 @@ body {
 }
 
 .md-typeset ul li ul, .md-typeset ul li ol, .md-typeset ol li ul, .md-typeset ol li ol {
-  margin: .0em 0 .0em .625em;
+  /* margin: .0em 0 .0em .625em; */
 }
 
 .md-typeset ul li, .md-typeset ol li {
-  margin-bottom: .0em;
+  /* margin-bottom: .0em; */
 }
 
 .md-typeset figcaption {
@@ -189,12 +195,12 @@ body {
 
 .tengwar-elf-font {
   font-family: 'Annatar';
-  /* font-size: 112.5%; */
+  font-size: 112.5%;
 }
 
 .tengwar-sylvan-font {
   font-family: 'Annatar';
-  /* font-size: 112.5%; */
+  font-size: 112.5%;
 }
 
 .orc-font {
