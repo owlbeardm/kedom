@@ -25,7 +25,7 @@ function replaceSimpleDc(node) {
 // const digit = /(?<=[+-])\d+/;
 // (AC|DC)\s  \d
 
-const digit = /((?<!\d|(Str|Dex|Con|Int|Wis|Cha|<b>Str<\/b>|<b>Dex<\/b>|<b>Con<\/b>|<b>Int<\/b>|<b>Wis<\/b>|<b>Cha<\/b>)\s)[+-]\d+(?!\s(status|item))|(?<=AC\s|<b>AC<\/b>\s|<b>DC<\/b>\s|DC\s)\d+)/;
+const digit = /((?<![a-zA-z]|\d|(Creature|Str|Dex|Con|Int|Wis|Cha|<b>Str<\/b>|<b>Dex<\/b>|<b>Con<\/b>|<b>Int<\/b>|<b>Wis<\/b>|<b>Cha<\/b>)\s)[+-]\d+(?!\s(status|item|circumstance))|(?<=AC\s|<b>AC<\/b>\s|<b>DC<\/b>\s|DC\s)\d+)/;
 function sDC() {
   setTimeout(function () {
     let main = document.querySelectorAll("#main");
@@ -35,7 +35,7 @@ function sDC() {
       creatures.forEach((creature) => {
         if (level || level === 0) return;
         console.log(creature.innerHTML);
-        level = creature.innerHTML.match(/\d+/)[0];
+        level = creature.innerHTML.match(/[-]?\d+/)[0];
         if (level) {
           level = level * 1.0;
           console.log(
