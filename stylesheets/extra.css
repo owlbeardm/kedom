@@ -203,6 +203,12 @@ body {
   font-size: 112.5%;
 }
 
+.runic-old-font {
+  font-family: 'Old_Runic'!important;
+  font-size: 112.5%;
+  /* font-weight: bold; */
+}
+
 .orc-font {
   font-family: "Andika", sans-serif;
   color: #3e2723;
