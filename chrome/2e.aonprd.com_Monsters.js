@@ -25,7 +25,8 @@ function replaceSimpleDc(node) {
 // const digit = /(?<=[+-])\d+/;
 // (AC|DC)\s  \d
 
-const digit = /((?<![a-zA-z]|\d|(Creature|Str|Dex|Con|Int|Wis|Cha|<b>Str<\/b>|<b>Dex<\/b>|<b>Con<\/b>|<b>Int<\/b>|<b>Wis<\/b>|<b>Cha<\/b>)\s)[+-]\d+(?!\s(status|item|circumstance))|(?<=AC\s|<b>AC<\/b>\s|<b>DC<\/b>\s|DC\s)\d+)/;
+const digit =
+  /((?<![a-zA-z]|\d|(Creature|Str|Dex|Con|Int|Wis|Cha|<b>Str<\/b>|<b>Dex<\/b>|<b>Con<\/b>|<b>Int<\/b>|<b>Wis<\/b>|<b>Cha<\/b>)\s)[+-]\d+(?!\s(status|item|circumstance))|(?<=AC\s|<b>AC<\/b>\s|<b>DC<\/b>\s|DC\s)\d+)/;
 function sDC() {
   setTimeout(function () {
     let main = document.querySelectorAll("#main");
@@ -67,8 +68,15 @@ function sDC() {
                 match[0],
                 level
               );
-            start = searchIndex > 0 ? start + index : main[0].innerHTML.length;
-            console.log("match", match[0], start);
+            console.log(
+              "match",
+              match[0],
+              searchIndex,
+              start,
+              index,
+              main[0].innerHTML.length
+            );
+            start = searchIndex > 0 ? start + index : start + 1;
           }
         }
         // select.forEach(replaceSimpleDc);
