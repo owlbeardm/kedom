@@ -146,6 +146,10 @@ body {
   font-size: 80%;
 }
 
+.md-typeset h3 {
+  margin-top: 36px;
+}
+
 .md-typeset h5{
   margin: 2.25em 0 1.25em 0;
 }
@@ -164,6 +168,14 @@ body {
 
 .md-typeset figure {
   margin: 8px auto;
+}
+
+.md-typeset table:not([class]){
+  box-shadow: rgb(0 0 0 / 32%) 0px 6px 12px, rgb(0 0 0 / 46%) 0px 3px 6px;
+}
+
+img {
+  box-shadow: rgb(0 0 0 / 32%) 0px 6px 12px, rgb(0 0 0 / 46%) 0px 3px 6px;
 }
 
 /* ------------------------------------------------------ */
