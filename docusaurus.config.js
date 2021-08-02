@@ -21,7 +21,7 @@ module.exports = {
       title: "Kedôm",
       logo: {
         alt: "My Site Logo",
-        src: "img/world_icon.png",
+        src: "img/favicon.png",
       },
       items: [
         {

@@ -45,6 +45,14 @@
   --ifm-h6-font-size: 1rem;
 }
 
+.alert a {
+  color: var(--ifm-color-primary-light);
+  text-decoration: none;
+}
+.alert a:hover {
+  color: var(--ifm-pagination-nav-color-hover);
+}
+
 .alert--secondary {
   --ifm-alert-background-color-highlight: #9C4C2D;
   --ifm-alert-background-color: none;

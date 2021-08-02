@@ -1,3 +1,0 @@
-[submodule "docs/public"]
-	path = docs/public
-	url = git@github.com:owlbeardm/kedom-public-docs.git
