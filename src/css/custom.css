@@ -1,0 +1,228 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #bd5942;
+  --ifm-color-primary-dark: #aa503b;
+  --ifm-color-primary-darker: #a14c38;
+  --ifm-color-primary-darkest: #843e2e;
+  --ifm-color-primary-light: #c46a55;
+  --ifm-color-primary-lighter: #c7725e;
+  --ifm-color-primary-lightest: #d18b7b;
+
+  --ifm-pagination-nav-color-hover: #ff2f00;
+  --ifm-link-hover-color: #ff2f00;
+  --ifm-link-hover-decoration: none;
+
+  
+  --ifm-navbar-background-color: #5d5c5b;
+  --ifm-font-color-base: #424242;
+  --ifm-heading-color: #212121;
+  --ifm-navbar-link-color: #262626;
+  --ifm-navbar-link-hover-color: #e0e0e0;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Georgia', serif;
+
+  --ifm-heading-font-weight: 400;
+
+  --ifm-color-secondary-dark: #9C4C2D;
+  --ifm-color-success-dark: #334F33;
+  --ifm-color-info-dark: #444459;
+  --ifm-color-warning-dark: #B7A036;
+  --ifm-color-danger-dark: #BF2020;
+
+
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.75rem;
+  --ifm-h4-font-size: 1.5rem;
+  --ifm-h5-font-size: 1.25rem;
+  --ifm-h6-font-size: 1rem;
+}
+
+.alert--secondary {
+  --ifm-alert-background-color-highlight: #9C4C2D;
+  --ifm-alert-background-color: none;
+}
+
+.alert--secondary .admonition-heading {
+  background-color: #9C4C2D20;
+}
+
+.alert--success {
+  --ifm-alert-background-color-highlight: #334F33;
+  --ifm-alert-background-color: none;
+}
+
+.alert--success .admonition-heading {
+  background-color: #334F3320;
+}
+
+.alert--info {
+  --ifm-alert-background-color-highlight: #444459;
+  --ifm-alert-background-color: none;
+}
+
+.alert--info .admonition-heading {
+  background-color: #4e4e5820;
+}
+
+.alert--warning {
+  --ifm-alert-background-color-highlight: #B7A036;
+  --ifm-alert-background-color: none;
+}
+
+.alert--warning .admonition-heading {
+  background-color: #B7A03620;
+}
+
+.alert--danger {
+  --ifm-alert-background-color-highlight: #BF2020;
+  --ifm-alert-background-color: none;
+}
+
+.alert--danger .admonition-heading {
+  background-color: #BF202020;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #c46a55;
+  --ifm-color-primary-dark: #c7725e;
+  /* any other colors you wish to overwrite */
+  --ifm-background-color: #262626;
+  --ifm-navbar-background-color: #5d5c5b;
+  --ifm-font-color-base: #e0e0e0;
+  --ifm-heading-color: #f5f5f5;
+
+  --ifm-color-emphasis-100: #1e1e1e;
+}
+
+.alert {
+  padding: 0;
+  box-shadow:none;
+}
+
+.admonition-heading {
+  padding: 12px var(--ifm-alert-padding-horizontal) 1px var(--ifm-alert-padding-horizontal);
+} 
+
+.admonition-content {
+  padding: 0 var(--ifm-alert-padding-horizontal) var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+  font-size: 90%;
+}
+
+.alert {
+  color: var(--ifm-font-color-base);
+}
+
+.markdown li + li {
+  margin-top: var(--ifm-list-item-margin);
+}
+
+.menu__link:hover {
+  color: var(--ifm-link-hover-color);
+}
+
+.footer {
+  --ifm-footer-background-color: #000000;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+/* ------------------------------------------------------ */
+.dwarf-font {
+  font-family: "Noto Serif", serif;
+  color: #BFCDE0;
+  font-size: 93.75%;
+}
+
+:not(.md-nav__link) .cirth-dwarf-font {
+  font-family: 'Cirth';
+  color: #BFCDE0;
+  font-size: 112.5%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.elf-font {
+  font-family: "EB Garamond", serif;
+  color: #9CC69B;
+  font-size: 112.5%;
+}
+
+.sylvan-font {
+  font-family: 'EB Garamond', serif;
+  color: #252537;
+  font-size: 112.5%;
+}
+
+.tengwar-elf-font {
+  font-family: 'Annatar';
+  font-size: 112.5%;
+}
+
+.tengwar-sylvan-font {
+  font-family: 'Annatar';
+  font-size: 112.5%;
+}
+
+.runic-old-font {
+  font-family: 'Old_Runic'!important;
+  font-size: 112.5%;
+  /* font-weight: bold; */
+}
+
+.orc-font {
+  font-family: "Andika", sans-serif;
+  color: #3e2723;
+}
+
+.runic-font {
+  font-family: "Girassol", cursive;
+  color: #4f4a4a;
+}
+
+/* ----------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Old_Runic';
+  src: url('fonts/Old_Runic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Cirth';
+  src: url('fonts/cirth.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Annatar';
+  src: url('fonts/tengwar-annatar-glaemscrafu.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Annatar Italic';
+  src: url('fonts/tengwar-annatar-glaemscrafu-italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

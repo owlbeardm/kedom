@@ -1,0 +1,26 @@
+.clean-btn {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+}
+
+.copyButton {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: var(--ifm-global-radius);
+    color: var(--ifm-color-white);
+    opacity: 0;
+    padding: .4rem .5rem;
+    /* position: absolute; */
+    float: right;
+    /* right: calc(var(--ifm-pre-padding)/2); */
+    top: 1em;
+    transition: opacity .2s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.statBlock:hover>.copyButton {
+    opacity: 1;
+}
