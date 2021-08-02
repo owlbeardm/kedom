@@ -1,5 +1,3 @@
-import Image from '@theme/IdealImage';
-
 # Kedôm world
 
 :::info *Kedôm*
@@ -11,5 +9,3 @@ import Image from '@theme/IdealImage';
 ### Nitholan
 
 ![Kedôm](/img/kedom.jpg)
-
-<Image img={require('/img/kedom.jpg')} />
