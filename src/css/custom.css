@@ -45,6 +45,10 @@
   --ifm-h6-font-size: 1rem;
 }
 
+body {
+  font-family: 'PT Serif', 'Georgia', serif;
+}
+
 .alert a {
   color: var(--ifm-color-primary-light);
   text-decoration: none;
