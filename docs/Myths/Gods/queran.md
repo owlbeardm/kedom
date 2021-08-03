@@ -25,7 +25,7 @@ title: Queran pantheon
 <!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838) -->
 :::
 
-<img alt="Quilissa symbol" src="img/quilissa.svg" align="right" class="god-img"/>
+<img alt="Quilissa symbol" src="/img/gods/quilissa.svg" align="right" class="god-img"/>
 
 ## Quilissa
 

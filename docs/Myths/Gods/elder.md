@@ -3,7 +3,7 @@ id: elder
 title: Elder Gods
 ---
 
-<img alt="Ashul Ez symbol" src="img/ashul-ez.png" align="right" class="god-img"/>
+<img alt="Ashul Ez symbol" src="/img/gods/ashul-ez.png" align="right" class="god-img"/>
 
 ## Ashul Ez
 

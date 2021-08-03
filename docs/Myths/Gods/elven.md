@@ -3,7 +3,7 @@ id: elven
 title: Elven pantheon
 ---
 
-<img alt="Aranwel symbol" src="img/aranwel.svg" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/gods/aranwel.svg" align="right" class="god-img"/>
 
 ## Aranwel
 <!-- aran gwelu -->
@@ -26,7 +26,7 @@ title: Elven pantheon
 <!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176) -->
 :::
 
-<img alt="Gildir symbol" src="img/gildir.svg" align="right" class="god-img"/>
+<img alt="Gildir symbol" src="/img/gods/gildir.svg" align="right" class="god-img"/>
 
 ## Gildir
 
@@ -48,7 +48,7 @@ title: Elven pantheon
 <!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176) -->
 :::
 
-<img alt="Ungorian symbol" src="img/ungorian.svg" align="right" class="god-img"/>
+<img alt="Ungorian symbol" src="/img/gods/ungorian.svg" align="right" class="god-img"/>
 
 ## Ungorian
 
