@@ -3,7 +3,7 @@ id: dwarven
 title: Dwarven pantheon
 ---
 
-![Hanmir symbol](img/hanmir.svg){ width=150; align=right }
+<img alt="Hanmir symbol" src="img/hanmir.svg" align="right" class="god-img"/>
 
 ## Hanmir
 
