@@ -12,7 +12,7 @@ function Hello() {
           height: '50vh',
           fontSize: '20px',
         }}>
-          <h1><a href="/docs/index/">Start</a></h1>
+          <h1><a href="/docs/">Start</a></h1>
       </div>
     </Layout>
   );
