@@ -100,6 +100,7 @@ The rest is **Unique Ancestries**.
     <li>Barbarian</li>
     <li>Champion</li>
     <li>Fighter</li>
+    <li>Magus</li>
     <li>Ranger</li>
     <li>Rogue (Ruffian)</li>
   </ul>
@@ -107,6 +108,7 @@ The rest is **Unique Ancestries**.
   <TabItem value="dex"><ul>
     <li>Champion</li>
     <li>Fighter</li>
+    <li>Magus</li>
     <li>Ranger</li>
     <li>Rogue</li>
     <li>Swashbuckler</li>
@@ -130,9 +132,10 @@ The rest is **Unique Ancestries**.
   <TabItem value="cha"><ul>
     <li>Bard</li>
     <li>Oracle</li>
-    <li>Sorcerer</li>
     <li>Rogue (Eldritch Trickster)</li>
     <li>Rogue (Scoundrel)</li>
+    <li>Sorcerer</li>
+    <li>Summoner</li>
   </ul>
   </TabItem>
 </Tabs>
