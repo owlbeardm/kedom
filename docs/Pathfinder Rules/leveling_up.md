@@ -1,6 +1,7 @@
 ---
 id: leveling
 title: Leveling up
+sidebar_position: 3
 ---
 
 ## Leveling-Up Checklist

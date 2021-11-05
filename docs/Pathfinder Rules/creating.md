@@ -1,6 +1,7 @@
 ---
 id: new
 title: Creating character
+sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';

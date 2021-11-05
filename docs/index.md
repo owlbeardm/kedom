@@ -2,6 +2,7 @@
 id: index
 title: The World of Kedôm
 slug: /
+sidebar_position: 1
 ---
 
 ## Myths and Arcana
