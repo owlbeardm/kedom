@@ -15,4 +15,4 @@ sidebar_position: 1
 
 ## Specific setting rules
 
-- [Pathfinder 2E](./Pathfinder%20Rules/)
+- [Pathfinder 2E](./pathfinder_2e/)

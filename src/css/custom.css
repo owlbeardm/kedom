@@ -159,13 +159,13 @@ html[data-theme='dark'] {
 /* ------------------------------------------------------ */
 .dwarf-font {
   font-family: "Noto Serif", serif;
-  color: #BFCDE0;
+  /* color: #BFCDE0; */
   font-size: 93.75%;
 }
 
 :not(.md-nav__link) .cirth-dwarf-font {
   font-family: 'Cirth';
-  color: #BFCDE0;
+  /* color: #BFCDE0; */
   font-size: 112.5%;
   text-transform: uppercase;
   font-weight: bold;
@@ -173,13 +173,13 @@ html[data-theme='dark'] {
 
 .elf-font {
   font-family: "EB Garamond", serif;
-  color: #9CC69B;
+  /* color: #9CC69B; */
   font-size: 112.5%;
 }
 
 .sylvan-font {
   font-family: 'EB Garamond', serif;
-  color: #252537;
+  /* color: #252537; */
   font-size: 112.5%;
 }
 
@@ -201,12 +201,12 @@ html[data-theme='dark'] {
 
 .orc-font {
   font-family: "Andika", sans-serif;
-  color: #3e2723;
+  /* color: #3e2723; */
 }
 
 .runic-font {
   font-family: "Girassol", cursive;
-  color: #4f4a4a;
+  /* color: #4f4a4a; */
 }
 
 /* ----------------------------------------------------------- */
