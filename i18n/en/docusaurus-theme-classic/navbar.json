@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Kedôm",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Information",
+    "description": "Navbar item with label Docs"
+  }
+}

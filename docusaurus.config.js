@@ -11,10 +11,14 @@ module.exports = {
   favicon: "img/favicon.png",
   organizationName: "owlbeardm", // Usually your GitHub org/user name.
   projectName: "kedom", // Usually your repo name.
+  i18n: {
+    defaultLocale: 'ru',
+    locales: ['en', 'ru'],
+  },
   themeConfig: {
     colorMode: {
       // "light" | "dark"
-      defaultMode: "light",
+      defaultMode: "dark",
       disableSwitch: true,
     },
     navbar: {
@@ -29,6 +33,10 @@ module.exports = {
           docId: "index",
           position: "left",
           label: "Docs",
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
       ],
     },

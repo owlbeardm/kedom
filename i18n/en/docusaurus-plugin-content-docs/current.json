@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Мир": {
+    "message": "World",
+    "description": "The label for category Мир in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Итш Узбуд Инбараму": {
+    "message": "Itsh Uzbud Inbaramu",
+    "description": "The label for category Итш Узбуд Инбараму in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Нерланд": {
+    "message": "Náirland",
+    "description": "The label for category Нерланд in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Ньисьель": {
+    "message": "Ñiziel",
+    "description": "The label for category Ньисьель in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Куэсонья": {
+    "message": "Cuezoña",
+    "description": "The label for category Куэсонья in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Руэса": {
+    "message": "Rueza",
+    "description": "The label for category Руэса in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Мифы": {
+    "message": "Myths",
+    "description": "The label for category Мифы in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Пантеоны": {
+    "message": "Pantheons",
+    "description": "The label for category Пантеоны in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Народы": {
+    "message": "Ancestries",
+    "description": "The label for category Народы in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pathfinder 2E": {
+    "message": "Pathfinder 2E",
+    "description": "The label for category Pathfinder 2E in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Инструменты": {
+    "message": "Tools",
+    "description": "The label for category Инструменты in sidebar tutorialSidebar"
+  }
+}
