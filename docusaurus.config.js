@@ -19,7 +19,7 @@ module.exports = {
     colorMode: {
       // "light" | "dark"
       defaultMode: "dark",
-      disableSwitch: true,
+      disableSwitch: false,
     },
     navbar: {
       title: "Kedôm",

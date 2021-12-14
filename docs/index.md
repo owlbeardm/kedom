@@ -1,18 +1,18 @@
 ---
 id: index
-title: The World of Kedôm
+title: Мир Кедома
 slug: /
 sidebar_position: 1
 ---
 
-## Myths and Arcana
+## Мифы и таинства
 
-- [Gods and godly beings](./myths/gods/)
+- [Боги и божественные создания](./myth/gods/)
 
-## World features
+## Особенности мира
 
-- [Geography](./world/)
+- [География](./world/)
 
-## Specific setting rules
+## Специфические правила и механики
 
 - [Pathfinder 2E](./pathfinder_2e/)
