@@ -3,12 +3,16 @@ id: queran
 title: Пантеон кверанцев
 ---
 
+| Name                                                                            | Category            |     | Domains                                                                            | Favored Weapon  |
+| ------------------------------------------------------------------------------- | ------------------- | --- | ---------------------------------------------------------------------------------- | --------------- |
+| [Martetor](queran/#martetor)                                                    | Queran pantheon     | LN  |                    | Khakkara        |
+| [Quilissa](queran/#quilissa)                                                    | Queran pantheon     | NG  |            | Staff           |
+| [Tersemata](queran/#tersemata)                                                  | Queran pantheon     | NG  |                   | Sickle          |
+
 ## Martetor
 
 <small>
-*nith.*  / marθwer / Marzuer<br/>
-*ner.*  / martiðar / 𐌼𐌰𐍂𐍄𐌹𐌳𐌰𐍂<br/>  
-*quer.*  / martetor / Martetor
+*quer.*  / martetor / Martetor (Мартетор)
 </small>
 
 **Martetor** is the main god of queran pantheon. God of knowledge and duty. Founder of The Empire. *Martetor* is regarded as the patron and protector of majority of cities and defensive structures.
@@ -30,9 +34,7 @@ title: Пантеон кверанцев
 ## Quilissa
 
 <small>
-*nith.*  / kwelessa / Cuelessa  
-*ner.*  / hʷilis / 𐍈𐌹𐌻𐌹𐍃  
-*quer.*  / kʷilissa / Quilissa  
+*quer.*  / kʷilissa / Quilissa (Квилисса)
 </small>
 
 **Quilissa** is a goddess associated with knowledge, wisdom, handicraft, magic and protection.
@@ -55,9 +57,7 @@ title: Пантеон кверанцев
 ## Tersemata
 
 <small>
-*nith.*  / tersema / Tersema  
-*ner.*  / θɛrsimaðoː / 𐌸𐌰𐌹𐍂𐍃𐌹𐌼𐌰𐌳𐍉  
-*quer.*  / terzemataː / Terzemata
+*quer.*  / terzemataː / Terzemata (Терземата)
 </small>
 
 **Tersemata** is a mother-goddess of *Martetor*. She is a goddess of the harvest, of agriculture, grain crops, fertility and motherly relationships. She presided also the cycle of life and death often honoured during marriages and funeral rites.
