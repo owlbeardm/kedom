@@ -1,12 +1,12 @@
 ---
 id: ñiziel
-title: Ньисьель
+title: Ñiziel
 slug: ./
 sidebar_position: 1
 ---
 
 :::info *Ñiziel*
-/ ɲiθjel / nyith-YEL, Нитэль
+/ ɲiθjel / Нитэль
 :::
 
 ## Карта

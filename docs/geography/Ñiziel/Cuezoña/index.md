@@ -1,12 +1,12 @@
 ---
 id: cuezoña
-title: Куэсонья
+title: Cuezoña
 slug: ./
 sidebar_position: 1
 ---
 
 :::info *Cuezoña*
-/ kʷeðoɲa / kweh-DHO-nya, Кведония
+/ kʷeðoɲa / Кведония
 :::
 
 ## Карта

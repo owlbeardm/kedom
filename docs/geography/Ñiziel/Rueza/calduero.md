@@ -1,8 +1,8 @@
 ---
 id: calduero
-title: Кальдуэро
+title: Calduero
 ---
 
 :::info *Calduero*
-/ kaldwero / kal-DWEH-rro, Калдуэро
+/ kaldwero / Калдуэро
 :::

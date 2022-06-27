@@ -1,12 +1,12 @@
 ---
 id: rueza
-title: Руэса
+title: Rueza
 slug: ./
 sidebar_position: 1
 ---
 
 :::info *Rueza*
-/ rweθa / RRWEH-thuh, *Руэта*
+/ rweθa / *Руэта*
 :::
 
 ## Map

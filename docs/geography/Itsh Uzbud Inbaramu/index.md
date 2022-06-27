@@ -1,6 +1,6 @@
 ---
 id: itsh_uzbud_inbaramu
-title: Итш Узбуд Инбараму
+title: Itsh Uzbud Inbaramu
 slug: ./
 sidebar_position: 1
 ---

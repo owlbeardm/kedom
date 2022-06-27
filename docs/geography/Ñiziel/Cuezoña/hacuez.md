@@ -1,10 +1,10 @@
 ---
 id: hacuez
-title: Акуэс
+title: Hacuez
 ---
 
 :::info *Hacuez*
-/ akʷeθ / uh-KWETH, *Аквэс*
+/ akʷeθ / *Аквэс*
 :::
 
 ## Места

@@ -6,5 +6,7 @@ sidebar_position: 1
 ---
 
 :::info *Kedôm*
-/ kedoːm / keh-DAWM, *Кедом*
+/ kedoːm / *Кедом*
 :::
+
+![Ñiziel](/img/kedom.jpg)

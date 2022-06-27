@@ -9,8 +9,6 @@ title: Пантеон лесных эльфов
 | [Gildir <br/><span class="tengwar-elf-font">xj%26T</span>](#gildir)       | Elven pantheon      | CN  | **Freedom**, **Moon**, **Star**, **Travel**, Change, Luck                          | Elven khopesh   |
 | [Ungorian <br/><span class="tengwar-elf-font">b&7Y`B5#</span>](#ungorian) | Elven pantheon      | CE  | **Darkness**, **Secrecy**, **Swarm**, **Trickery**, **Zeal**, Destruction, Passion | Spider (dagger) |
 
----
-
 <img alt="Aranwel symbol" src="/img/gods/aranwel.svg" align="right" class="god-img"/>
 
 ## Aranwel

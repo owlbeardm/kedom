@@ -1,8 +1,8 @@
 ---
 id: herunde
-title: Эрунде
+title: Herunde
 ---
 
 :::info *Herunde*
-/ erunde / eh-RUUN-deh, Эрунд
+/ erunde / eh-RUUN-deh, Эрундэ
 :::

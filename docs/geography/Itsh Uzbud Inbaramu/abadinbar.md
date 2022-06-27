@@ -1,6 +1,6 @@
 ---
 id: abadinbar
-title: Абадинбар
+title: Abadinbar
 ---
 
 <!-- # <span class="cirth-dwarf-font">ABADINBAR</span> -->

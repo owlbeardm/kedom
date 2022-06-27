@@ -1,6 +1,6 @@
 ---
 id: nerlend
-title: Нерланд
+title: Náirland
 slug: ./
 sidebar_position: 1
 ---
