@@ -15,6 +15,7 @@ import TabItem from '@theme/TabItem';
 
 Из всех цивилизованных народов, люди встречаются в Селании чаще всего. Ниже перечеслены самые частые из культур, но существуют и другие, редкие для этой территории. А ведь кто-то говорит, что даже кверанцы это люди. Проконсультируйтесь с ведущим, если хочется чего-то более уникального.
 
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/nithel.png" align="right" class="god-img"/>
 
 ###### Нитэльцы
@@ -25,6 +26,8 @@ import TabItem from '@theme/TabItem';
 
 У представителей других происхождений часто нейтральное мнение о них, как о доминирующем в этой местности народе.
 
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/saroja.png" align="right" class="god-img"/>
 
 ###### Сарольцы
@@ -35,6 +38,8 @@ import TabItem from '@theme/TabItem';
 
 От других их отличают часто формальный разговор, долгие вежливые конструкции в речи, длинные имена и яркая одежда.
 
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/nerland.png" align="right" class="god-img"/>
 
 ###### Нерландцы
@@ -45,63 +50,61 @@ import TabItem from '@theme/TabItem';
 
 От других их может отличать высокий рост, светлые волосы и кожа, простая одежда, грубый акцент. Как и дварфы они ценят договоры, поэтому и те и другие высокого мнения друг о друге.
 
-### Чульти
-
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/rat.png" align="right" class="god-img"/>
 
+### Чульти
+
 Крысолюды, или `чульти` встречаются во всех крупных селанских городах. Меньшие размером чем люди, они быстро заполняют целые кварталы, где стараются не появляться представители других происхождений. Часто презираемые другими, чульти обладают живым умом и тягой к знаниям и экспериментам. Хоть многие из них предпочитают жизнь в тесных общинах, встречаются и те, кто желает вырваться из объятий родни.
+
+</div>
 
 ### Дварфы
 
 Ходят слухи, о том, что в далёких южных горах тоже обитают дварфы. Но чаще всего истории эти мрачные и пугающие.
 
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/dwarf1.png" align="right" class="god-img"/>
 
 ###### Дварфские горы
 
 ``Дварфы`` с Селании более редки, чем в Нитэле. Это или ``нитэльские дварфы``, известные своими тестными связями с людьми. Или ``дварфы из дальних гор`` — вторая половина дварфской цивилизации, разбитой надвое из-за какой-то прошлой катастрофы. Последние менее социальные, более ксенофобные и вспыльчивые. Как бы то ни было, все дварфы педантичны, держат своё слово, дорожат своим родом и кланом.
 
-
-
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/dwarf2.png" align="right" class="god-img"/>
 
 ###### Длинные горы
 
+Дварфы Длинныйх Гор.
 
-
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/halfling.png" align="right" class="god-img"/>
 
 ### Халфлинги
 
 ``Халфлинги`` путешествуют по всему внутреннему и южному морю. Их можно встретить где угодно, и они часто подстраиваются под местные традиции. К ним редко можно встретить нетерпимость, но серьёзно их тоже редко кто воспринимает.
 
-
-Halflings are the most recent civilized race to settle in Sanctuary,
-having come down out of the Eastwall, ragged and starving, nearly
-five hundred years after the arrival of humans. The halfling bards
-tell a tale of their ancestral home and people being ravaged by a
-monstrous creature of chaos and forcing the survivors to flee west
-through the treacherous mountains of the Eastwall.
-The sight of halflings out and about in the world is uncommon and
-usually draws attention. They enjoy the company of their own kind
-and are most inclined to stay within the safe confines of their small
-communities. They are generally cheerful and polite when dealing
-with humans and dwarves, but are always on the lookout for
-danger. When they do travel, they prefer to do so in groups, not
-only for safety, but for companionship.
-
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/gnome.png" align="right" class="god-img"/>
 
 ### Гномы
 
 ``Гномы`` встречаются в неожиданных местах по всему миру. Много кто к ним относится с недоверием, потому что мало кто знает, чего от них можно ожидать. И мало какой гном похож на другого гнома. Они мало привязаны к традициям и социуму, гораздо больше их связывает с природой или местностью в которой они родились. В остальном гномы часто слепо следуют своим временным желаниям, быстро теряя интерес или меняя объекты интереса.
 
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/lizard.png" align="right" class="god-img"/>
 
 ### Ящеролюды
 
 ``Ящеролюды`` встречаются в прибрежной Селании, и гораздо чаще ближе к западу. Местные обитатели испытывают недоверие и иногда даже страх перед ними. Вполне возможно их лишённые человеческой мимики лица вносят в это немалый вклад. Общество ящеров довольно разнообразно, но в Селании оказываются только путешественники, охранники и моряки.
 
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/goblin.png" align="right" class="god-img"/>
 <img alt="Aranwel symbol" src="/img/ancestry/ork.png" align="right" class="god-img"/>
 
@@ -111,6 +114,8 @@ only for safety, but for companionship.
 
 Персонаж может играть ``орком`` или ``гоблином`` с разрешения ведущего.
 
+</div>
+<div class="div-with-image">
 <img alt="Aranwel symbol" src="/img/ancestry/elf.png" align="right" class="god-img"/>
 
 ### Эльфы
@@ -118,6 +123,8 @@ only for safety, but for companionship.
 Загадочные, непоследовательные хаотичные создания леса. Их редко можно встретить в городах, зато избежать встречи с ними в глубоких лесах Селании почти невозможно. Большинство жителей этого региона боится их, не зная чего ожидать от их разнообразных групп.
 
 Персонаж может играть ``эльфом`` с разрешения ведущего.
+
+</div>
 
 ### Межвидовое происхождение
 

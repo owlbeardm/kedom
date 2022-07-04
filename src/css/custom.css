@@ -155,6 +155,11 @@ html[data-theme='dark'] {
   width: 150px;
 }
 
+.div-with-image {
+  display: inline-block; 
+  width: 100%;
+}
+
 
 /* ------------------------------------------------------ */
 .dwarf-font {
