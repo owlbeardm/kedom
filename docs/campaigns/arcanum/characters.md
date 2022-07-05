@@ -9,14 +9,14 @@ import TabItem from '@theme/TabItem';
 
 ## Происхождение
 
-Кампания проходит в Селании, где можно встретить персонажей с такими происхождениями:
+В Селании, можно встретить таких персонажей:
 
 ### Люди
 
-Из всех цивилизованных народов, люди встречаются в Селании чаще всего. Ниже перечеслены самые частые из культур, но существуют и другие, редкие для этой территории. А ведь кто-то говорит, что даже кверанцы это люди. Проконсультируйтесь с ведущим, если хочется чего-то более уникального.
+Из всех цивилизованных народов, люди встречаются в Селании чаще всего. Самые частые из них это Нитэльцы, Сарольцы и Нерландцы. Но встречаются и другие, ведь кто-то говорит, что даже кверанцы это люди. Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.
 
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/nithel.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/nithel.png" align="right" class="anc-img"/>
 
 ###### Нитэльцы
 
@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/saroja.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/saroja.png" align="right" class="anc-img"/>
 
 ###### Сарольцы
 
@@ -40,7 +40,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/nerland.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/nerland.png" align="right" class="anc-img"/>
 
 ###### Нерландцы
 
@@ -52,7 +52,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/rat.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/rat.png" align="right" class="anc-img"/>
 
 ### Чульти
 
@@ -65,7 +65,7 @@ import TabItem from '@theme/TabItem';
 Ходят слухи, о том, что в далёких южных горах тоже обитают дварфы. Но чаще всего истории эти мрачные и пугающие.
 
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/dwarf1.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/dwarf1.png" align="right" class="anc-img"/>
 
 ###### Дварфские горы
 
@@ -73,7 +73,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/dwarf2.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/dwarf2.png" align="right" class="anc-img"/>
 
 ###### Длинные горы
 
@@ -81,7 +81,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/halfling.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/halfling.png" align="right" class="anc-img"/>
 
 ### Халфлинги
 
@@ -89,7 +89,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/gnome.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/gnome.png" align="right" class="anc-img"/>
 
 ### Гномы
 
@@ -97,7 +97,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/lizard.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/lizard.png" align="right" class="anc-img"/>
 
 ### Ящеролюды
 
@@ -105,8 +105,8 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/goblin.png" align="right" class="god-img"/>
-<img alt="Aranwel symbol" src="/img/ancestry/ork.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/goblin.png" align="right" class="anc-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/ork.png" align="right" class="anc-img"/>
 
 ### Орки и гоблины
 
@@ -116,7 +116,7 @@ import TabItem from '@theme/TabItem';
 
 </div>
 <div class="div-with-image">
-<img alt="Aranwel symbol" src="/img/ancestry/elf.png" align="right" class="god-img"/>
+<img alt="Aranwel symbol" src="/img/ancestry/elf.png" align="right" class="anc-img"/>
 
 ### Эльфы
 
@@ -132,6 +132,8 @@ import TabItem from '@theme/TabItem';
 
 Персонаж может играть персонажем такого происхождения, если в кампании нет другого такого же.
 
+<img alt="Aranwel symbol" src="/img/ancestry/other.png" align="right" class="anc-big-img"/>
+
 ### Редкое происхождение
 
 Персонаж может спросить у ведущего про другие возможные происхождения персонажа, если в кампании их ещё нет. В селании иногда можно увидеть: ``кобольдов``, ``гноллов``, ``леших``, ``хобгоблинов``, ``нежить`` и тп. [Список видов доступных в системе](https://2e.aonprd.com/Ancestries.aspx).
@@ -140,11 +142,13 @@ import TabItem from '@theme/TabItem';
 
 ## Классы
 
-В селании можно встретить персонажей любого класса.
+В Селании можно встретить персонажей любого класса.
 
-Помочь выбрать конкретный может обсуждение с другими игроками, советы ведущего или вдохновение какими-то драматическими персонажами. [Детали классов можно найти тут:](https://2e.aonprd.com/Classes.aspx)
+Помочь выбрать конкретный может обсуждение с другими игроками, советы ведущего или вдохновение какими-то драматическими персонажами. [Детали классов можно найти тут.](https://2e.aonprd.com/Classes.aspx)
 
-:::info Для этой кампании лучше других подойдут классы как-то связанные с арканной магией или артефактами
+*Для этой кампании лучше других подойдут классы как-то связанные с арканной магией или артефактами.
+
+:::info Доступные классы
 
 <Tabs defaultValue="str"
   values={[
@@ -158,7 +162,7 @@ import TabItem from '@theme/TabItem';
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=2">Barbarian</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=4">Champion</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=7">Fighter</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=17">Magus</a></li>
+    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=17">Magus*</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=9">Ranger</a></li>
     <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Ruffian)</a></li>
   </ul>
@@ -167,34 +171,34 @@ import TabItem from '@theme/TabItem';
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=4">Champion</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=7">Fighter</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=20">Gunslinger</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=17">Magus</a></li>
+    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=17">Magus*</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=9">Ranger</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=10">Rogue</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=15">Swashbuckler</a></li>
   </ul>
   </TabItem>
   <TabItem value="int"><ul>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=1">Alchemist</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=19">Inventor</a></li>
+    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=1">Alchemist*</a></li>
+    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=19">Inventor*</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=13">Investigator</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=16">Witch</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=12">Wizard</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)</a></li>
+    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=12">Wizard*</a></li>
+    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)*</a></li>
     <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Mastermind)</a></li>
   </ul>
   </TabItem>
   <TabItem value="wis"><ul>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=5">Cleric</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=6">Druid</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)</a></li>
+    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)*</a></li>
   </ul>
   </TabItem>
   <TabItem value="cha"><ul>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=3">Bard</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=14">Oracle</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)</a></li>
+    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)*</a></li>
     <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Scoundrel)</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=11">Sorcerer</a></li>
+    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=11">Sorcerer*</a></li>
     <li><a href="https://2e.aonprd.com/Classes.aspx?ID=18">Summoner</a></li>
   </ul>
   </TabItem>
