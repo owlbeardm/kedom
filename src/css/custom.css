@@ -45,6 +45,16 @@
   --ifm-h6-font-size: 1rem;
 }
 
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1.12rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
 body {
   font-family: 'PT Serif', 'Georgia', serif;
 }
