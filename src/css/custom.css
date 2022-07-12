@@ -173,6 +173,16 @@ html[data-theme='dark'] {
   width: 350px;
 }
 
+@media only screen and (max-width: 550px) {
+  .anc-img {
+    width: 100%;
+  }
+  
+  .anc-big-img {
+    width: 100%;
+  }
+}
+
 .div-with-image {
   display: inline-block; 
   width: 100%;
