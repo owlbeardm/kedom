@@ -15,12 +15,13 @@ title: Имена
 - Goths names. Example: [Male names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=2044173983), [Female Names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=1912216393).
 - [Gothic name generator](https://www.fantasynamegenerators.com/gothic-names.php).
 
-<!-- ### Southerns -->
-<!-- - TBD -->
+### Southerns
+
+- *TBD https://web.archive.org/web/20191229044459/http://www.infernaldreams.com/names/Asia/Ancient/Persia.htm это греческая форма, нужно найти адпаведник древнеперсидский и возможно его апгрейднуть*
 
 ## Halflings
 
-- TBD (Like humans in region. Mostly Ñizieles).
+- *TBD (https://web.archive.org/web/20191227082938/http://infernaldreams.com/names/Europe/Medieval/Anglo_Saxon.htm)*.
 
 ## Dwarves
 
