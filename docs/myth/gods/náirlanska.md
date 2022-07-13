@@ -1,6 +1,6 @@
 ---
 id: náirlanska
-title: Пантеон нерландцев
+title: Пантеон нерланцев
 ---
 
 | Name                                                                            | Category            |     | Domains                                                                            | Favored Weapon  |
