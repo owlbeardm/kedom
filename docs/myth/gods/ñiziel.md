@@ -7,5 +7,5 @@ title: Пантеон нитольцев
 | -------------------------------- | ------------- | --- | ------- | -------------- |
 | [Marzuer /marθwer/](#marzuer)    | Main pantheon | LN  |         | Khakkara       |
 | [Terzema /terθema/](#tersema)    | Main pantheon | NG  |         | Sickle         |
-| [Scezos /skeθos/](#tersema)      | Main pantheon | NG  |         |                |
+| [Scezos /skeθos/](#tersema)      | Main pantheon |     |         |                |
 | [Cuelessa /kwelessa/](#cuelessa) | Old gods      | NG  |         | Staff          |

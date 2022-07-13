@@ -7,7 +7,7 @@ title: Пантеон кверанцев
 | ------------------------------------------- | --------------- | --- | ------- | -------------- |
 | [Martetor /martetor/](queran/#martetor)     | Queran pantheon | LN  |         | Khakkara       |
 | [Terzemata /terzemataː/](queran/#tersemata) | Queran pantheon | NG  |         | Sickle         |
-| [Scezus /skeːzus/](queran/#tersemata)       | Queran pantheon | NG  |         |                |
+| [Scezus /skeːzus/](queran/#tersemata)       | Queran pantheon |     |         |                |
 | [Quilissa /kʷilissa/](queran/#quilissa)     | Old gods        | NG  |         | Staff          |
 
 ## Martetor

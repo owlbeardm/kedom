@@ -6,9 +6,9 @@ title: Пантеон нерланцев
 | Name                                 | Category    |     | Domains                                                                  | Favored Weapon |
 | ------------------------------------ | ----------- | --- | ------------------------------------------------------------------------ | -------------- |
 | [Mōrtidar /moːrtiðar/](#marzuer)     | Queran gods | LN  |                                                                          | Khakkara       |
-| [Þeirsimadō /θiːrsimaðoː/](#marzuer) | Queran gods | LN  |                                                                          | Sickle         |
-| [Skeisō /skiːsoː/](#marzuer)         | Queran gods | LN  |                                                                          |                |
-| [Ƕiliz /ʍiliz/](#ƕiliz)              | Old gods    | NG  | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection | Staff          |
+| [Þeirsimadō /θiːrsimaðoː/](#marzuer) | Queran gods | NG  |                                                                          | Sickle         |
+| [Skeisō /skiːsoː/](#marzuer)         | Queran gods |     |                                                                          |                |
+| [Ƕiliz /ʍiliz/](#ƕiliz)              | Old gods    | N   | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection | Staff          |
 
 ## Ƕiliz
 
