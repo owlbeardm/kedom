@@ -3,12 +3,12 @@ id: queran
 title: Пантеон кверанцев
 ---
 
-| Name                                                                            | Category            |     | Domains                                                                            | Favored Weapon  |
-| ------------------------------------------------------------------------------- | ------------------- | --- | ---------------------------------------------------------------------------------- | --------------- |
-| [Martetor](queran/#martetor)                                                    | Queran pantheon     | LN  |                    | Khakkara        |
-| [Terzemata](queran/#tersemata)                                                  | Queran pantheon     | NG  |                   | Sickle          |
-| [Scezus (skeːzus)](queran/#tersemata)                                                  | Queran pantheon     | NG  |                   | Sickle          |
-| [Quilissa](queran/#quilissa)                                                    | Old gods     | NG  |            | Staff           |
+| Name                                        | Category        |     | Domains | Favored Weapon |
+| ------------------------------------------- | --------------- | --- | ------- | -------------- |
+| [Martetor /martetor/](queran/#martetor)     | Queran pantheon | LN  |         | Khakkara       |
+| [Terzemata /terzemataː/](queran/#tersemata) | Queran pantheon | NG  |         | Sickle         |
+| [Scezus /skeːzus/](queran/#tersemata)       | Queran pantheon | NG  |         |                |
+| [Quilissa /kʷilissa/](queran/#quilissa)     | Old gods        | NG  |         | Staff          |
 
 ## Martetor
 
