@@ -5,6 +5,7 @@ title: Пантеон нитольцев
 
 | Name                                                                            | Category            |     | Domains                                                                            | Favored Weapon  |
 | ------------------------------------------------------------------------------- | ------------------- | --- | ---------------------------------------------------------------------------------- | --------------- |
-| [Cuelessa](#cuelessa)                                                    | Main pantheon     | NG  |            | Staff           |
-| [Marzuer](#marzuer)                                                    | Main pantheon     | LN  |                    | Khakkara        |
-| [Tersema](#tersema)                                                  | Main pantheon     | NG  |                   | Sickle          |
+| [Marzuer (marθwer)](#marzuer)                                                    | Main pantheon     | LN  |                    | Khakkara        |
+| [Terzema (terθema)](#tersema)                                                  | Main pantheon     | NG  |                   | Sickle          |
+| [Scezos (skeθos)](#tersema)                                                  | Main pantheon     | NG  |                   | Sickle          |
+| [Cuelessa](#cuelessa)                                                    | Old gods     | NG  |            | Staff           |
