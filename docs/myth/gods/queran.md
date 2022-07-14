@@ -3,17 +3,17 @@ id: queran
 title: Пантеон кверанцев
 ---
 
-| Name                                        | Category        |     | Domains | Favored Weapon |
-| ------------------------------------------- | --------------- | --- | ------- | -------------- |
-| [Martetor /martetor/](queran/#martetor)     | Queran pantheon | LN  |         | Khakkara       |
-| [Terzemata /terzemataː/](queran/#tersemata) | Queran pantheon | NG  |         | Sickle         |
-| [Scezus /skeːzus/](queran/#tersemata)       | Queran pantheon |     |         |                |
-| [Quilissa /kʷilissa/](queran/#quilissa)     | Old gods        | NG  |         | Staff          |
+| Name                                    | Category      |     | Domains | Favored Weapon |
+| --------------------------------------- | ------------- | --- | ------- | -------------- |
+| [Martetor](queran/#martetor)            | Main pantheon | LN  |         | Khakkara       |
+| [Scezus](queran/#scezus)                | Main pantheon |     |         |                |
+| [Terzemata](queran/#terzemata)          | Main pantheon | NG  |         | Sickle         |
+| [Quilissa /kʷilissa/](queran/#quilissa) | Old gods      | NG  |         | Staff          |
 
 ## Martetor
 
 <small>
-*quer.*  / martetor / Martetor (Мартетор)
+*quer.*  / martetor / Мартетор
 </small>
 
 **Martetor** is the main god of queran pantheon. God of knowledge and duty. Founder of The Empire. *Martetor* is regarded as the patron and protector of majority of cities and defensive structures.
@@ -30,12 +30,38 @@ title: Пантеон кверанцев
 <!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838) -->
 :::
 
+## Scezus
+
+<small>
+*quer.*  / skeːzus / Скезус
+</small>
+
+## Terzemata
+
+<small>
+*quer.*  / terzemataː / Терземата
+</small>
+
+**Tersemata** is a mother-goddess of *Martetor*. She is a goddess of the harvest, of agriculture, grain crops, fertility and motherly relationships. She presided also the cycle of life and death often honoured during marriages and funeral rites.
+
+**Follower Alignments**: LG, NG, CG, N  
+
+:::info "Devotee Benefits"
+**Divine Ability**: Constitution or Wisdom  
+**Divine Font**: Heal  
+**Divine Skill**: Nature  
+**Favored Weapon**: Sickle  
+**Domains**: [Earth](https://2e.aonprd.com/Domains.aspx?ID=10), [Family](https://2e.aonprd.com/Domains.aspx?ID=11), [Healing](https://2e.aonprd.com/Domains.aspx?ID=15), [Nature](https://2e.aonprd.com/Domains.aspx?ID=22)  
+**Alternate Domains**: [Protection](https://2e.aonprd.com/Domains.aspx?ID=27), [Water](https://2e.aonprd.com/Domains.aspx?ID=35)  
+<!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838) -->
+:::
+
 <img alt="Quilissa symbol" src="/img/gods/quilissa.svg" align="right" class="god-img"/>
 
 ## Quilissa
 
 <small>
-*quer.*  / kʷilissa / Quilissa (Квилисса)
+*quer.*  / kʷilissa / Квилисса
 </small>
 
 **Quilissa** is a goddess associated with knowledge, wisdom, handicraft, magic and protection.
@@ -55,22 +81,3 @@ title: Пантеон кверанцев
 **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838)
 :::
 
-## Tersemata
-
-<small>
-*quer.*  / terzemataː / Terzemata (Терземата)
-</small>
-
-**Tersemata** is a mother-goddess of *Martetor*. She is a goddess of the harvest, of agriculture, grain crops, fertility and motherly relationships. She presided also the cycle of life and death often honoured during marriages and funeral rites.
-
-**Follower Alignments**: LG, NG, CG, N  
-
-:::info "Devotee Benefits"
-**Divine Ability**: Constitution or Wisdom  
-**Divine Font**: Heal  
-**Divine Skill**: Nature  
-**Favored Weapon**: Sickle  
-**Domains**: [Earth](https://2e.aonprd.com/Domains.aspx?ID=10), [Family](https://2e.aonprd.com/Domains.aspx?ID=11), [Healing](https://2e.aonprd.com/Domains.aspx?ID=15), [Nature](https://2e.aonprd.com/Domains.aspx?ID=22)  
-**Alternate Domains**: [Protection](https://2e.aonprd.com/Domains.aspx?ID=27), [Water](https://2e.aonprd.com/Domains.aspx?ID=35)  
-<!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838) -->
-:::
