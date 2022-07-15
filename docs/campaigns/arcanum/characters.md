@@ -140,6 +140,8 @@ import TabItem from '@theme/TabItem';
 <div class="div-with-image">
 <img alt="Орки" src="/img/ancestry/ork.png" align="right" class="anc-img"/>
 
+
+
 </div>
 
 #### Гоблины
