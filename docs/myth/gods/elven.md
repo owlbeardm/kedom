@@ -3,11 +3,11 @@ id: elven
 title: Пантеон лесных эльфов
 ---
 
-| Name                                                                            | Category            |     | Domains                                                                            | Favored Weapon  |
-| ------------------------------------------------------------------------------- | ------------------- | --- | ---------------------------------------------------------------------------------- | --------------- |
-| [Aranwel <br/><span class="tengwar-elf-font">7E5#yj$</span>](#aranwel)    | Elven pantheon      | N   | **Air**, **Cold**, **Lightning**, **Might**, Cold, Water                           | Spear           |
-| [Gildir <br/><span class="tengwar-elf-font">xj%26T</span>](#gildir)       | Elven pantheon      | CN  | **Freedom**, **Moon**, **Star**, **Travel**, Change, Luck                          | Elven khopesh   |
-| [Ungorian <br/><span class="tengwar-elf-font">b&7Y`B5#</span>](#ungorian) | Elven pantheon      | CE  | **Darkness**, **Secrecy**, **Swarm**, **Trickery**, **Zeal**, Destruction, Passion | Spider (dagger) |
+| Name                                                                                                                                                                                       | Category       |     | Domains                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | --- | --------------------------------------------------------- |
+| [Aranwel <br/><span class="tengwar-elf-font">7E5#yj$</span>](#aranwel)                                                                                                                     | Elven pantheon | N   | **Air**, **Cold**, **Lightning**, **Might**, Cold, Water  |
+| [Gildir <br/><span class="tengwar-elf-font">xj%26T</span>](#gildir)                                                                                                                        | Elven pantheon | CN  | **Freedom**, **Moon**, **Star**, **Travel**, Change, Luck |
+| [Ungorian <br/><span class="tengwar-elf-font">b&7Y`B5#</span>](#ungorian) | Elven pantheon      | CE  | **Darkness**, **Secrecy**, **Swarm**, **Trickery**, **Zeal**, Destruction, Passion |                |     |                                                           |
 
 <img alt="Aranwel symbol" src="/img/gods/aranwel.svg" align="right" class="god-img"/>
 

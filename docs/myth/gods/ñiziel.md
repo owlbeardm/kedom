@@ -3,12 +3,12 @@ id: ñiziel
 title: Пантеон нитольцев
 ---
 
-| Name                             | Category      |     | Domains | Favored Weapon |
-| -------------------------------- | ------------- | --- | ------- | -------------- |
-| [Marzuer /marθwer/](#marzuer)    | Main pantheon | LN  |         | Khakkara       |
-| [Scezos /skeθos/](#scezos)       | Main pantheon |     |         |                |
-| [Terzema /terθema/](#terzema)    | Main pantheon | NG  |         | Sickle         |
-| [Cuelessa /kwelessa/](#cuelessa) | Old gods      | NG  |         | Staff          |
+| Name                             | Category      |     | Domains |
+| -------------------------------- | ------------- | --- | ------- |
+| [Marzuer /marθwer/](#marzuer)    | Main pantheon | LN  |         |
+| [Scezos /skeθos/](#scezos)       | Main pantheon |     |         |
+| [Terzema /terθema/](#terzema)    | Main pantheon | NG  |         |
+| [Cuelessa /kwelessa/](#cuelessa) | Old gods      | NG  |         |
 
 ## Marzuer
 

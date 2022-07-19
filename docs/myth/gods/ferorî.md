@@ -3,12 +3,12 @@ id: ferorî
 title: Пантеон ферори
 ---
 
-| Name                          | Category     |     | Domains | Favored Weapon |
-| ----------------------------- | ------------ | --- | ------- | -------------- |
-| [Ar Mârtezor](#ar-mârtezor)   | Queran gods  | LE  |         | Khakkara       |
-| [Ar Sĥîsû](#ar-sĥîsû)         | Queran gods  |     |         |                |
-| [Ar Tîhlemazâ](#ar-tîhlemazâ) | Queran gods  | LG  |         | Sickle         |
-| [Ar Keres](#ar-keres)         | Old pantheon | LG  |         | Staff          |
+| Name                          | Category     |     | Domains |
+| ----------------------------- | ------------ | --- | ------- |
+| [Ar Mârtezor](#ar-mârtezor)   | Queran gods  | LE  |         |
+| [Ar Sĥîsû](#ar-sĥîsû)         | Queran gods  |     |         |
+| [Ar Tîhlemazâ](#ar-tîhlemazâ) | Queran gods  | LG  |         |
+| [Ar Keres](#ar-keres)         | Old pantheon | LG  |         |
 
 ## Ar Mârtezor
 
