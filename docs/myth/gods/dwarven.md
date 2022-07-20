@@ -3,8 +3,8 @@ id: dwarven
 title: Пантеон дварфов
 ---
 
-| Name                                                                        | Category         |     | Domains                                                          |
-| --------------------------------------------------------------------------- | ---------------- | --- | ---------------------------------------------------------------- |
+| Name                                                                | Category         |     | Domains                                                          |
+| ------------------------------------------------------------------- | ---------------- | --- | ---------------------------------------------------------------- |
 | [Hanmir <br/><span class="cirth-dwarf-font">HANMIR</span>](#hanmir) | Dwarven pantheon | LN  | **Cities**, **Creation**, **Might**, **Protection**, Duty, Glyph |
 
 <img alt="Hanmir symbol" src="/img/gods/hanmir.svg" align="right" class="god-img"/>
