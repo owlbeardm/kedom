@@ -3,12 +3,12 @@ id: ñiziel
 title: Пантеон нитольцев
 ---
 
-| Name                             | Category      |     | Domains |
-| -------------------------------- | ------------- | --- | ------- |
-| [Marzuer /marθwer/](#marzuer)    | Main pantheon | LN  |         |
-| [Scezos /skeθos/](#scezos)       | Main pantheon |     |         |
-| [Terzema /terθema/](#terzema)    | Main pantheon | NG  |         |
-| [Cueleza](#cueleza) | Old gods      | NG  |         |
+| Name                          | Category      |     | Domains |
+| ----------------------------- | ------------- | --- | ------- |
+| [Marzuer /marθwer/](#marzuer) | Main pantheon | LN  |         |
+| [Scezos /skeθos/](#scezos)    | Main pantheon |     |         |
+| [Tercema](#tercema)           | Main pantheon | NG  |         |
+| [Cueleza](#cueleza)           | Old gods      | NG  |         |
 
 ## Marzuer
 
@@ -22,7 +22,7 @@ title: Пантеон нитольцев
 *ñiz.*  / skeθos / Скесос
 </small>
 
-## Terzema
+## Tercema
 
 <small>
 *ñiz.*  / terθema / Терсема

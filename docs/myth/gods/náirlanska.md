@@ -3,12 +3,12 @@ id: náirlanska
 title: Пантеон нерланар
 ---
 
-| Name                      | Category    |     | Domains                                                                  |
-| ------------------------- | ----------- | --- | ------------------------------------------------------------------------ |
-| [Ƕiliz](#ƕiliz)           | Old gods    | N   | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection |
-| [Mōrtidar](#mōrtidar)     | Queran gods | LN  |                                                                          |
-| [Þeirsimadō](#þeirsimadō) | Queran gods | NG  |                                                                          |
-| [Skeisō](#skeisō)         | Queran gods |     |                                                                          |
+| Name                    | Category    |     | Domains                                                                  |
+| ----------------------- | ----------- | --- | ------------------------------------------------------------------------ |
+| [Ƕiliz](#ƕiliz)         | Old gods    | N   | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection |
+| [Mōrtidar](#mōrtidar)   | Queran gods | LN  |                                                                          |
+| [Þaírsimad](#þaírsimad) | Queran gods | NG  |                                                                          |
+| [Skeisō](#skeisō)       | Queran gods |     |                                                                          |
 
 ## Ƕiliz
 
@@ -44,10 +44,10 @@ náir. / ʍiliz / Хвилиз
 *náir.*  / moːrtiðar / Мортизар
 </small>
 
-## Þeirsimadō
+## Þaírsimad
 
 <small>
-*náir.*  / θiːrsimaðoː / Сирсимазо
+*náir.*  / θɛrsimað / Сэрсимаз
 </small>
 
 ## Skeisō

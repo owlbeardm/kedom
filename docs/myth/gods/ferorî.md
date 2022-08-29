@@ -7,8 +7,8 @@ title: Пантеон ферори
 | ----------------------------- | ------------ | --- | ------- |
 | [Ar Mârtezor](#ar-mârtezor)   | Queran gods  | LE  |         |
 | [Ar Sĥîsû](#ar-sĥîsû)         | Queran gods  |     |         |
-| [Ar Tîhlemazâ](#ar-tîhlemazâ) | Queran gods  | LG  |         |
-| [Ar Keresa](#ar-keresa)         | Old pantheon | LG  |         |
+| [Ar Tehlemaza](#ar-tehlemaza) | Queran gods  | LG  |         |
+| [Ar Keresa](#ar-keresa)       | Old pantheon | LG  |         |
 
 ## Ar Mârtezor
 
@@ -22,10 +22,10 @@ title: Пантеон ферори
 *fer.*  / sxiːsuː / Ар Схису
 </small>
 
-## Ar Tîhlemazâ
+## Ar Tehlemaza
 
 <small>
-*fer.*  / tiːhlemæzɒː / Ар Тихлемаза
+*fer.*  / tehlemæzæ / Ар Техлемаза
 </small>
 
 ## Ar Keresa

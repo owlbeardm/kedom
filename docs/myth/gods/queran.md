@@ -8,7 +8,7 @@ title: Пантеон кверанцев
 | [Martetor](queran/#martetor)   | Main pantheon | LN  |         |
 | [Scezus](queran/#scezus)       | Main pantheon |     |         |
 | [Terzemata](queran/#terzemata) | Main pantheon | NG  |         |
-| [Quiliza](queran/#quiliza)   | Old gods      | NG  |         |
+| [Quiliza](queran/#quiliza)     | Old gods      | NG  |         |
 
 ## Martetor
 
@@ -39,7 +39,7 @@ title: Пантеон кверанцев
 ## Terzemata
 
 <small>
-*quer.*  / terzemataː / Терземата
+*quer.*  / terzemata / Терземата
 </small>
 
 **Tersemata** is a mother-goddess of *Martetor*. She is a goddess of the harvest, of agriculture, grain crops, fertility and motherly relationships. She presided also the cycle of life and death often honoured during marriages and funeral rites.
