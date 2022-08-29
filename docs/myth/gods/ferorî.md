@@ -8,7 +8,7 @@ title: Пантеон ферори
 | [Ar Mârtezor](#ar-mârtezor)   | Queran gods  | LE  |         |
 | [Ar Sĥîsû](#ar-sĥîsû)         | Queran gods  |     |         |
 | [Ar Tîhlemazâ](#ar-tîhlemazâ) | Queran gods  | LG  |         |
-| [Ar Keres](#ar-keres)         | Old pantheon | LG  |         |
+| [Ar Keresa](#ar-keresa)         | Old pantheon | LG  |         |
 
 ## Ar Mârtezor
 
@@ -28,8 +28,8 @@ title: Пантеон ферори
 *fer.*  / tiːhlemæzɒː / Ар Тихлемаза
 </small>
 
-## Ar Keres
+## Ar Keresa
 
 <small>
-*fer.*  / keres / Ар Керес
+*fer.*  / keresæ / Ар Кереса
 </small>

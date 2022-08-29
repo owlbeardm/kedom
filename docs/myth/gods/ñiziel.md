@@ -8,7 +8,7 @@ title: Пантеон нитольцев
 | [Marzuer /marθwer/](#marzuer)    | Main pantheon | LN  |         |
 | [Scezos /skeθos/](#scezos)       | Main pantheon |     |         |
 | [Terzema /terθema/](#terzema)    | Main pantheon | NG  |         |
-| [Cuelessa /kwelessa/](#cuelessa) | Old gods      | NG  |         |
+| [Cueleza](#cueleza) | Old gods      | NG  |         |
 
 ## Marzuer
 
@@ -28,8 +28,8 @@ title: Пантеон нитольцев
 *ñiz.*  / terθema / Терсема
 </small>
 
-## Cuelessa
+## Cueleza
 
 <small>
-*ñiz.*  / kwelessa / Квелесса
+*ñiz.*  / kweleθa / Квелеса
 </small>
