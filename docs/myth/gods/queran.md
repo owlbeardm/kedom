@@ -5,10 +5,17 @@ title: Пантеон кверанцев
 
 | Name                           | Category      |     | Domains |
 | ------------------------------ | ------------- | --- | ------- |
+| [Iemozum](queran/#iemozum)       | Main pantheon |     |         |
 | [Martetor](queran/#martetor)   | Main pantheon | LN  |         |
-| [Scezus](queran/#scezus)       | Main pantheon |     |         |
 | [Terzemata](queran/#terzemata) | Main pantheon | NG  |         |
 | [Quiliza](queran/#quiliza)     | Old gods      | NG  |         |
+| [Aiɡhizima](queran/#aiɡhizima) | Other gods    | CN  |         |
+
+## Iemozum
+
+<small>
+*quer.*  / jemozum / Йемозум
+</small>
 
 ## Martetor
 
@@ -29,12 +36,6 @@ title: Пантеон кверанцев
 **Alternate Domains**: [Confidence](https://2e.aonprd.com/Domains.aspx?ID=4), [Wealth](https://2e.aonprd.com/Domains.aspx?ID=36)
 <!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838) -->
 :::
-
-## Scezus
-
-<small>
-*quer.*  / skeːzus / Скезус
-</small>
 
 ## Terzemata
 
@@ -80,3 +81,9 @@ title: Пантеон кверанцев
 **Alternate Domains**: [Fate](https://2e.aonprd.com/Domains.aspx?ID=12), [Perfection](https://2e.aonprd.com/Domains.aspx?ID=26)  
 **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838)
 :::
+
+## Aiɡhizima
+
+<small>
+*quer.*  / ajʒizima / Айжизима
+</small>
