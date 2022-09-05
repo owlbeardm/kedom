@@ -3,18 +3,43 @@ id: náirlanska
 title: Пантеон нерланар
 ---
 
-| Name                    | Category    |     | Domains                                                                  |
-| ----------------------- | ----------- | --- | ------------------------------------------------------------------------ |
-| [Ajskiz](#ajskiz)       | Old gods    | CN  |                                                                          |
-| [Ƕiliz](#ƕiliz)         | Old gods    | N   | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection |
-| [Jimaz](#jimaz)         | Queran gods |     |                                                                          |
-| [Mōrtidar](#mōrtidar)   | Queran gods | LN  |                                                                          |
-| [Þaírsimad](#þaírsimad) | Queran gods | NG  |                                                                          |
+| Name                    | Category    | Domains                                                                  |
+| ----------------------- | ----------- | ------------------------------------------------------------------------ |
+| [Ajskiz](#ajskiz)       | Old gods    |                                                                          |
+| [Areitar](#areitar)     | Old gods    |                                                                          |
+| [Eign](#eign)           | Old gods    |                                                                          |
+| [Eipi](#eipi)           | Old gods    |                                                                          |
+| [Ƕiliz](#ƕiliz)         | Old gods    | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection |
+| [Liwhad](#liwhad)       | Old gods    |                                                                          |
+| [Mataz](#mataz)         | Old gods    |                                                                          |
+| [Nimiaz](#nimiaz)       | Old gods    |                                                                          |
+| [Teináiz](#teináiz)     | Old gods    |                                                                          |
+| [Jimaz](#jimaz)         | Queran gods |                                                                          |
+| [Mōrtidar](#mōrtidar)   | Queran gods |                                                                          |
+| [Þaírsimad](#þaírsimad) | Queran gods |                                                                          |
 
 ## Ajskiz
 
 <small>
 *náir.*  / ajskiz / Айскиз
+</small>
+
+## Areitar
+
+<small>
+*náir.*  / ariːtar / Аритар
+</small>
+
+## Eign
+
+<small>
+*náir.*  / iːɡn / Игн
+</small>
+
+## Eipi
+
+<small>
+*náir.*  / iːpi / Ипи
 </small>
 
 ## Ƕiliz
@@ -44,6 +69,30 @@ náir. / ʍiliz / Хвилиз
 **Alternate Domains**: [Fate](https://2e.aonprd.com/Domains.aspx?ID=12), [Perfection](https://2e.aonprd.com/Domains.aspx?ID=26)  
 **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838)
 :::
+
+## Liwhad
+
+<small>
+*náir.*  / liwhað / Ливхаз
+</small>
+
+## Mataz
+
+<small>
+*náir.*  / mataz / Матаз
+</small>
+
+## Nimiaz
+
+<small>
+*náir.*  / nimiaz / Нимиаз
+</small>
+
+## Teináiz
+
+<small>
+*náir.*  / tiːnɛːz / Тинез
+</small>
 
 ## Jimaz
 

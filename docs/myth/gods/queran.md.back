@@ -3,13 +3,14 @@ id: queran
 title: Пантеон кверанцев
 ---
 
-| Name                           | Category      |     | Domains |
-| ------------------------------ | ------------- | --- | ------- |
-| [Iemozum](queran/#iemozum)       | Main pantheon |     |         |
-| [Martetor](queran/#martetor)   | Main pantheon | LN  |         |
-| [Terzemata](queran/#terzemata) | Main pantheon | NG  |         |
-| [Quiliza](queran/#quiliza)     | Old gods      | NG  |         |
-| [Aiɡhizima](queran/#aiɡhizima) | Other gods    | CN  |         |
+| Name                    | Category      |     | Domains |
+| ----------------------- | ------------- | --- | ------- |
+| [Iemozum](#iemozum)     | Main pantheon | LG  |         |
+| [Martetor](#martetor)   | Main pantheon | LN  |         |
+| [Terzemata](#terzemata) | Main pantheon | NG  |         |
+| [Ebion](#ebion)         | Old gods      | N   |         |
+| [Quiliza](#quiliza)     | Old gods      | NG  |         |
+| [Aiɡhizima](#aiɡhizima) | Other gods    | CN  |         |
 
 ## Iemozum
 
@@ -56,6 +57,12 @@ title: Пантеон кверанцев
 **Alternate Domains**: [Protection](https://2e.aonprd.com/Domains.aspx?ID=27), [Water](https://2e.aonprd.com/Domains.aspx?ID=35)  
 <!-- **Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838) -->
 :::
+
+## Ebion
+
+<small>
+*quer.*  / eːbion / Эбион
+</small>
 
 <img alt="Quiliza symbol" src="/img/gods/quilissa.svg" align="right" class="god-img"/>
 
