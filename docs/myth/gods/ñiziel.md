@@ -3,20 +3,24 @@ id: ñiziel
 title: Пантеон нитольцев
 ---
 
-| Name                | Category      | Domains |
-| ------------------- | ------------- | ------- |
-| [Imuezo](#imuezo)   | Main pantheon |         |
-| [Marzuer](#marzuer) | Main pantheon |         |
-| [Tercema](#tercema) | Main pantheon |         |
-| [Cueleza](#cueleza) | Old gods      |         |
-| [Deñeza](#deñeza)   | Old gods      |         |
-| [Ebuen](#ebuen)     | Old gods      |         |
-| [Ejnuen](#ejnuen)   | Old gods      |         |
-| [Liebca](#liebca)   | Old gods      |         |
-| [Maz](#maz)         | Old gods      |         |
-| [Ñemas](#ñemas)     | Old gods      |         |
-| [Uerrer](#uerrer)   | Old gods      |         |
-| [Agecima](#agecima) | Godly being   |         |
+| Name                          | Category      | Domains |
+| ----------------------------- | ------------- | ------- |
+| [Imuezo](#imuezo)             | Main pantheon |         |
+| [Marzuer](#marzuer)           | Main pantheon |         |
+| [Tercema](#tercema)           | Main pantheon |         |
+| [Aj Dorbezol](#aj-dorbezol)   | Old gods      |         |
+| [Aj Gajiezol](#aj-gajiezol)   | Old gods      |         |
+| [Aj Traciezol](#aj-traciezol) | Old gods      |         |
+| [Ajl Iez](#ajl-iez)           | Old gods      |         |
+| [Cueleza](#cueleza)           | Old gods      |         |
+| [Deñeza](#deñeza)             | Old gods      |         |
+| [Ebuen](#ebuen)               | Old gods      |         |
+| [Ejnuen](#ejnuen)             | Old gods      |         |
+| [Liebca](#liebca)             | Old gods      |         |
+| [Maz](#maz)                   | Old gods      |         |
+| [Ñemas](#ñemas)               | Old gods      |         |
+| [Uerrer](#uerrer)             | Old gods      |         |
+| [Agecima](#agecima)           | Godly being   |         |
 
 ## Imuezo
 
@@ -40,6 +44,30 @@ title: Пантеон нитольцев
 
 <small>
 *ñiz.*  / kweleθa / Квелеса
+</small>
+
+## Aj Dorbezol
+
+<small>
+*ñiz.*  / ah dorbeθol / Ах Дорбесол
+</small>
+
+## Aj Gajiezol
+
+<small>
+*ñiz.*  / ah ɡahjeθol / Ах Гахьесол
+</small>
+
+## Aj Traciezol
+
+<small>
+*ñiz.*  / ah trakjeθol / Ах тракьесол
+</small>
+
+## Ajl Iez
+
+<small>
+*ñiz.*  / ahl jeθ / Ахл Йес
 </small>
 
 ## Deñeza

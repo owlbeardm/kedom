@@ -3,20 +3,24 @@ id: ferorî
 title: Пантеон ферори
 ---
 
-| Name                       | Category     | Domains |
-| -------------------------- | ------------ | ------- |
-| [Ǧemosom](#ar-ǧemosom)     | Queran gods  |         |
-| [Mârtezor](#ar-mârtezor)   | Queran gods  |         |
-| [Tehlemaza](#ar-tehlemaza) | Queran gods  |         |
-| [Dînîsa](#ar-dînîsa)       | Old pantheon |         |
-| [Îčnon](#ar-îčnon)         | Old pantheon |         |
-| [Îfeon](#ar-îfeon)         | Old pantheon |         |
-| [Îǧesema](#ar-îǧesema)     | Old pantheon |         |
-| [Keresa](#ar-keresa)       | Old pantheon |         |
-| [Meyaz](#ar-meyaz)         | Old pantheon |         |
-| [Nemeas](#ar-nemeas)       | Old pantheon |         |
-| [Orîzar](#ar-orîzar)       | Old pantheon |         |
-| [Refĥaza](#ar-refĥaza)     | Old pantheon |         |
+| Name                           | Category     | Domains |
+| ------------------------------ | ------------ | ------- |
+| [Ǧemosom](#ar-ǧemosom)         | Queran gods  |         |
+| [Mârtezor](#ar-mârtezor)       | Queran gods  |         |
+| [Tehlemaza](#ar-tehlemaza)     | Queran gods  |         |
+| [Ačr Ez](#ar-ačr-ez)           | Old pantheon |         |
+| [Dînîsa](#ar-dînîsa)           | Old pantheon |         |
+| [Îčnon](#ar-îčnon)             | Old pantheon |         |
+| [Îfeon](#ar-îfeon)             | Old pantheon |         |
+| [Îǧesema](#ar-îǧesema)         | Old pantheon |         |
+| [Îš Gaǧezor](#ar-îš-gaǧezor)   | Old pantheon |         |
+| [Îš Sraĥezor](#ar-îš-sraĥezor) | Old pantheon |         |
+| [Îš Yorbezor](#ar-îš-yorbezor) | Old pantheon |         |
+| [Keresa](#ar-keresa)           | Old pantheon |         |
+| [Meyaz](#ar-meyaz)             | Old pantheon |         |
+| [Nemeas](#ar-nemeas)           | Old pantheon |         |
+| [Orîzar](#ar-orîzar)           | Old pantheon |         |
+| [Refĥaza](#ar-refĥaza)         | Old pantheon |         |
 
 ## Ar Ǧemosom
 
@@ -34,6 +38,12 @@ title: Пантеон ферори
 
 <small>
 *fer.*  / tehlemæzæ / Ар Техлемаза
+</small>
+
+## Ar Ačr Ez
+
+<small>
+*fer.*  / æʧr ez / Ар Ачр Эз
 </small>
 
 ## Ar Dînîsa
@@ -58,6 +68,24 @@ title: Пантеон ферори
 
 <small>
 *fer.*  / iːʤesemæ / Ар Иджесема
+</small>
+
+## Ar Îš Gaǧezor
+
+<small>
+*fer.*  / iːʃ ɡæʤezor / Ар Иш Гаджезор
+</small>
+
+## Ar Îš Sraĥezor
+
+<small>
+*fer.*  / iːʃ sræxezor / Ар Иш Срехезор
+</small>
+
+## Ar Îš Yorbezor
+
+<small>
+*fer.*  / iːʃ jorbezor / Ар Иш Йорбезор
 </small>
 
 ## Ar Keresa
