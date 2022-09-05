@@ -10,7 +10,7 @@ title: Пантеон нерланар
 | [Ajsk Taúrpisul](#ajsk-taúrpisul) | Old gods    |                                                                          |
 | [Ajskiz](#ajskiz)                 | Old gods    |                                                                          |
 | [Areitar](#areitar)               | Old gods    |                                                                          |
-| [Asgl Iz](#asgl iz)               | Old gods    |                                                                          |
+| [Asgl Iz](#asgl-iz)               | Old gods    |                                                                          |
 | [Eign](#eign)                     | Old gods    |                                                                          |
 | [Eipi](#eipi)                     | Old gods    |                                                                          |
 | [Ƕiliz](#ƕiliz)                   | Old gods    | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection |
