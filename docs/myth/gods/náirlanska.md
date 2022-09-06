@@ -86,11 +86,10 @@ náir. / ʍiliz / Хвилиз
 **Edicts**: seek out new or lost arcane knowledge, create artifacts  
 **Anathema**: destroy unique knowledge or artifacts  
 **Areas of Concern**: lost knowledge  
-**Follower Alignments**: LG, NG, CG, N  
 
 :::info "Pathfinder 2e: Devotee Benefits"
 **Divine Ability**: Wisdom or Intelligence  
-**Divine Font**: Heal  
+**Divine Font**: Harm/Heal  
 **Divine Skill**: Arcana  
 **Favored Weapon**: Staff  
 **Domains**: [Creation](https://2e.aonprd.com/Domains.aspx?ID=5), [Knowledge](https://2e.aonprd.com/Domains.aspx?ID=17), [Magic](https://2e.aonprd.com/Domains.aspx?ID=19), [Protection](https://2e.aonprd.com/Domains.aspx?ID=27)  
