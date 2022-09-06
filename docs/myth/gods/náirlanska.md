@@ -3,24 +3,24 @@ id: náirlanska
 title: Пантеон нерланар
 ---
 
-| Name                              | Category    | Domains                                                                  |
-| --------------------------------- | ----------- | ------------------------------------------------------------------------ |
-| [Ajsk Drahisul](#ajsk-drahisul)   | Old gods    |                                                                          |
-| [Ajsk Kaskisul](#ajsk-kaskisul)   | Old gods    |                                                                          |
-| [Ajsk Taúrpisul](#ajsk-taúrpisul) | Old gods    |                                                                          |
-| [Ajskiz](#ajskiz)                 | Old gods    |                                                                          |
-| [Areitar](#areitar)               | Old gods    |                                                                          |
-| [Asgl Iz](#asgl-iz)               | Old gods    |                                                                          |
-| [Eign](#eign)                     | Old gods    |                                                                          |
-| [Eipi](#eipi)                     | Old gods    |                                                                          |
-| [Ƕiliz](#ƕiliz)                   | Old gods    | **Creation**, **Knowledge**, **Magic**, **Protection**, Fate, Perfection |
-| [Liwhad](#liwhad)                 | Old gods    |                                                                          |
-| [Mataz](#mataz)                   | Old gods    |                                                                          |
-| [Nimiaz](#nimiaz)                 | Old gods    |                                                                          |
-| [Teináiz](#teináiz)               | Old gods    |                                                                          |
-| [Jimaz](#jimaz)                   | Queran gods |                                                                          |
-| [Mōrtidar](#mōrtidar)             | Queran gods |                                                                          |
-| [Þaírsimad](#þaírsimad)           | Queran gods |                                                                          |
+| Name                              | Category    | Domains                                                                   |
+| --------------------------------- | ----------- | ------------------------------------------------------------------------- |
+| [Ajsk Drahisul](#ajsk-drahisul)   | Old gods    |                                                                           |
+| [Ajsk Kaskisul](#ajsk-kaskisul)   | Old gods    |                                                                           |
+| [Ajsk Taúrpisul](#ajsk-taúrpisul) | Old gods    |                                                                           |
+| [Ajskiz](#ajskiz)                 | Old gods    |                                                                           |
+| [Areitar](#areitar)               | Old gods    |                                                                           |
+| [Asgl Iz](#asgl-iz)               | Old gods    |                                                                           |
+| [Eign](#eign)                     | Old gods    |                                                                           |
+| [Eipi](#eipi)                     | Old gods    |                                                                           |
+| [Ƕiliz](#ƕiliz)                   | Old gods    | **Creation**, **Knowledge**, **Magic**, **Protection**, Freedom, Trickery |
+| [Liwhad](#liwhad)                 | Old gods    |                                                                           |
+| [Mataz](#mataz)                   | Old gods    |                                                                           |
+| [Nimiaz](#nimiaz)                 | Old gods    |                                                                           |
+| [Teináiz](#teináiz)               | Old gods    |                                                                           |
+| [Jimaz](#jimaz)                   | Queran gods |                                                                           |
+| [Mōrtidar](#mōrtidar)             | Queran gods |                                                                           |
+| [Þaírsimad](#þaírsimad)           | Queran gods |                                                                           |
 
 ## Ajsk Drahisul
 

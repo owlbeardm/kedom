@@ -7,9 +7,6 @@ title: Пантеон ящеролюдов
 | ----------------------- | --------------- | --- | ------- |
 | [Arroth](#arroth)       | Main pantheon   |     |         |
 | [Rafhthof](#rafhthof)   | Main pantheon   |     |         |
-| [Martetor](#martetor)   | Queran pantheon | LN  |         |
-| [Scezus](#scezus)       | Queran pantheon |     |         |
-| [Terzemata](#terzemata) | Queran pantheon | NG  |         |
 
 ## Arroth
 
@@ -22,9 +19,3 @@ title: Пантеон ящеролюдов
 <small>
 Рафхсоф
 </small>
-
-## Martetor
-
-## Scezus
-
-## Terzemata

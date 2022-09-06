@@ -12,7 +12,7 @@ title: Пантеон нитольцев
 | [Aj Gajiezol](#aj-gajiezol)   | Old gods      |                                                                       |
 | [Aj Traciezol](#aj-traciezol) | Old gods      |                                                                       |
 | [Ajl Iez](#ajl-iez)           | Old gods      |                                                                       |
-| [Cueleza](#cueleza)           | Old gods      |                                                                       |
+| [Cueleza](#cueleza)           | Old gods      | **Creation**, **Delirium**, **Knowledge**, **Magic**, Air, Fate       |
 | [Deñeza](#deñeza)             | Old gods      |                                                                       |
 | [Ebuen](#ebuen)               | Old gods      |                                                                       |
 | [Ejnuen](#ejnuen)             | Old gods      |                                                                       |
