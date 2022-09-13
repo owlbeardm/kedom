@@ -3,24 +3,24 @@ id: ñiziel
 title: Пантеон нитольцев
 ---
 
-| Name                          | Category      | Domains                                                               |
-| ----------------------------- | ------------- | --------------------------------------------------------------------- |
-| [Imuezo](#imuezo)             | Main pantheon | **Decay**, **Glyph**, **Magic**, **Soul**, Sorrow, Vigil              |
-| [Marzuer](#marzuer)           | Main pantheon | **Cities**, **Duty**, **Fate**, **Might**, Change, Wealth             |
-| [Tercema](#tercema)           | Main pantheon | **Earth**, **Family**, **Healing**, **Repose**, Freedom, Nature       |
-| [Aj Dorbezol](#aj-dorbezol)   | Old gods      |                                                                       |
-| [Aj Gajiezol](#aj-gajiezol)   | Old gods      |                                                                       |
-| [Aj Traciezol](#aj-traciezol) | Old gods      |                                                                       |
-| [Ajl Iez](#ajl-iez)           | Old gods      |                                                                       |
-| [Cueleza](#cueleza)           | Old gods      | **Creation**, **Delirium**, **Knowledge**, **Magic**, Air, Fate       |
-| [Deñeza](#deñeza)             | Old gods      |                                                                       |
-| [Ebuen](#ebuen)               | Old gods      |                                                                       |
-| [Ejnuen](#ejnuen)             | Old gods      |                                                                       |
-| [Liebca](#liebca)             | Old gods      |                                                                       |
-| [Maz](#maz)                   | Old gods      |                                                                       |
-| [Ñemas](#ñemas)               | Old gods      | **Destruction**, **Earth**, **Might**, **Water**, Confidence, Passion |
-| [Uerrer](#uerrer)             | Old gods      |                                                                       |
-| [Agecima](#agecima)           | Godly being   |                                                                       |
+| Name                      | Category      | Domains                                                               |
+| ------------------------- | ------------- | --------------------------------------------------------------------- |
+| [Imuezo](#imuezo)         | Main pantheon | **Decay**, **Glyph**, **Magic**, **Soul**, Sorrow, Vigil              |
+| [Marzuer](#marzuer)       | Main pantheon | **Cities**, **Duty**, **Fate**, **Might**, Change, Wealth             |
+| [Tercema](#tercema)       | Main pantheon | **Earth**, **Family**, **Healing**, **Repose**, Freedom, Nature       |
+| [Aj Dorbez](#aj-dorbez)   | Old gods      |                                                                       |
+| [Aj Gajiez](#aj-gajiez)   | Old gods      |                                                                       |
+| [Aj Traciez](#aj-traciez) | Old gods      |                                                                       |
+| [Ajliez](#ajliez)         | Old gods      |                                                                       |
+| [Cueleza](#cueleza)       | Old gods      | **Creation**, **Delirium**, **Knowledge**, **Magic**, Air, Fate       |
+| [Deñeza](#deñeza)         | Old gods      |                                                                       |
+| [Ebuen](#ebuen)           | Old gods      |                                                                       |
+| [Ejnuen](#ejnuen)         | Old gods      |                                                                       |
+| [Liebca](#liebca)         | Old gods      |                                                                       |
+| [Maz](#maz)               | Old gods      |                                                                       |
+| [Ñemas](#ñemas)           | Old gods      | **Destruction**, **Earth**, **Might**, **Water**, Confidence, Passion |
+| [Uerrer](#uerrer)         | Old gods      |                                                                       |
+| [Agecima](#agecima)       | Godly being   |                                                                       |
 
 ## Imuezo
 
@@ -56,28 +56,28 @@ title: Пантеон нитольцев
 *ñiz.*  / kweleθa / Квелеса
 </small>
 
-## Aj Dorbezol
+## Aj Dorbez
 
 <small>
-*ñiz.*  / ah dorbeθol / Ах Дорбесол
+*ñiz.*  / ah dorbeθ / Ах Дорбес
 </small>
 
-## Aj Gajiezol
+## Aj Gajiez
 
 <small>
-*ñiz.*  / ah ɡahjeθol / Ах Гахьесол
+*ñiz.*  / ah ɡahjeθ / Ах Гахьес
 </small>
 
-## Aj Traciezol
+## Aj Traciez
 
 <small>
-*ñiz.*  / ah trakjeθol / Ах тракьесол
+*ñiz.*  / ah trakjeθ / Ах Тракьес
 </small>
 
-## Ajl Iez
+## Ajliez
 
 <small>
-*ñiz.*  / ahl jeθ / Ахл Йес
+*ñiz.*  / ahljeθ / Ахльес
 </small>
 
 ## Deñeza

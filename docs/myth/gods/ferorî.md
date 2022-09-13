@@ -3,24 +3,24 @@ id: ferorî
 title: Пантеон ферори
 ---
 
-| Name                           | Category     | Domains |
-| ------------------------------ | ------------ | ------- |
-| [Ǧemosom](#ar-ǧemosom)         | Queran gods  |         |
-| [Mârtezor](#ar-mârtezor)       | Queran gods  |         |
-| [Tehlemaza](#ar-tehlemaza)     | Queran gods  |         |
-| [Ačr Ez](#ar-ačr-ez)           | Old pantheon |         |
-| [Dînîsa](#ar-dînîsa)           | Old pantheon |         |
-| [Îčnon](#ar-îčnon)             | Old pantheon |         |
-| [Îfeon](#ar-îfeon)             | Old pantheon |         |
-| [Îǧesema](#ar-îǧesema)         | Old pantheon |         |
-| [Îš Gaǧezor](#ar-îš-gaǧezor)   | Old pantheon |         |
-| [Îš Sraĥezor](#ar-îš-sraĥezor) | Old pantheon |         |
-| [Îš Yorbezor](#ar-îš-yorbezor) | Old pantheon |         |
-| [Keresa](#ar-keresa)           | Old pantheon |         |
-| [Meyaz](#ar-meyaz)             | Old pantheon |         |
-| [Nemeas](#ar-nemeas)           | Old pantheon |         |
-| [Orîzar](#ar-orîzar)           | Old pantheon |         |
-| [Refĥaza](#ar-refĥaza)         | Old pantheon |         |
+| Name                       | Category     | Domains |
+| -------------------------- | ------------ | ------- |
+| [Ǧemosom](#ar-ǧemosom)     | Queran gods  |         |
+| [Mârtezor](#ar-mârtezor)   | Queran gods  |         |
+| [Tehlemaza](#ar-tehlemaza) | Queran gods  |         |
+| [Ačrez](#ar-ačrez)         | Old pantheon |         |
+| [Dînîsa](#ar-dînîsa)       | Old pantheon |         |
+| [Îčnon](#ar-îčnon)         | Old pantheon |         |
+| [Îfeon](#ar-îfeon)         | Old pantheon |         |
+| [Îǧesema](#ar-îǧesema)     | Old pantheon |         |
+| [Îš Gaǧez](#ar-îš-gaǧez)   | Old pantheon |         |
+| [Îš Sraĥez](#ar-îš-sraĥez) | Old pantheon |         |
+| [Îš Yorbez](#ar-îš-yorbez) | Old pantheon |         |
+| [Keresa](#ar-keresa)       | Old pantheon |         |
+| [Meyaz](#ar-meyaz)         | Old pantheon |         |
+| [Nemeas](#ar-nemeas)       | Old pantheon |         |
+| [Orîzar](#ar-orîzar)       | Old pantheon |         |
+| [Refĥaza](#ar-refĥaza)     | Old pantheon |         |
 
 ## Ar Ǧemosom
 
@@ -40,10 +40,10 @@ title: Пантеон ферори
 *fer.*  / tehlemæzæ / Ар Техлемаза
 </small>
 
-## Ar Ačr Ez
+## Ar Ačrez
 
 <small>
-*fer.*  / æʧr ez / Ар Ачр Эз
+*fer.*  / æʧrez / Ар Ачрез
 </small>
 
 ## Ar Dînîsa
@@ -70,22 +70,22 @@ title: Пантеон ферори
 *fer.*  / iːʤesemæ / Ар Иджесема
 </small>
 
-## Ar Îš Gaǧezor
+## Ar Îš Gaǧez
 
 <small>
-*fer.*  / iːʃ ɡæʤezor / Ар Иш Гаджезор
+*fer.*  / iːʃ ɡæʤez / Ар Иш Гаджез
 </small>
 
-## Ar Îš Sraĥezor
+## Ar Îš Sraĥez
 
 <small>
-*fer.*  / iːʃ sræxezor / Ар Иш Срехезор
+*fer.*  / iːʃ sræxez / Ар Иш Срехез
 </small>
 
-## Ar Îš Yorbezor
+## Ar Îš Yorbez
 
 <small>
-*fer.*  / iːʃ jorbezor / Ар Иш Йорбезор
+*fer.*  / iːʃ jorbez / Ар Иш Йорбез
 </small>
 
 ## Ar Keresa
