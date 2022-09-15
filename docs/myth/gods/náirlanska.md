@@ -19,8 +19,8 @@ title: Пантеон нерланар
 | [Nimiaz](#nimiaz)             | Old gods    |                                                                           |
 | [Teináiz](#teináiz)           | Old gods    |                                                                           |
 | [Jimaz](#jimaz)               | Queran gods |                                                                           |
-| [Mōrtidar](#mōrtidar)         | Queran gods |                                                                           |
-| [Þaírsimad](#þaírsimad)       | Queran gods |                                                                           |
+| [Mōrtidars](#mōrtidars)       | Queran gods |                                                                           |
+| [Þaírsimada](#þaírsimada)     | Queran gods |                                                                           |
 
 ## Ajsk Drahiz
 
@@ -127,14 +127,14 @@ náir. / ʍiliz / Хвилиз
 *náir.*  / jimaz / Имаз
 </small>
 
-## Mōrtidar
+## Mōrtidars
 
 <small>
-*náir.*  / moːrtiðar / Мортизар
+*náir.*  / moːrtiðars / Мортизарc
 </small>
 
-## Þaírsimad
+## Þaírsimada
 
 <small>
-*náir.*  / θɛrsimað / Сэрсимаз
+*náir.*  / θɛrsimaða / Сэрсимазa
 </small>
