@@ -130,7 +130,7 @@ náir. / ʍiliz / Хвилиз
 ## Mōrtidars
 
 <small>
-*náir.*  / moːrtiðars / Мортизарc
+*náir.*  / moːrtiðars / Мортизар
 </small>
 
 ## Þaírsimada
