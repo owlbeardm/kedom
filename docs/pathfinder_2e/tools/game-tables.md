@@ -33,6 +33,16 @@ title: Game Tables
 
 *If the spell is uncommon or rare, its difficulty should be adjusted accordingly*
 
+## Medicine
+
+| Proficiency | DC  | Success Healing | Critical Healing | Critical Failure |
+| ----------- | --- | --------------- | ---------------- | ---------------- |
+| Untrained   | 14  | 2d8             | 4d8              | -1d8             |
+| Trained     | 14  | 2d8             | 4d8              | -1d8             |
+| Expert      | 15  | 2d8+10          | 4d8+10           | -1d8             |
+| Master      | 17  | 2d8+30          | 4d8+30           | -1d8             |
+| Legendary   | 20  | 2d8+50          | 4d8+50           | -1d8             |
+
 ## Diplomacy
 
 ### Checks
