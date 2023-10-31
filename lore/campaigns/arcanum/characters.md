@@ -185,65 +185,6 @@ title: Создание персонажа
 
 В Селании можно встретить персонажей любого класса.
 
-Помочь выбрать конкретный может обсуждение с другими игроками, советы ведущего или вдохновение какими-то драматическими персонажами. [Детали классов можно найти тут.](https://2e.aonprd.com/Classes.aspx)
+Помочь выбрать конкретный может обсуждение с другими игроками, советы ведущего или вдохновение какими-то драматическими персонажами. 
 
 *Для этой кампании лучше других подойдут классы как-то связанные с арканной магией или артефактами.
-
-:::info Доступные классы
-<!-- 
-<Tabs defaultValue="str"
-  values={[
-    { label: 'Сильные', value: 'str' },
-    { label: 'Ловкие', value: 'dex' },
-    { label: 'Умные', value: 'int' },
-    { label: 'Мудрые', value: 'wis' },
-    { label: 'Харизматичные', value: 'cha' },
-  ]}>
-  <TabItem value="str"><ul>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=2">Barbarian</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=4">Champion</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=7">Fighter</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=17">Magus*</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=9">Ranger</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Ruffian)</a></li>
-  </ul>
-  </TabItem>
-  <TabItem value="dex"><ul>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=4">Champion</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=7">Fighter</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=20">Gunslinger</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=17">Magus*</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=9">Ranger</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=10">Rogue</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=15">Swashbuckler</a></li>
-  </ul>
-  </TabItem>
-  <TabItem value="int"><ul>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=1">Alchemist*</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=19">Inventor*</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=13">Investigator</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=16">Witch</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=12">Wizard*</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)*</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Mastermind)</a></li>
-  </ul>
-  </TabItem>
-  <TabItem value="wis"><ul>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=5">Cleric</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=6">Druid</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)*</a></li>
-  </ul>
-  </TabItem>
-  <TabItem value="cha"><ul>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=3">Bard</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=14">Oracle</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Eldritch Trickster)*</a></li>
-    <li><a href="https://2e.aonprd.com/Rackets.aspx">Rogue (Scoundrel)</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=11">Sorcerer*</a></li>
-    <li><a href="https://2e.aonprd.com/Classes.aspx?ID=18">Summoner</a></li>
-  </ul>
-  </TabItem>
-</Tabs>
-
---> 
-:::

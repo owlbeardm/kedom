@@ -54,9 +54,12 @@ title: Game Tables
 | Overcome Intransigence | Will DC | 1 minute*** | Diplomacy, Intimidation (but attitude shifts 1 step lower), Performance                                          |
 | Request****            | 15**    | 1 action    | Diplomacy, Intimidation (attitude shifts to unfriendly or lower after that)                                      |
 
-<small>*Modified by relationship.</small><br/>
-<small>**Modified by relationship and risk vs. reward.</small><br/>
-<small>***<b>Quick Diplomacy</b>. You can make a check as a standard action by accepting a -5 penalty to the check.</small><br/>
+<small>*Modified by relationship.</small>
+
+<small>**Modified by relationship and risk vs. reward.</small>
+
+<small>***<b>Quick Diplomacy</b>. You can make a check as a standard action by accepting a -5 penalty to the check.</small>
+
 <small>****<b>Cons</b>. In order to pull a con a character simply makes a Bluff check to convince the target that a deal is better than it actually is. It takes 1 minute.</small>
 
 ### Modifiers
