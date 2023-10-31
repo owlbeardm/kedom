@@ -245,7 +245,7 @@ The [world](/world) tab on the sidebar has information about this setting. [The 
 
 Lets's create Merlin character. That makes him *human* *wizard* with already established name.
 
-!![](screen/step-0-name.gif)
+!![](rules/pathfinder_2e/screen/step-0-name.gif)
 
 Merlin's traditional biography casts him as a cambion, a being born of a mortal woman, sired by an incubus. That makes him *tiefling*. Merlin matures to an ascendant sagehood and engineers the birth of Arthur through magic and intrigue. Some king of *scholar* character.
 
@@ -253,15 +253,15 @@ Merlin's traditional biography casts him as a cambion, a being born of a mortal 
 
 Merlin is [Human](https://2e.aonprd.com/Ancestries.aspx?ID=6). Which gives him **8 hp**, **medium size**, **25 feet land speed**, **2 free ability boosts**, **Common + 1 + your Intelligence modifier additional languages**.
 
-!![](screen/step-1-a.gif)
+!![](rules/pathfinder_2e/screen/step-1-a.gif)
 
 His Human Heritage will be [Tiefling](https://2e.aonprd.com/Ancestries.aspx?ID=26) Versatile Heritage. Which gives him **low-light vision**. And ability to choose tiefling ancestry feats.
 
-!![](screen/step-1-h.gif)
+!![](rules/pathfinder_2e/screen/step-1-h.gif)
 
 For his ancestry feat we'll choose **Devil's Advocate**.
 
-!![](screen/step-1-f.gif)
+!![](rules/pathfinder_2e/screen/step-1-f.gif)
 
 ### Class
 
@@ -269,23 +269,23 @@ We established that Merlin is [Wizard](https://2e.aonprd.com/Classes.aspx?ID=12)
 
 Wizard's Key Ability: **INTELLIGENCE**. And wizard gets **6 plus your Constitution modifier** hit points per level.
 
-!![](screen/step-2-c.gif)
+!![](rules/pathfinder_2e/screen/step-2-c.gif)
 
 Wizard gets two subclass options. [Arcane School](https://2e.aonprd.com/ArcaneSchools.aspx) would be **Enchantment** (since he's called enchanter). His [Arcane Thesis](https://2e.aonprd.com/ArcaneThesis.aspx) would be **Metamagical Experimentation**.
 
-!![](screen/step-2-o.gif)
+!![](rules/pathfinder_2e/screen/step-2-o.gif)
 
 ### Background
 
 Merlin's background would be [Scholar](https://2e.aonprd.com/Backgrounds.aspx?ID=36). Which gives **Int** or **Wis** and free ability boost. Trained proficiency in **Arcana**, **Nature**, **Occultism**, or **Religion** skill, and the **Academia Lore** skill. And **Assurance** skill feat.
 
-!![](screen/step-3.gif)
+!![](rules/pathfinder_2e/screen/step-3.gif)
 
 ### Abilities
 
 4 free abilities:
 
-!![](screen/step-4-a.gif)
+!![](rules/pathfinder_2e/screen/step-4-a.gif)
 
 Wizard's class features are:
 
@@ -301,34 +301,34 @@ Wizard's class features are:
     - unarmed attacks
     - unarmored defense
     - arcane spell attacks and arcane spell DCs
-    !![](screen/step-5-p.gif)
+    !![](rules/pathfinder_2e/screen/step-5-p.gif)
 - **arcane spellcasting**: giving 5 cantrips slots and 2 1st level spells per day. And spellbook with 10 cantrips and 5 1st-level spells. We will use *Sample Spellbook*.
-    !![](screen/step-5-s.gif)
+    !![](rules/pathfinder_2e/screen/step-5-s.gif)
 - **arcane school** gives us +1 enchantment spell (charm) to the book and *charming words* focus spell.
-    !![](screen/step-5-sch.gif)
+    !![](rules/pathfinder_2e/screen/step-5-sch.gif)
 - **arcane bond** class feature
-    !![](screen/step-5-ab.gif)
+    !![](rules/pathfinder_2e/screen/step-5-ab.gif)
 - **arcane thesis**: METAMAGICAL EXPERIMENTATION gives us metamagic feat. We'll choose *Reach Spell*.
-    !![](screen/step-5-at.gif)
+    !![](rules/pathfinder_2e/screen/step-5-at.gif)
 
 ### Equipment
 
 [Wizard Kit](https://2e.aonprd.com/ClassKits.aspx?Class=12) comes with **staff**,  **adventurer's pack**, **material component pouch**, **writing set** and optional **crossbow** with **20 bolts**. We'll take all of it which lefts us with 8 gp 8 sp.
 
-!![](screen/step-6.gif)
+!![](rules/pathfinder_2e/screen/step-6.gif)
 
 ### The rest
 
 All bonuses are automatically calculated. But Merlin doesn't have any attacks displayed. We'll add staff and crossbow that are already bought:
 
-!![](screen/step-7-a.gif)
+!![](rules/pathfinder_2e/screen/step-7-a.gif)
 
 ### Extra Step. Character setup
 
 I'm using [Expanded Rules](/рathfinder_rules/variant-rules/) in this setting. So some options should be enabled in character.pf2.tools when character created:
 
 - **Proficiency without Level**: use no level in bonuses.
-    !![](screen/step-e-lvl.gif)
+    !![](rules/pathfinder_2e/screen/step-e-lvl.gif)
 - **Automatic Bonus Progression**: create in CHARACTER \ ADJUSTMENTS "`AUTOMATIC BONUS PROGRESSION`" and paste there
 
       ATTACK +0 ITEM
@@ -337,15 +337,15 @@ I'm using [Expanded Rules](/рathfinder_rules/variant-rules/) in this setting. S
       AC +0 ITEM
       PERCEPTION +0 ITEM
       SAVES +0 ITEM
-    !![](screen/step-e-aba.gif)
+    !![](rules/pathfinder_2e/screen/step-e-aba.gif)
 - **Public access**: send link to your GM. [Merlin's sheet](https://character.pf2.tools/?zL7coqH6)
-    !![](screen/step-e-pub.gif)
+    !![](rules/pathfinder_2e/screen/step-e-pub.gif)
 
 ## Finished character
 
 Finised [Merlin's sheet](https://character.pf2.tools/?zL7coqH6).
 
-![](screen/merlin-lvl-1.png){align=right}
+![](rules/pathfinder_2e/screen/merlin-lvl-1.png){align=right}
 
 - *[class features]: Abilities that you gain from you class. Can be found in table on class page.
 - *[skill feat]: At 2nd level and every 2 levels thereafter, most classes gain a skill feat, though rogues gain them earlier and more often. Your character must be trained in the corresponding skill to take a skill feat.

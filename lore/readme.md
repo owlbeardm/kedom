@@ -18,4 +18,4 @@ dir:
 
 ## Специфические правила и механики
 
-- [Pathfinder 2E](./pathfinder_2e/)
+- [Pathfinder 2E](rules/pathfinder_2e/)

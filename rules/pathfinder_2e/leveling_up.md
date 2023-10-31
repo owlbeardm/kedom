@@ -26,7 +26,7 @@ If you are using *character.pf2.tools* some of the steps can be automated (Hit P
 
 Increase your level by 1. Hit Points increase done automatically.
 
-![](screen/up-1.gif)
+![](rules/pathfinder_2e/screen/up-1.gif)
 
 ### 2. Class features
 
@@ -40,7 +40,7 @@ Select feats as indicated on your [class](https://2e.aonprd.com/Classes.aspx) ad
 
 In **character.pf2.tools** feats can be filled up automatically using :fontawesome-solid-search-plus:
 
-![](screen/up-3.gif)
+![](rules/pathfinder_2e/screen/up-3.gif)
 
 If needed add spells and spell slots if your class grants spellcasting. See [Spells](https://2e.aonprd.com/Spells.aspx) for spells. If your class has *signature spells* feature select them.
 
@@ -50,11 +50,11 @@ Your cantrips and focus spells heightened to maximum level available to you.
 
 Spells can be filled up here using :fontawesome-solid-search-plus: button.
 
-![](screen/up-4.gif)
+![](rules/pathfinder_2e/screen/up-4.gif)
 
 Focus spells.
 
-![](screen/spell-4.png)
+![](rules/pathfinder_2e/screen/spell-4.png)
 
 Add other features: it would be *skill increase* for Merlin.
 
@@ -62,14 +62,14 @@ Add other features: it would be *skill increase* for Merlin.
 
 Gain ability boosts as staited in [Gradual Ability Boosts](https://2e.aonprd.com/Rules.aspx?ID=1300).  
 
-![](screen/up-5.gif)  
+![](rules/pathfinder_2e/screen/up-5.gif)  
 
 ### 4. Automatic Bonus Progression
 
 Add new bonus from [Automatic Bonus Progression](https://2e.aonprd.com/Rules.aspx?ID=1357) table.  
 Change `ADJUSTMENT`: `AUTOMATIC BONUS PROGRESSION`. Replace `SKILLNAME` with skill if required (`PERFORMANCE` for example)
 
-![](screen/up-6.gif)  
+![](rules/pathfinder_2e/screen/up-6.gif)  
 
 ### 5. Other
 
@@ -79,7 +79,7 @@ If needed adjust bonuses from feats and other abilities that are based on your l
 
 Finised [Merlin's sheet](https://character.pf2.tools/?Lfw0dtTD).
 
-![](screen/merlin-lvl-3.png)
+![](rules/pathfinder_2e/screen/merlin-lvl-3.png)
 
 *[class features]: Abilities that you gain from you class. Can be found in table on class page.  
 *[skill feat]: At 2nd level and every 2 levels thereafter, most classes gain a skill feat, though rogues gain them earlier and more often. Your character must be trained in the corresponding skill to take a skill feat.  

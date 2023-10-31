@@ -3,8 +3,8 @@ id: characters
 title: Создание персонажа
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+<!-- import Tabs from '@theme/Tabs'; -->
+<!-- import TabItem from '@theme/TabItem'; -->
 
 ## Происхождение
 
@@ -190,7 +190,7 @@ import TabItem from '@theme/TabItem';
 *Для этой кампании лучше других подойдут классы как-то связанные с арканной магией или артефактами.
 
 :::info Доступные классы
-
+<!-- 
 <Tabs defaultValue="str"
   values={[
     { label: 'Сильные', value: 'str' },
@@ -244,4 +244,6 @@ import TabItem from '@theme/TabItem';
   </ul>
   </TabItem>
 </Tabs>
+
+--> 
 :::
