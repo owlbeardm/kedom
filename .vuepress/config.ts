@@ -8,6 +8,7 @@ export default defineUserConfig({
   title: "Kedôm",
   description: "A description of the fantasy world of Kedom.",
 
+
   theme,
 
   // Enable it with pwa

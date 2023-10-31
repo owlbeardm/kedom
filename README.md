@@ -1,9 +1,9 @@
 ---
 home: true
 icon: earth-americas
-title: Kedom
+title: Kedôm
 
-bgImageDark: assets/image/nalagathol.webp
+bgImageDark: assets/image/home.webp
 bgImageStyle:
   background-attachment: fixed
 heroFullScreen: true

@@ -4,10 +4,10 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "Demo",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "Kedôm Lore",
+      icon: "scroll",
+      prefix: "lore/",
+      link: "lore/",
       children: "structure",
     },
     {
