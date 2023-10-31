@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "en-US",
-  title: "Docs Demo",
-  description: "A docs demo for vuepress-theme-hope",
+  title: "Kedôm",
+  description: "A description of the fantasy world of Kedom.",
 
   theme,
 

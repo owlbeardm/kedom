@@ -1,1 +1,11 @@
 // place your custom styles here
+@import "palette";
+
+.theme-hope-content a:hover {
+  text-decoration: none;
+  color: $theme-color-light;
+}
+
+.vp-page-title h1 .icon{
+  color: $text-color;
+}

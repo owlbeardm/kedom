@@ -5,16 +5,19 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
+  favicon: "/logo.png",
+
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "OwlbearDM",
+    url: "https://owlbeardm.com",
   },
+  darkmode: "enable",
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "owlbeardm/kedom",
 
   docsDir: "src",
 
@@ -28,25 +31,25 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": ["1234"],
+  //   },
+  // },
 
-  metaLocales: {
-    editLink: "Edit this page on GitHub",
-  },
+  // metaLocales: {
+  //   editLink: "Edit this page on GitHub",
+  // },
 
   plugins: {
     // You should generate and use your own comment service
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
@@ -116,6 +119,8 @@ export default hopeTheme({
       // install @vue/repl before enabling it
       // vuePlayground: true,
     },
+
+
 
     // uncomment these if you want a pwa
     // pwa: {
