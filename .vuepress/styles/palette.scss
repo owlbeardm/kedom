@@ -4,5 +4,15 @@ $text-color: rgb(224, 224, 224);
 $theme-color-light: rgb(223, 79, 46);
 
 $bg-color: #262626;
-$bg-color-secondary: #5d5c5b;
-$bg-color-tertiary: #352a26;
+$bg-color-secondary: #333;
+$border-color: #352a26;
+
+$info-border-color: #444459;
+$info-bg-color: #4e4e5820;
+.hint-container.info {
+  border-color: #444459;
+  background: #4e4e5820;
+}
+.hint-container.info > .hint-container-title::before {
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-11v6h2v-6h-2zm0-4v2h2V7h-2z' fill='%23444459'/%3E%3C/svg%3E");
+}
