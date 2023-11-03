@@ -11,3 +11,12 @@ However, these proud beings are not without their flaws. Possessing an insatiabl
 Yet amidst their negative traits, the Dwarves' extraordinary craftsmanship, mastery of masonry, and expertise in tempering steel have elevated them to legendary status. Their creations, born of tireless dedication, rival the artistry of the Elven metalworkers and far surpass the trinkets of Men. Dwelling in the timeless grandeur of the Dwarven Mountains, their subterranean cities teem with bustling trade and relentless industry, where carefully honed skills are exchanged and shared.
 
 Whispers of the Dwarves' presence extend to the Long Mountains, where their resilience gives way to a more distant and untamed nature. Legends shrouded in chilling mystery speak of the Night Mountains, rumored to be home to secretive Dwarven kingdoms. Communicating through their ancient tongue of Khuzdûl, these stout beings proudly refer to themselves as Khazâd, forever etching their name in the annals of this fantastical world.
+
+## Human
+## Ratfolk
+## Dwarf
+## Halfling
+## Gnome
+## Lizrdfolk
+## Half-Orc
+## Half-Elf
