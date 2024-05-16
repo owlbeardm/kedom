@@ -1,0 +1,5 @@
+[
+    {"name":"Human", "suboptions":[{"name":"Half-Orc"}, {"name":"Half-Elf"}]},
+    {"name":"Halfling"},
+    {"name":"Dwarf"}
+]

@@ -5,8 +5,8 @@ icon: lightbulb
 
 ## Highlight Features
 
+<Races />
 <ButtonCounter />
-<Badge text="demo" />
 
 ### Bar
 
