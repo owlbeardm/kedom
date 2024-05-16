@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c,a as e}from"./app-fdd2faa4.js";const n={},a=e("div",{class:"hint-container info"},[e("p",{class:"hint-container-title"},"*Calduero*"),e("p",null,"/ kaldwero / Калдуэро")],-1),r=[a];function s(l,_){return t(),c("div",null,r)}const f=o(n,[["render",s],["__file","calduero.html.vue"]]);export{f as default};
