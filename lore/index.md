@@ -1,11 +1,7 @@
 ---
-id: index
+index: true
 title: Мир Кедома
-slug: /
-sidebar_position: 1
 order: 1
-dir:
-  order: 1
 ---
 
 ## Кампании

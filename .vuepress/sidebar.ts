@@ -14,6 +14,7 @@ export default sidebar({
       text: "Docs",
       icon: "book",
       prefix: "guide/",
+      link: "guide/",
       children: "structure",
     },
   ],

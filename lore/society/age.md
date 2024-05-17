@@ -1,5 +1,5 @@
 ---
-index: age
+index: true
 title: Возраст
 order: 2
 ---

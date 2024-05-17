@@ -1,5 +1,5 @@
 ---
-index: names
+index: true
 title: Имена
 order: 1
 ---

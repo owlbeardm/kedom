@@ -2,23 +2,24 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/lore/",
   {
+      text: "Мир Кедома",
+      icon: "scroll",
+      link: "/lore/",
+  }, {
     text: "Guide",
-    icon: "lightbulb",
+    icon: "book",
     prefix: "/guide/",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
+        text: "WWN",
+        prefix: "rules/wwn/",
+        children: ["tools/game-tables", { text: "...", icon: "ellipsis", link: "#" }],
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+        text: "Pathfinder 2E",
+        prefix: "rules/pathfinder_2e/",
+        children: ["creating_foundry", "tools/game-tables"],
       },
     ],
   },
