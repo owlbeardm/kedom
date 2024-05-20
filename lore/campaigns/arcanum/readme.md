@@ -1,4 +1,4 @@
 ---
+title: Arcanum
 index: false
-title: Мифы
 ---

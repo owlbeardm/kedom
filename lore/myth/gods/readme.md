@@ -1,4 +1,4 @@
 ---
 index: false
-title: Мифы
+title: Боги
 ---
