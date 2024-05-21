@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ## Map
 
-!![Rueza](/img/rueza.jpg)
+![Rueza](/img/rueza.jpg)
 
 ## Description
 

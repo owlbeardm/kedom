@@ -1,5 +1,5 @@
 ---
-index: true
+index: false
 title: Мир Кедома
 order: 1
 ---

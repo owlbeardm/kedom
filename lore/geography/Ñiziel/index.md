@@ -11,4 +11,4 @@ sidebar_position: 1
 
 ## Карта
 
-!![Ñiziel](/img/ñiziel.jpg)
+![Ñiziel](/img/ñiziel.jpg)

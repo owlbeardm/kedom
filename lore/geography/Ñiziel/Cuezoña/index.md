@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ## Карта
 
-!![Cuezoña](/img/cuezoña.jpg)
+![Cuezoña](/img/cuezoña.jpg)
 
 ## Description
 
