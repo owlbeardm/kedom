@@ -116,7 +116,7 @@
 ]
     import { ref } from 'vue'
     //const races = require('./classes/races.json')
-  const picked = ref(undefined)
+  const picked = ref(races[0].suboptions[0])
 </script>
 
 <template>
