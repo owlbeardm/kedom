@@ -5,7 +5,7 @@
         "id":"human", 
         "name":"Человек", 
         "suboptions": [{
-                "id":"half-orc",
+                "id":"niziel",
                 "name":"Нитолец",
                 "description":`
                     <h3>Люди</h3>
@@ -16,7 +16,7 @@
                     <p>Люди получают дополниетльный Expert Focus.</p>
                 `,
             }, {
-                "id":"half-orc",
+                "id":"ferori",
                 "name":"Саролец",
                 "description":`
                     <h3>Люди</h3>
@@ -27,7 +27,7 @@
                     <p>Люди получают дополниетльный Expert Focus.</p>
                 `,
             }, {
-                "id":"half-orc",
+                "id":"nerland",
                 "name":"Нерландец",
                 "description":`
                     <h3>Люди</h3>
@@ -40,6 +40,14 @@
            }, {
                 "id":"half-orc",
                 "name":"Полуорк",
+                "description":`
+                    <h3>Люди</h3>
+                    <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
+                    <h4>Полуорк</h4>
+                    <div class="div-with-image"><img alt="Полуорк" src="/img/ancestry/half-orc.png" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"></div>
+                    <h3>Foci</h3>
+                    <p>Люди получают дополниетльный Expert Focus.</p>
+                `,
             }, {
                 "id":"half-elf",
                 "name":"Полуэльф",
@@ -67,7 +75,7 @@
                     <p><b>Dwarven focus</b>:<br/>Level 1: Gain Exert as a bonus skill. You have a natural resistance to magic, gaining a +2 bonus on all saves against hostile magical effects. You need only half the usual amount of food, water, and air and gain a +1 CON modifier.<br/>Level 2: You have such a deep connection with your dwarven nature that once per day, as an Instant action, you can simply negate an unwanted magical effect that would otherwise affect you.</p>
             `,
         }, {
-            "id":"dwarf",
+            "id":"dwarf-long",
             "name":"Длинные горы",
             "description":`
                     <h3 id="дварфы" tabindex="-1"><a class="header-anchor" href="#дварфы"><span>Дварфы</span></a></h3>
@@ -133,6 +141,7 @@
             </div>
         </div>
     </div>
+    <Backgrounds v-if="!!picked" :race="picked.id"></Backgrounds>
 </template>
 
 <style>
