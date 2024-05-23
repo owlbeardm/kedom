@@ -123,11 +123,11 @@
     <h2>Выбор расы и культуры</h2>
     <div class="race-container">        
         <div class="race-list">
-            <ul>
+            <ul class="ul-empty">
                 <li v-for="race in races" :key="race.id">
                     <input type="radio" :id="race.id" id="race" :value="race" v-model="picked" v-if="!race.suboptions" />
                     <label :for="race.id">{{ race.name }}</label>
-                    <ul>
+                    <ul class="ul-empty">
                         <li v-for="option in race.suboptions" :key="option.id">
                             <input type="radio" :id="option.id" id="race" :value="option" v-model="picked" />
                             <label :for="option.id">{{ option.name }}</label>
@@ -145,7 +145,7 @@
 </template>
 
 <style>
-ul {
+.ul-empty {
     list-style-type: none;
     padding-inline-start: 16px!important;
 }

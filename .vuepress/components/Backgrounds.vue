@@ -15,8 +15,26 @@ while others are simply hermits who have no love for
 any company but their own. The marksmanship and
 stealth of a well-practiced hunter tend to be useful
 skills in an adventurer’s line of work.`,
-                "freeSkill": "survive",
-                "allSkills": ["survive", "kill", "attack"]
+                "freeSkill": "shoot",
+                "quickSkills": ["survive", "sneak"],
+                "allSkills": ["any combat", "exert", "heal", "notice", "ride", "shoot", "sneak", "survive"]
+            }, {
+                "title": "Artisan",
+                "description": `Your hero was a crafter of some variety, whether a
+blacksmith, carpenter, shipwright, weaver, or a maker
+of more exotic goods. In humble villages an artisan
+is most likely to make the bulk of their living by the
+same subsistence farming as their neighbors, but in
+towns and cities they might be full-time profession-
+als, perhaps belonging to some guild or brotherhood
+specific to their craft. While an artisan’s Craft skill
+is chiefly applicable to those works related to their
+background, they often know enough or can impro-
+vise sufficiently to make competent efforts at other
+types of work.`,
+                "freeSkill": "craft",
+                "quickSkills": ["trade", "connect"],
+                "allSkills": ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"]
             },
        ],
     }
@@ -31,28 +49,51 @@ skills in an adventurer’s line of work.`,
         race = newProps.race;
         back = ref(backgrounds[race]);
     });
+
+    const toTitleCase = (str) => {
+        return str.replace(
+            /\w\S*/g,
+            function(txt) {
+                return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+            }
+        )}
 </script>
 
 <template>
     <h2>Background</h2>
-    <div class="race-container">
+    <div class="container">
         <div v-if="!back">
             Нет бэкграундов для выбранной культуры {{ race }}.
         </div>
         <template v-if="!!back">
-            <div class="race-list">
-                <p>Roll 1D{{ back.length }}:</p>
-                <ul>
+            <div class="list">
+                <p>Roll 1D{{ back.length }} or choose:</p>
+                <ol>
                     <li v-for="b in back" :key="b">
                         <input type="radio" :id="b.title" :value="b" v-model="picked" />
                         <label :for="b.title">{{ b.title }}</label>
                     </li>
-                </ul>
+                </ol>
             </div>
             <div v-if="!!picked">
                 <div>
                     <h3>{{ picked.title }}</h3>
                     <p>{{ picked.description }}</p>
+                    <div class="container">
+                        <div class="skill-panel">
+                            <h4>Free Skill</h4>
+                            <p>Gain a free skill:</p>
+                            <ul><li>{{ toTitleCase(picked.freeSkill) }}</li></ul>
+                        </div>
+                        <div>
+                            <h4>Background Skills</h4>
+                            <p>Roll 1d8 twice or pick a bold ones:</p>
+                            <ul><li v-for="s in picked.allSkills" :key="s">
+                                    <span v-if="!picked.quickSkills.includes(s)"> {{ toTitleCase(s) }} </span>
+                                    <b v-if="picked.quickSkills.includes(s)"> {{ toTitleCase(s) }} </b>
+                                </li></ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </template>
@@ -60,20 +101,24 @@ skills in an adventurer’s line of work.`,
 </template>
 
 <style>
-ul {
+.ul-empty {
     list-style-type: none;
     padding-inline-start: 16px!important;
+}
+
+.skill-panel {
+    width: 50%;
 }
 
 li label {
     margin-left: 4px;
 }
 
-.race-container {
+.container {
     display: flex;
 }
 
-.race-list {
+.list {
     padding-right: 16px;
     margin-top: 32px;
     min-width: fit-content;
