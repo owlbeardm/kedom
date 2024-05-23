@@ -87,10 +87,10 @@ types of work.`,
                         </div>
                         <div>
                             <h4>Background Skills</h4>
-                            <p>Roll 1d8 twice or pick a bold ones:</p>
+                            <p>Roll 1d8 twice or pick the highlighted ones:</p>
                             <ul><li v-for="s in picked.allSkills" :key="s">
                                     <span v-if="!picked.quickSkills.includes(s)"> {{ toTitleCase(s) }} </span>
-                                    <b v-if="picked.quickSkills.includes(s)"> {{ toTitleCase(s) }} </b>
+                                    <b v-if="picked.quickSkills.includes(s)" class="highlighted-skill"> {{ toTitleCase(s) }} </b>
                                 </li></ul>
                         </div>
                     </div>
@@ -122,5 +122,9 @@ li label {
     padding-right: 16px;
     margin-top: 32px;
     min-width: fit-content;
+}
+
+.highlighted-skill {
+    color: #C05D32
 }
 </style>
