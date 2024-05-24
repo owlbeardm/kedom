@@ -142,6 +142,7 @@
         </div>
     </div>
     <Backgrounds v-if="!!picked" :race="picked.id"></Backgrounds>
+    <Classes v-if="!!picked" :race="picked.id"></Classes>
 </template>
 
 <style>
