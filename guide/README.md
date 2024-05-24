@@ -2,6 +2,5 @@
 title: Guide
 ---
 
-<Races />
-<ButtonCounter />
+<Character />
 

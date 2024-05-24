@@ -116,7 +116,7 @@
 ]
     import { ref } from 'vue'
     //const races = require('./classes/races.json')
-  const picked = ref(races[0].suboptions[0])
+  const picked = defineModel();
 </script>
 
 <template>
@@ -125,11 +125,11 @@
         <div class="race-list">
             <ul class="ul-empty">
                 <li v-for="race in races" :key="race.id">
-                    <input type="radio" :id="race.id" id="race" :value="race" v-model="picked" v-if="!race.suboptions" />
+                    <input type="radio" :id="race.id" :value="race" v-model="picked" v-if="!race.suboptions" />
                     <label :for="race.id">{{ race.name }}</label>
                     <ul class="ul-empty">
                         <li v-for="option in race.suboptions" :key="option.id">
-                            <input type="radio" :id="option.id" id="race" :value="option" v-model="picked" />
+                            <input type="radio" :id="option.id" :value="option" v-model="picked" />
                             <label :for="option.id">{{ option.name }}</label>
                         </li>
                     </ul>
@@ -141,8 +141,6 @@
             </div>
         </div>
     </div>
-    <Backgrounds v-if="!!picked" :race="picked.id"></Backgrounds>
-    <Classes v-if="!!picked" :race="picked.id"></Classes>
 </template>
 
 <style>

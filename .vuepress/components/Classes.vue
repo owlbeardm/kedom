@@ -46,11 +46,7 @@
     let partialClassList = makePartialClassList(availibleClasses);
     let picked1 = ref(undefined)
     let picked2 = ref(undefined)
-    if(!!classList[0])
-        picked1 = ref(classList[0])
-    if(!!partialClassList[0])
-        picked2 = ref(partialClassList[0])
-
+  
     let nonClasses = raceToClass
         .map(rtc => rtc.classes.concat(rtc.forcedClass))
         .reduce((prev, cur)=>prev.concat(cur),[])
@@ -64,14 +60,8 @@
         availibleClasses = raceToClass.find(clss => clss.id == race);
         classList = makeClassList(availibleClasses);
         partialClassList = makePartialClassList(availibleClasses);
-        if(!!classList[0])
-            picked1 = ref(classList[0])
-        else 
-            picked1 = ref(undefined)
-        if(!!partialClassList[0])
-            picked2 = ref(partialClassList[0])
-        else 
-            picked2 = ref(undefined)
+        picked1 = ref(undefined)
+        picked2 = ref(undefined)
     });
 
     const showClass = (p1, p2) => !!p1 && (!p1?.partial || (p1?.partial && p2?.partial && p1.id !== p2.id)) 
@@ -164,7 +154,7 @@
             <div class="list">
                 <ul class="ul-empty">
                     <li v-for="cls in classList.filter(c=>!c.partial)" :key="cls.id">
-                        <input type="radio" :id="cls.id" :value="cls" v-model="picked1" />
+                        <input type="radio" :id="cls.id" v-bind:value="cls" v-model="picked1" @update:model-value="$emit('picked1', picked1)" />
                         <label :for="cls.id">{{ cls.title }}</label>
                     </li>
                     <li>
@@ -173,7 +163,7 @@
                     <li>
                         <ul class="ul-empty">
                             <li v-for="cls in classList.filter(c=>c.partial)" :key="cls.id">
-                                <input type="radio" :id="cls.id" :value="cls" v-model="picked1" />
+                                <input type="radio" :id="cls.id" :value="cls" v-model="picked1" @update:model-value="$emit('picked1', picked1)" />
                                 <label :for="cls.id">{{ cls.title }}</label>
                             </li>
                         </ul>
@@ -186,8 +176,8 @@
                 <p>Вторая часть приключенца:</p>
                 <ul class="ul-empty">
                     <li v-for="cls in partialClassList.filter(c=> c.id != picked1.id)" :key="cls.id">
-                        <input type="radio" :id="cls.id+2" :value="cls" v-model="picked2" />
-                        <label :for="cls.id+2">+{{ cls.title }}</label>
+                        <input type="radio" :id="cls.id+2" :value="cls" v-model="picked2" @update:model-value="$emit('picked2', picked2)" />
+                        <label :for="cls.id+2">+ {{ cls.title }}</label>
                     </li>
                 </ul>
             </div>
@@ -210,7 +200,7 @@
                     <th>HD</th>
                     <th>Attack Bonus</th>
                     <th>Foci</th>
-                    <th v-if="!!picked1.arts || !!picked2.arts">Arts</th>
+                    <th v-if="!!picked1.arts || !!picked2?.arts">Arts</th>
                 </tr>
             </thead>
             <tbody>
@@ -222,11 +212,11 @@
                         <span v-if="index == 1">Race Focus, </span>
                         <span v-if="index == 1 || index == 2 || index == 5 || index == 7 || index == 10">+1 Any</span>
                     </td>
-                    <td v-if="!!picked1.arts || !!picked2.arts"><span>{{ calcArts(index, picked1, picked2) }}</span></td>
+                    <td v-if="!!picked1.arts || !!picked2?.arts"><span>{{ calcArts(index, picked1, picked2) }}</span></td>
                 </tr>
             </tbody>
         </table>
-        <h4 v-if="picked1?.spells || picked2?.spells">{{picked1.title}}{{picked1.partial&&!!picked2?"/"+picked2.title:""}} spells table</h4>
+        <h4 v-if="picked1?.spells || picked2?.spells">{{picked1.title}}{{picked1.partial&&!!picked2?"/"+picked2?.title:""}} spells table</h4>
         <table v-if="picked1?.spells || picked2?.spells">
             <thead>
                 <tr>

@@ -41,19 +41,13 @@ types of work.`,
     import { ref, watch } from 'vue'
     //const races = require('./classes/races.json')
     const props = defineProps(['race']);
-    const emit = defineEmits(['onback'])
     let race = props.race;
-    let back = ref(backgrounds[race].sort((a,b)=>a.title>b.title));
-    let picked = ref();
+    let back = ref(backgrounds[race]);
+    const picked = defineModel();
 
     watch(props, (newProps) => {
-        if(race != newProps.race) {
-            race = newProps.race;
-            picked = ref();
-            emit('onback', undefined)
-            back = ref(backgrounds[race].sort((a,b)=>a.title>b.title));
-;
-        }
+        race = newProps.race;
+        back = ref(backgrounds[race]);
     });
 
     const toTitleCase = (str) => {
@@ -76,7 +70,7 @@ types of work.`,
                 <p>Roll 1D{{ back.length }} or choose:</p>
                 <ol>
                     <li v-for="b in back" :key="b">
-                        <input type="radio" :id="b.title" :value="b" v-model="picked"  @update:model-value="emit('onback', picked)"/>
+                        <input type="radio" :id="b.title" :value="b" v-model="picked" />
                         <label :for="b.title">{{ b.title }}</label>
                     </li>
                 </ol>
