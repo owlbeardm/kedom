@@ -1,41 +1,45 @@
 <script setup>
     const backgrounds = 
     {
-       "niziel" : [
-            {
-                "title": "Hunter",
-                "description": `Both primitive tribals and bored nobles require hunts
-for their table and their pleasures, and such efforts
-often require professional hunters to help in the work.
-Hunger or greed has also been known to send poor
-peasants into the game preserves of their lords or
-deep into dangerous wilderness. A few hunters are
-actual gamekeepers employed to ward off poachers,
-while others are simply hermits who have no love for
-any company but their own. The marksmanship and
-stealth of a well-practiced hunter tend to be useful
-skills in an adventurer’s line of work.`,
-                "freeSkill": "shoot",
-                "quickSkills": ["survive", "sneak"],
-                "allSkills": ["any combat", "exert", "heal", "notice", "ride", "shoot", "sneak", "survive"]
-            }, {
-                "title": "Artisan",
-                "description": `Your hero was a crafter of some variety, whether a
-blacksmith, carpenter, shipwright, weaver, or a maker
-of more exotic goods. In humble villages an artisan
-is most likely to make the bulk of their living by the
-same subsistence farming as their neighbors, but in
-towns and cities they might be full-time profession-
-als, perhaps belonging to some guild or brotherhood
-specific to their craft. While an artisan’s Craft skill
-is chiefly applicable to those works related to their
-background, they often know enough or can impro-
-vise sufficiently to make competent efforts at other
-types of work.`,
-                "freeSkill": "craft",
-                "quickSkills": ["trade", "connect"],
-                "allSkills": ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"]
-            },
+       niziel: [
+            { title: "Всадник", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       ferori: [
+            { title: "Технарь", description: ``, freeSkill: "craft", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"] },
+            { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       nerland: [
+            { title: "Кузнец", description: ``, freeSkill: "craft", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"] },
+            { title: "Дикарь", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
+            { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       "half-orc": [
+            { title: "Варвар", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
+       ],
+       "half-elf": [
+            { title: "Дикарь", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
+            { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       halfling: [
+            { title: "Всадник", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       dwarf: [
+            { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       "dwarf-long": [
+            { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       rat: [
+            { title: "Технарь", description: ``, freeSkill: "craft", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"] },
+            { title: "Варвар", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
+            { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       lizard: [
+            { title: "Варвар", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
+            { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
+       ],
+       gnome: [
+            { title: "Отшельник", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
        ],
     }
     import { ref, watch } from 'vue'
