@@ -43,7 +43,8 @@ types of work.`,
     const props = defineProps(['race']);
     const emit = defineEmits(['onback'])
     let race = props.race;
-    let back = ref(backgrounds[race].sort((a,b)=>a.title>b.title));
+    let back = ref();
+    if(!!race) back = ref(backgrounds[race]?.sort((a,b)=>a.title>b.title));
     let picked = ref();
 
     watch(props, (newProps) => {
@@ -51,8 +52,8 @@ types of work.`,
             race = newProps.race;
             picked = ref();
             emit('onback', undefined)
-            back = ref(backgrounds[race].sort((a,b)=>a.title>b.title));
-;
+            back = ref();
+            if(!!race) back = ref(backgrounds[race]?.sort((a,b)=>a.title>b.title));
         }
     });
 

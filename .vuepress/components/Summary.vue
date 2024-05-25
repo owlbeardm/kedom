@@ -64,7 +64,7 @@
         </li>
         <li v-if="!!race"><b>Foci:</b>
             <ul>
-                <li><b>Race:</b> race foci</li>
+                <li><b>Race:</b> {{race.foci}}</li>
                 <li>+1 Any Focus</li>
             </ul>
         </li>
