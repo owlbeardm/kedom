@@ -65,6 +65,8 @@
         <li v-if="!!race"><b>Foci:</b>
             <ul>
                 <li><b>Race:</b> {{race.foci}}</li>
+                <li v-if="(!!class1 && !!class1.foci)"><b>{{ class1.title }}:</b> {{ class1.foci }}</li>
+                <li v-if="(class1?.partial && !!class2 && !!class2.foci)"><b>{{ class2.title }}:</b> {{ class2.foci }}</li>
                 <li>+1 Any Focus</li>
             </ul>
         </li>

@@ -15,22 +15,22 @@
     const classes = [
         {id: "warrior", title: "Воин", hd:2, ab:10, foci:"+1 Warrior Focus, Killing Blow, Veteran's Luck"},
         {id: "expert", title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Masterful Expertise, Quick Learner"},
-        {id: "mage", title: "Кверанский арканист", spells:true, hd:-1, ab:2, arts: ["+2 Арканист", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист"]},
-        {id: "elementalist", title: "Элементалист", spells:true, hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист"]},
-        {id: "necromancer", title: "Некромант", spells:true, hd:-1, ab:2, arts: ["+1 Некромант", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант"]},
+        {id: "mage", title: "Кверанский арканист", spells:true, hd:-1, ab:2, arts: ["+2 Арканист", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист"], foci:"Кверанский арканист"},
+        {id: "elementalist", title: "Элементалист", spells:true, hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист"], foci:"Элементалист"},
+        {id: "necromancer", title: "Некромант", spells:true, hd:-1, ab:2, arts: ["+1 Некромант", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант"], foci:"Некромант"},
         //
         {id: "partial-warrior", partial:true, title: "Воин", hd:2, ab:10, minAb:7, foci:"+1 Warrior Focus"},
         {id: "partial-expert", partial:true, title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Quick Learner"},
-        {id: "partial-mage", partial:true, spells:true, title: "Кверанский арканист", hd:-1, ab:2, arts: ["+1 Арканист", "+1 Арканист", "+1 Арканист", "", "", "+1 Арканист", "", "", "+1 Арканист", ""]},
-        {id: "partial-necromancer", partial:true, spells:true, title: "Некромант", hd:-1, ab:2, arts: ["+1 Некромант", "", "+1 Некромант", "", "", "+1 Некромант", "", "", "+1 Некромант", ""]},
-        {id: "partial-elementalist", partial:true, spells:true, title: "Элементалист", hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "", "+1 Элементалист", "", "", "+1 Элементалист", "", "", "+1 Элементалист", ""]},
-        {id: "partial-accursed", partial:true, title: "Проклятый", hd:-1, ab:2, arts: ["Accursed Blade или Accurded Bolt, +1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "+1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "" ,"+1 Проклятый"]},
-        {id: "partial-beast", partial:true, title: "Зверь", hd:0, ab:5, arts: ["Martial Style, Unarmed Might, Unarmed Defense, +1 Зверь", "+1 Зверь", "", "+1 Зверь", "+1 Зверь", "+1 Зверь", "", "+1 Зверь", "" ,"+1 Зверь"]},
-        {id: "partial-duelist", partial:true, title: "Дуэлянт", hd:-1, ab:5, arts: ["+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "" ,"+1 Дуэлянт"]},
-        {id: "partial-empath", partial:true, title: "Эмпат", hd:0, ab:5, arts: ["+1 Эмпат", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат"]},
-        {id: "partial-priest", partial:true, title: "Жрец", hd:-1, ab:2, arts: ["+1 Жрец", "+1 Жрец", "", "+1 Жрец", "+1 Жрец", "+1 Жрец", "", "+1 Жрец", "" ,"+1 Жрец"]},
-        {id: "partial-rune-guardian", partial:true, title: "Рунный защитник", hd:0, ab:10, minAb:7},
-        {id: "partial-wise", partial:true, title: "Ведун", hd:0, ab:5, arts: ["+1 Ведун", "+1 Ведун", "", "+1 Ведун", "+1 Ведун", "+1 Ведун", "", "+1 Ведун", "" ,"+1 Ведун"]},
+        {id: "partial-mage", partial:true, spells:true, title: "Кверанский арканист", hd:-1, ab:2, arts: ["+1 Арканист", "+1 Арканист", "+1 Арканист", "", "", "+1 Арканист", "", "", "+1 Арканист", ""], foci:"Кверанский арканист"},
+        {id: "partial-necromancer", partial:true, spells:true, title: "Некромант", hd:-1, ab:2, arts: ["+1 Некромант", "", "+1 Некромант", "", "", "+1 Некромант", "", "", "+1 Некромант", ""], foci:"Некромант"},
+        {id: "partial-elementalist", partial:true, spells:true, title: "Элементалист", hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "", "+1 Элементалист", "", "", "+1 Элементалист", "", "", "+1 Элементалист", ""], foci:"Элементалист"},
+        {id: "partial-accursed", partial:true, title: "Проклятый", hd:-1, ab:2, arts: ["Accursed Blade или Accurded Bolt, +1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "+1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "" ,"+1 Проклятый"], foci:"Проклятый"},
+        {id: "partial-beast", partial:true, title: "Зверь", hd:0, ab:5, arts: ["Martial Style, Unarmed Might, Unarmed Defense, +1 Зверь", "+1 Зверь", "", "+1 Зверь", "+1 Зверь", "+1 Зверь", "", "+1 Зверь", "" ,"+1 Зверь"], foci:"Зверь"},
+        {id: "partial-duelist", partial:true, title: "Дуэлянт", hd:-1, ab:5, arts: ["+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "" ,"+1 Дуэлянт"], foci:"Дуэлянт"},
+        {id: "partial-empath", partial:true, title: "Эмпат", hd:0, ab:5, arts: ["+1 Эмпат", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат"], foci:"Эмпат"},
+        {id: "partial-priest", partial:true, title: "Жрец", hd:-1, ab:2, arts: ["+1 Жрец", "+1 Жрец", "", "+1 Жрец", "+1 Жрец", "+1 Жрец", "", "+1 Жрец", "" ,"+1 Жрец"], foci:"+1 God's focus"},
+        {id: "partial-rune-guardian", partial:true, title: "Рунный защитник", hd:0, ab:10, minAb:7, foci:"Рунный защитник"},
+        {id: "partial-wise", partial:true, title: "Ведун", hd:0, ab:5, arts: ["+1 Ведун", "+1 Ведун", "", "+1 Ведун", "+1 Ведун", "+1 Ведун", "", "+1 Ведун", "" ,"+1 Ведун"], foci:"Ведун"},
     ]
     import { ref, watch } from 'vue'
     //const races = require('./classes/races.json')
@@ -209,7 +209,7 @@
                     <td>{{ index }}d6{{ calcHd(picked1, picked2) == 0 ? '' : ((calcHd(picked1, picked2) > 0 ? '+' : '') + (index * calcHd(picked1, picked2))) }}</td>
                     <td>+{{ Math.floor(calcAb(picked1, picked2) * index / 10) }}</td>
                     <td>
-                        <span v-if="index == 1">Race Focus, </span>
+                        <span v-if="index == 1">Race Focus, {{picked1.foci}}{{picked1.foci.length>0?', ':''}}<span v-if="picked1.partial">{{picked2.foci}}{{picked2.foci.length>0?', ':''}}</span></span>
                         <span v-if="index == 1 || index == 2 || index == 5 || index == 7 || index == 10">+1 Any</span>
                     </td>
                     <td v-if="!!picked1.arts || !!picked2?.arts"><span>{{ calcArts(index, picked1, picked2) }}</span></td>
