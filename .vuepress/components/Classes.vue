@@ -13,15 +13,15 @@
         {id: "gnome", forcedClass: ["elementalist", "partial-elementalist"], classes: ["elementalist", "partial-warrior", "partial-expert", "partial-duelist"]},
     ];
     const classes = [
-        {id: "warrior", title: "Воин", hd:2, ab:10, foci:"+1 Warrior Focus, Killing Blow, Veteran's Luck"},
-        {id: "expert", title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Masterful Expertise, Quick Learner"},
-        {id: "mage", title: "Кверанский арканист", spells:true, hd:-1, ab:2, arts: ["+2 Арканист", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист"], foci:"Кверанский арканист"},
+        {id: "warrior", title: "Воин", hd:2, ab:10, foci:"+1 Warrior Focus, Killing Blow, Veteran's Luck", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/warrior.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
+        {id: "expert", title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Masterful Expertise, Quick Learner", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/expert.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
+        {id: "mage", title: "Кверанский арканист", spells:true, hd:-1, ab:2, arts: ["+2 Арканист", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист"], foci:"Кверанский арканист", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/mage.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
         {id: "elementalist", title: "Элементалист", spells:true, hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист"], foci:"Элементалист"},
         {id: "necromancer", title: "Некромант", spells:true, hd:-1, ab:2, arts: ["+1 Некромант", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант"], foci:"Некромант"},
         //
-        {id: "partial-warrior", partial:true, title: "Воин", hd:2, ab:10, minAb:7, foci:"+1 Warrior Focus"},
-        {id: "partial-expert", partial:true, title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Quick Learner"},
-        {id: "partial-mage", partial:true, spells:true, title: "Кверанский арканист", hd:-1, ab:2, arts: ["+1 Арканист", "+1 Арканист", "+1 Арканист", "", "", "+1 Арканист", "", "", "+1 Арканист", ""], foci:"Кверанский арканист"},
+        {id: "partial-warrior", partial:true, title: "Воин", hd:2, ab:10, minAb:7, foci:"+1 Warrior Focus", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/warrior.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
+        {id: "partial-expert", partial:true, title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Quick Learner", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/expert.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
+        {id: "partial-mage", partial:true, spells:true, title: "Кверанский арканист", hd:-1, ab:2, arts: ["+1 Арканист", "+1 Арканист", "+1 Арканист", "", "", "+1 Арканист", "", "", "+1 Арканист", ""], foci:"Кверанский арканист", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/mage.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
         {id: "partial-necromancer", partial:true, spells:true, title: "Некромант", hd:-1, ab:2, arts: ["+1 Некромант", "", "+1 Некромант", "", "", "+1 Некромант", "", "", "+1 Некромант", ""], foci:"Некромант"},
         {id: "partial-elementalist", partial:true, spells:true, title: "Элементалист", hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "", "+1 Элементалист", "", "", "+1 Элементалист", "", "", "+1 Элементалист", ""], foci:"Элементалист"},
         {id: "partial-accursed", partial:true, title: "Проклятый", hd:-1, ab:2, arts: ["Accursed Blade или Accurded Bolt, +1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "+1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "" ,"+1 Проклятый"], foci:"Проклятый"},
@@ -185,11 +185,11 @@
     </div>
     <div v-if="!!picked1 && showClass(picked1, picked2)">
         <h3>{{picked1.title}}</h3>
-        описание
+        <div v-html="picked1.description"></div>
     </div>
     <div v-if="!!picked2 && picked1.partial && showClass(picked1, picked2)">
         <h3>{{picked2.title}}</h3>
-        описание
+        <div v-html="picked2.description"></div>
     </div>
     <div v-if="showClass(picked1, picked2)">
         <h3>{{picked1.title}}{{picked1.partial&&!!picked2?"/"+picked2.title:""}} class table</h3>
@@ -264,4 +264,15 @@ li label {
 .highlighted-skill {
     color: #C05D32
 }
+
+.class-img {
+  width: 300px;
+}
+
+@media only screen and (max-width: 550px) {
+  .class-img {
+    width: 100%;
+  }
+}
+
 </style>
