@@ -6,7 +6,7 @@
         "name":"Человек", 
         "suboptions": [{
                 "id":"niziel",
-                "name":"Нитолец",
+                "name":"Нитольцы",
                 "foci": "+1 Expert",
                 "description":`
                     <h3>Люди</h3>
@@ -18,7 +18,7 @@
                 `,
             }, {
                 "id":"ferori",
-                "name":"Саролец",
+                "name":"Ферори",
                 "foci": "+1 Expert",
                 "description":`
                     <h3>Люди</h3>
@@ -30,7 +30,7 @@
                 `,
             }, {
                 "id":"nerland",
-                "name":"Нерландец",
+                "name":"Нерланы",
                 "foci": "+1 Expert",
                 "description":`
                     <h3>Люди</h3>
@@ -42,7 +42,7 @@
                 `,
            }, {
                 "id":"half-orc",
-                "name":"Полуорк",
+                "name":"Полуорки",
                 "foci": "+1 Expert",
                 "description":`
                     <h3>Люди</h3>
@@ -54,12 +54,12 @@
                 `,
             }, {
                 "id":"half-elf",
-                "name":"Полуэльф",
+                "name":"Полуэльфы",
                 "foci": "+1 Expert",
             }],
     }, {
         "id":"halfling",
-        "name":"Полурослик",
+        "name":"Полурослики",
         "foci": "Halfling Focus",
         "description":`
             <h3 id="полурослики" tabindex="-1"><a class="header-anchor" href="#полурослики"><span>Полурослики</span></a></h3>
@@ -69,7 +69,7 @@
         `,
     }, {
         "id":"dwarf",
-        "name":"Дварф",
+        "name":"Дварфы",
         "foci": "Dwarven Focus",
         "suboptions": [{
             "id":"dwarf",
@@ -96,7 +96,7 @@
         }],
     }, {
         "id":"rat",
-        "name":"Крысолюд",
+        "name":"Крысолюды",
         "foci": "Ratman Focus",
         "description":`
             <h3 id="солтес" tabindex="-1"><a class="header-anchor" href="#солтес"><span>Солтес</span></a></h3>
@@ -106,7 +106,7 @@
         `,
     }, {
         "id":"lizard",
-        "name":"Ящер",
+        "name":"Ящеры",
         "foci": "Lizardfolk Focus",
         "description":`
             <h3 id="скальцы" tabindex="-1"><a class="header-anchor" href="#скальцы"><span>Скальцы</span></a></h3>
@@ -116,7 +116,7 @@
         `,
     }, {
         "id":"gnome",
-        "name":"Гном",
+        "name":"Гномы",
         "foci": "Gnome Focus",
         "description":`
             <h3 id="гномы" tabindex="-1"><a class="header-anchor" href="#гномы"><span>Гномы</span></a></h3>

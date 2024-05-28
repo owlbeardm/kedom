@@ -13,14 +13,14 @@
         {id: "gnome", forcedClass: ["elementalist", "partial-elementalist"], classes: ["elementalist", "partial-warrior", "partial-expert", "partial-duelist"]},
     ];
     const classes = [
-        {id: "warrior", title: "Воин", hd:2, ab:10},
-        {id: "expert", title: "Эксперт", hd:0, ab:5},
+        {id: "warrior", title: "Воин", hd:2, ab:10, foci:"+1 Warrior Focus, Killing Blow, Veteran's Luck"},
+        {id: "expert", title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Masterful Expertise, Quick Learner"},
         {id: "mage", title: "Кверанский арканист", spells:true, hd:-1, ab:2, arts: ["+2 Арканист", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист"]},
         {id: "elementalist", title: "Элементалист", spells:true, hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист", "", "+1 Элементалист"]},
         {id: "necromancer", title: "Некромант", spells:true, hd:-1, ab:2, arts: ["+1 Некромант", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант"]},
         //
-        {id: "partial-warrior", partial:true, title: "Воин", hd:2, ab:10, minAb:7},
-        {id: "partial-expert", partial:true, title: "Эксперт", hd:0, ab:5},
+        {id: "partial-warrior", partial:true, title: "Воин", hd:2, ab:10, minAb:7, foci:"+1 Warrior Focus"},
+        {id: "partial-expert", partial:true, title: "Эксперт", hd:0, ab:5, foci:"+1 Expert Focus, Quick Learner"},
         {id: "partial-mage", partial:true, spells:true, title: "Кверанский арканист", hd:-1, ab:2, arts: ["+1 Арканист", "+1 Арканист", "+1 Арканист", "", "", "+1 Арканист", "", "", "+1 Арканист", ""]},
         {id: "partial-necromancer", partial:true, spells:true, title: "Некромант", hd:-1, ab:2, arts: ["+1 Некромант", "", "+1 Некромант", "", "", "+1 Некромант", "", "", "+1 Некромант", ""]},
         {id: "partial-elementalist", partial:true, spells:true, title: "Элементалист", hd:-1, ab:2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "", "+1 Элементалист", "", "", "+1 Элементалист", "", "", "+1 Элементалист", ""]},
