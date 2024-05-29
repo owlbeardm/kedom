@@ -27,10 +27,10 @@
         {id: "partial-accursed", partial:true, title: "Проклятый", hd:-1, ab:2, arts: ["Accursed Blade или Accurded Bolt, +1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "+1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "" ,"+1 Проклятый"], foci:"Проклятый"},
         {id: "partial-beast", partial:true, title: "Зверь", hd:0, ab:5, arts: ["Martial Style, Unarmed Might, Unarmed Defense, +1 Зверь", "+1 Зверь", "", "+1 Зверь", "+1 Зверь", "+1 Зверь", "", "+1 Зверь", "" ,"+1 Зверь"], foci:"Зверь"},
         {id: "partial-duelist", partial:true, title: "Дуэлянт", hd:-1, ab:5, arts: ["+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "" ,"+1 Дуэлянт"], foci:"Дуэлянт"},
-        {id: "partial-empath", partial:true, title: "Эмпат", hd:0, ab:5, arts: ["+1 Эмпат", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат"], foci:"Эмпат"},
+        {id: "partial-empath", partial:true, title: "Эмпат", hd:0, ab:5, arts: ["+1 Эмпат", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат"], foci:"Эмпат", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/empath.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
         {id: "partial-priest", partial:true, title: "Жрец", hd:-1, ab:2, arts: ["+1 Жрец", "+1 Жрец", "", "+1 Жрец", "+1 Жрец", "+1 Жрец", "", "+1 Жрец", "" ,"+1 Жрец"], foci:"+1 God's focus"},
         {id: "partial-rune-guardian", partial:true, title: "Рунный защитник", hd:0, ab:10, minAb:7, foci:"Рунный защитник"},
-        {id: "partial-wise", partial:true, title: "Ведун", hd:0, ab:5, arts: ["+1 Ведун", "+1 Ведун", "", "+1 Ведун", "+1 Ведун", "+1 Ведун", "", "+1 Ведун", "" ,"+1 Ведун"], foci:"Ведун"},
+        {id: "partial-wise", partial:true, title: "Ведун", hd:0, ab:5, arts: ["+1 Ведун", "+1 Ведун", "", "+1 Ведун", "+1 Ведун", "+1 Ведун", "", "+1 Ведун", "" ,"+1 Ведун"], foci:"Ведун", description: `<div class="div-with-image"><img alt="warrior" src="/img/class/wise.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;"></div>`},
     ]
     import { ref, watch } from 'vue'
     //const races = require('./classes/races.json')
@@ -146,7 +146,7 @@
 <template>
     <h2>Class</h2>
     <div v-if="nonClasses.length>0"> He хватает описания классов: {{ nonClasses }}</div>
-    <div class="container">
+    <div class="flex-container">
         <div v-if="!classList.length">
             Нет классов для выбранной культуры {{ race }}.
         </div>
@@ -249,10 +249,6 @@
 
 li label {
     margin-left: 4px;
-}
-
-.container {
-    display: flex;
 }
 
 .list {

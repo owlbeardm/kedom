@@ -214,7 +214,7 @@
 
 <template>
     <h2>Background</h2>
-    <div class="container">
+    <div class="flex-container">
         <div v-if="!back">
             Нет бэкграундов для выбранной культуры {{ race }}.
         </div>
@@ -232,7 +232,7 @@
                 <div>
                     <h3>{{ picked.title }}</h3>
                     <p>{{ picked.description }}</p>
-                    <div class="container">
+                    <div class="flex-container">
                         <div class="skill-panel">
                             <h4>Free Skill</h4>
                             <p>Gain a free skill:</p>
@@ -265,10 +265,6 @@
 
 li label {
     margin-left: 4px;
-}
-
-.container {
-    display: flex;
 }
 
 .list {

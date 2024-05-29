@@ -133,7 +133,7 @@
 
 <template>
     <h2>Выбор расы и культуры</h2>
-    <div class="race-container">        
+    <div class="flex-container">        
         <div class="race-list">
             <ul class="ul-empty">
                 <li v-for="race in races" :key="race.id">
@@ -163,10 +163,6 @@
 
 li label {
     margin-left: 4px;
-}
-
-.race-container {
-    display: flex;
 }
 
 .race-list {
