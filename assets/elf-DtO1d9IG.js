@@ -1,1 +1,0 @@
-const s="/img/ancestry/nithel.png",n="/img/ancestry/dwarf1.png",t="/img/ancestry/halfling.png",a="/img/ancestry/gnome.png",i="/img/ancestry/lizard.png",r="/img/ancestry/elf.png";export{s as _,n as a,t as b,a as c,i as d,r as e};

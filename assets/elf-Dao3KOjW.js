@@ -1,0 +1,1 @@
+const s="/img/ancestry/nithel.webp",t="/img/ancestry/dwarf1.webp",a="/img/ancestry/halfling.webp",e="/img/ancestry/gnome.webp",n="/img/ancestry/lizard.webp",i="/img/ancestry/elf.png";export{s as _,t as a,a as b,e as c,n as d,i as e};
