@@ -56,6 +56,14 @@
                 "id":"half-elf",
                 "name":"Полуэльфы",
                 "foci": "+1 Expert",
+                "description":`
+                    <h3>Люди</h3>
+                    <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
+                    <h4>Полуэльф</h4>
+                    <div class="div-with-image"><img alt="Полуэльф" src="/img/ancestry/half-elf.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"></div>
+                    <h3>Foci</h3>
+                    <p>Люди получают дополниетльный Expert Focus.</p>
+                `,
             }],
     }, {
         "id":"halfling",
