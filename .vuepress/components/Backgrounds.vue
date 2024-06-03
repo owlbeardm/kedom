@@ -17,7 +17,11 @@
             { title: "Ученик", description: ``, freeSkill: "know", quickSkills: ["heal", "administer"], allSkills: ["administer", "heal", "craft", "know", "notice", "perform", "pray", "convince"] },
             { title: "Солдат", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
             { title: "Бандит", description: ``, freeSkill: "any combat", quickSkills: ["convince", "connect"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Беспризорник", description: ``, freeSkill: "sneak", quickSkills: ["survive", "notice"], allSkills: ["any combat", "connect", "exert", "notice", "perform", "sneak", "survive", "work"] },
+            { title: "Попрошайка", description: ``, freeSkill: "convince", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "exert", "notice", "perform", "sneak", "survive", "trade"] },
+            { title: "Дуэлянт", description: ``, freeSkill: "any combat", quickSkills: ["notice", "perform"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "heal", "notice", "perform"] },
+            { title: "Лавочник", description: ``, freeSkill: "trade", quickSkills: ["convince", "work"], allSkills: ["administer", "connect", "convince", "craft", "know", "notice", "trade", "work"] },
        ],
        ferori: [
             { title: "Технарь", description: ``, freeSkill: "craft", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"] },
@@ -34,7 +38,7 @@
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
             { title: "Солдат", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
             { title: "Зверь", description: ``, freeSkill: "any combat", quickSkills: ["convince", "exert"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Исследователь", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Исследователь", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        nerland: [
             { title: "Кузнец", description: ``, freeSkill: "craft", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"] },
@@ -53,7 +57,7 @@
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
             { title: "Наемник", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
             { title: "Бандит", description: ``, freeSkill: "any combat", quickSkills: ["convince", "connect"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        "half-orc": [
             { title: "Варвар", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
@@ -71,7 +75,7 @@
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
             { title: "Наемник", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
             { title: "Головорез", description: ``, freeSkill: "any combat", quickSkills: ["convince", "connect"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        "half-elf": [
             { title: "Дикарь", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
@@ -91,7 +95,7 @@
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
             { title: "Наемник", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
             { title: "Головорез", description: ``, freeSkill: "any combat", quickSkills: ["convince", "connect"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        halfling: [
             { title: "Всадник", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
@@ -108,7 +112,7 @@
             { title: "Моряк", description: ``, freeSkill: "sail", quickSkills: ["exert", "notice"], allSkills: ["any combat", "connect", "craft", "exert", "heal", "notice", "perform", "sail"] },
             { title: "Подмастерье", description: ``, freeSkill: "know", quickSkills: ["heal", "administer"], allSkills: ["administer", "heal", "craft", "know", "notice", "perform", "pray", "convince"] },
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
-            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        dwarf: [
             { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
@@ -122,7 +126,7 @@
             { title: "Писарь", description: ``, freeSkill: "know", quickSkills: ["heal", "administer"], allSkills: ["administer", "heal", "craft", "know", "notice", "perform", "pray", "convince"] },
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
             { title: "Зверь", description: ``, freeSkill: "any combat", quickSkills: ["convince", "exert"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        "dwarf-long": [
             { title: "Возчик", description: ``, freeSkill: "ride", quickSkills: ["connect", "any combat"], allSkills: ["any combat", "connect", "craft", "exert", "notice", "ride", "survive", "trade"] },
@@ -136,7 +140,7 @@
             { title: "Писарь", description: ``, freeSkill: "know", quickSkills: ["heal", "administer"], allSkills: ["administer", "heal", "craft", "know", "notice", "perform", "pray", "convince"] },
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
             { title: "Зверь", description: ``, freeSkill: "any combat", quickSkills: ["convince", "exert"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Путешественник", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        rat: [
             { title: "Технарь", description: ``, freeSkill: "craft", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"] },
@@ -168,7 +172,7 @@
             { title: "Наемник", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
             { title: "Послушник", description: ``, freeSkill: "know", quickSkills: ["heal", "administer"], allSkills: ["administer", "heal", "craft", "know", "notice", "perform", "pray", "convince"] },
             { title: "Зверь", description: ``, freeSkill: "any combat", quickSkills: ["convince", "exert"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
-            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
        gnome: [
             { title: "Отшельник", description: ``, freeSkill: "survive", quickSkills: ["any combat", "notice"], allSkills: ["any combat", "connect", "exert", "lead", "notice", "punch", "sneak", "survive"] },
@@ -181,7 +185,7 @@
             { title: "Подмастерье", description: ``, freeSkill: "know", quickSkills: ["heal", "administer"], allSkills: ["administer", "heal", "craft", "know", "notice", "perform", "pray", "convince"] },
             { title: "Раб", description: ``, freeSkill: "sneak", quickSkills: ["survive", "exert"], allSkills: ["administer", "any combat", "any skill", "convince", "exert", "sneak", "survive", "work"] },
             { title: "Наемник", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
-            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "conenct", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Изгой", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
        ],
     }
     import { ref, watch } from 'vue'
