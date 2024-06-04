@@ -39,6 +39,11 @@
             { title: "Солдат", description: ``, freeSkill: "any combat", quickSkills: ["exert", "survive"], allSkills: ["any combat", "any combat", "exert", "lead", "notice", "ride", "sneak", "survive"] },
             { title: "Зверь", description: ``, freeSkill: "any combat", quickSkills: ["convince", "exert"], allSkills: ["any combat", "any combat", "connect", "convince", "exert", "notice", "sneak", "survive"] },
             { title: "Исследователь", description: ``, freeSkill: "survive", quickSkills: ["sneak", "notice"], allSkills: ["any combat", "connect", "notice", "perform", "ride", "sneak", "survive", "work"] },
+            { title: "Шпион", description: ``, freeSkill: "notice", quickSkills: ["sneak", "convince"], allSkills: ["any combat", "connect", "convince", "know", "notice", "perform", "ride", "sneak"] },
+            { title: "Писарь", description: ``, freeSkill: "administer", quickSkills: ["know", "craft"], allSkills: ["administer", "craft", "exert", "know", "notice", "perform", "trade", "work"] },
+            { title: "Городской стражник", description: ``, freeSkill: "any combat", quickSkills: ["convince", "lead"], allSkills: ["any combat", "administer", "connect", "convince", "exert", "lead", "notice", "work"] },
+            { title: "Слуга", description: ``, freeSkill: "work", quickSkills: ["connect", "administer"], allSkills: ["administer", "connect", "craft", "heal", "lead", "notice", "trade", "work"] },
+            { title: "Разведчик", description: ``, freeSkill: "notice", quickSkills: ["ride", "survive"], allSkills: ["any combat", "connect", "exert", "heal", "know", "notice", "ride", "survive"] },
        ],
        nerland: [
             { title: "Кузнец", description: ``, freeSkill: "craft", quickSkills: ["trade", "connect"], allSkills: ["connect", "convince", "craft", "craft", "exert", "know", "notice", "trade"] },
