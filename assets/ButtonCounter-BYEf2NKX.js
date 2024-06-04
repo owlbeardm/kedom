@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as e,c as n,t as r}from"./app-ObJ1xi7v.js";const s={__name:"ButtonCounter",setup(a){return(t,u)=>(e(),n("span",null,r(t.races),1))}},p=o(s,[["__file","ButtonCounter.vue"]]);export{p as default};
