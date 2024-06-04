@@ -169,13 +169,13 @@ console.log("Races reduce: " + races.reduce((prev, cur, idx, array) => {
             <p>Roll 1D20 or choose:</p>
             <ul class="ul-empty">
                 <li v-for="race in races" :key="race.id">
-                    <span v-if="!race.suboptions"><b>{{ race.minRoll }}-{{ race.maxRoll }}</b></span>
+                    <span v-if="!race.suboptions" class="toRoll"><b>{{ race.minRoll }}-{{ race.maxRoll }}</b></span>
                     <input type="radio" :id="race.id" :value="race" v-model="picked" v-if="!race.suboptions"
                         @update:model-value="$emit('onrace', picked)" />
                     <label :for="race.id">{{ race.name }}</label>
                     <ul class="ul-empty">
                         <li v-for="option in race.suboptions" :key="option.id">
-                            <span><b>{{ option.minRoll }}-{{ option.maxRoll }}</b></span>
+                            <span class="toRoll"><b>{{ option.minRoll }}-{{ option.maxRoll }}</b></span>
                             <input type="radio" :id="option.id" :value="option" v-model="picked"
                                 @update:model-value="$emit('onrace', picked)" />
                             <label :for="option.id">{{ option.name }}</label>
@@ -192,6 +192,12 @@ console.log("Races reduce: " + races.reduce((prev, cur, idx, array) => {
 </template>
 
 <style>
+.toRoll {
+    display: inline-block;
+    min-width: 45px;
+    text-align: end;
+}
+
 .ul-empty {
     list-style-type: none;
     padding-inline-start: 16px !important;
