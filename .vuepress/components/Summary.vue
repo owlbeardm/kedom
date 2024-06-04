@@ -49,7 +49,7 @@
         <li v-if="!canShowClass(class1, class2)"><b>Class:</b> <span class="danger">Не выбран класс</span></li>
         <li v-if="canShowClass(class1, class2)"><b>Class:</b> {{class1.title}}<span v-if="class1.partial && !!class2">/{{class2.title}}</span></li>
         <li v-if="!race || !background"><b>Background:</b> <span class="danger">Не выбрана культура и история</span></li>
-        <li v-if="!!race && !!background"><b>Background:</b> {{race.name}} {{background.title}}</li>
+        <li v-if="!!race && !!background"><b>Background:</b> {{background.title}} {{race.name}} </li>
         <li v-if="canShowClass(class1, class2)"><b>Attack Bonus:</b> {{ calcAb(class1, class2)}}</li>
         <li v-if="canShowClass(class1, class2)"><b>Class Hit Dice:</b> 1d6{{ calcHd(class1, class2) == 0 ? '' : ((calcHd(class1, class2) > 0 ? '+' : '') + (calcHd(class1, class2))) }}</li>
         <li v-if="!!background"><b>Skills:</b>

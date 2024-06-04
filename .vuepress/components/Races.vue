@@ -1,14 +1,15 @@
 <script setup>
-    const races = 
-[
-    {
-        "id":"human", 
-        "name":"Человек", 
-        "suboptions": [{
-                "id":"niziel",
-                "name":"Нитольцы",
+const races =
+    [
+        {
+            "id": "human",
+            "name": "Люди",
+            "suboptions": [{
+                "id": "niziel",
+                "toRoll": 3,
+                "name": "Нитолец",
                 "foci": "+1 Expert",
-                "description":`
+                "description": `
                     <h3>Люди</h3>
                     <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
                     <h4 id="нитольцы" tabindex="-1"><a class="header-anchor" href="#нитольцы"><span>Нитольцы</span></a></h4>
@@ -17,10 +18,11 @@
                     <p>Люди получают дополниетльный Expert Focus.</p>
                 `,
             }, {
-                "id":"ferori",
-                "name":"Ферори",
+                "id": "ferori",
+                "toRoll": 2,
+                "name": "Ферори",
                 "foci": "+1 Expert",
-                "description":`
+                "description": `
                     <h3>Люди</h3>
                     <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
                     <h4 id="сарольцы-фероры" tabindex="-1"><a class="header-anchor" href="#сарольцы-фероры"><span>Сарольцы (фероры)</span></a></h4>
@@ -29,10 +31,11 @@
                     <p>Люди получают дополниетльный Expert Focus.</p>
                 `,
             }, {
-                "id":"nerland",
-                "name":"Нерланы",
+                "id": "nerland",
+                "toRoll": 2,
+                "name": "Нерлан",
                 "foci": "+1 Expert",
-                "description":`
+                "description": `
                     <h3>Люди</h3>
                     <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
                     <h4 id="нерланцы" tabindex="-1"><a class="header-anchor" href="#нерланцы"><span>Нерланцы</span></a></h4>
@@ -40,23 +43,12 @@
                     <h3>Foci</h3>
                     <p>Люди получают дополниетльный Expert Focus.</p>
                 `,
-           }, {
-                "id":"half-orc",
-                "name":"Полуорки",
-                "foci": "+1 Expert",
-                "description":`
-                    <h3>Люди</h3>
-                    <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
-                    <h4>Полуорк</h4>
-                    <div class="div-with-image"><img alt="Полуорк" src="/img/ancestry/half-orc.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"></div>
-                    <h3>Foci</h3>
-                    <p>Люди получают дополниетльный Expert Focus.</p>
-                `,
             }, {
-                "id":"half-elf",
-                "name":"Полуэльфы",
+                "id": "half-elf",
+                "toRoll": 2,
+                "name": "Полуэльф",
                 "foci": "+1 Expert",
-                "description":`
+                "description": `
                     <h3>Люди</h3>
                     <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
                     <h4>Полуэльф</h4>
@@ -64,96 +56,132 @@
                     <h3>Foci</h3>
                     <p>Люди получают дополниетльный Expert Focus.</p>
                 `,
+            }, {
+                "id": "half-orc",
+                "toRoll": 1,
+                "name": "Полуорк",
+                "foci": "+1 Expert",
+                "description": `
+                    <h3>Люди</h3>
+                    <p>Из всех цивилизованных народов, люди наиболее привычны. А самые частые из них это <code>нитольцы</code>, <code>сарольцы</code> и <code>нерланцы</code>. Хотя бывает, что встречаются и другие. <em>Спросите у ведущего, если хотите играть за какую нибудь редкую культуру людей.</em></p>
+                    <h4>Полуорк</h4>
+                    <div class="div-with-image"><img alt="Полуорк" src="/img/ancestry/half-orc.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"></div>
+                    <h3>Foci</h3>
+                    <p>Люди получают дополниетльный Expert Focus.</p>
+                `,
             }],
-    }, {
-        "id":"halfling",
-        "name":"Полурослики",
-        "foci": "Halfling Focus",
-        "description":`
-            <h3 id="полурослики" tabindex="-1"><a class="header-anchor" href="#полурослики"><span>Полурослики</span></a></h3>
-            <div class="div-with-image"><img alt="Халфлинги" src="/img/ancestry/halfling.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p>У <code>халфлингов</code> (или <code>полурослики</code>) есть традиция в юности путешествовать по миру. Поэтому их можно встретить по всему побережью внутреннего и южного моря. Где они с возрастом обживаются и оставляют путешествия. Часто их можно встретить в тавернах, пекарнях, рынках. Слабее людей, они восполняют этот недостаток своей удачливостью и мудростью. Со стороны они могут показаться наивными и по-детски доверчивыми, однако на самом деле полурослики довольно наблюдательные и рассудительные.</p><p>От <code>полуросликов</code> ожидают доверчивости, простоты, добродушия. Из-за их размера и характера, многие могут не воспринимать полуросликов в серьёз.</p></div>
-            <h3>Foci</h3>
-            <p><b>Halfling focus</b>: Gain Connect and any one skill as bonus skills. You can see out to thirty feet in any light condition short of perfect darkness. Increase your CON modifier by +1 but then also take a -1 to your STR modifier.</p>
-        `,
-    }, {
-        "id":"dwarf",
-        "name":"Дварфы",
-        "foci": "Dwarven Focus",
-        "suboptions": [{
-            "id":"dwarf",
-            "name":"Дварфские горы",
+        }, {
+            "id": "df",
+            "name": "Дварфы",
             "foci": "Dwarven Focus",
-            "description":`
+            "suboptions": [{
+                "id": "dwarf",
+                "toRoll": 2,
+                "name": "Дварфских гор",
+                "foci": "Dwarven Focus",
+                "description": `
                     <h3 id="дварфы" tabindex="-1"><a class="header-anchor" href="#дварфы"><span>Дварфы</span></a></h3>
                     <h4 id="дварфские-горы" tabindex="-1"><a class="header-anchor" href="#дварфские-горы"><span>Дварфские горы</span></a></h4>
                     <div class="div-with-image"><img alt="Дварфы" src="/img/ancestry/dwarf1.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p>Дварфские горы отгораживают нерланцев от нитольцев. И местные <code>дварфы</code> торгуют и общаются с обоими народами. Встречаются эти дварфы и в Селании. Социально активные, они часто создают торговые или производственные гильдии. Перевозят инструменты или металлические руды.</p><p>От <code>западных дварфов</code> ожидают твёрдости слова, педантичности, расчётливости, гордости, самолюбия, надменности. И, как и для всех дварфов, для них большая честь, быть полезным своему клану.</p></div>
                     <h3>Foci</h3>
                     <p><b>Dwarven focus</b>:<br/>Level 1: Gain Exert as a bonus skill. You have a natural resistance to magic, gaining a +2 bonus on all saves against hostile magical effects. You need only half the usual amount of food, water, and air and gain a +1 CON modifier.<br/>Level 2: You have such a deep connection with your dwarven nature that once per day, as an Instant action, you can simply negate an unwanted magical effect that would otherwise affect you.</p>
             `,
-        }, {
-            "id":"dwarf-long",
-            "name":"Длинные горы",
-            "foci": "Dwarven Focus",
-            "description":`
+            }, {
+                "id": "dwarf-long",
+                "toRoll": 1,
+                "name": "Длинных гор",
+                "foci": "Dwarven Focus",
+                "description": `
                     <h3 id="дварфы" tabindex="-1"><a class="header-anchor" href="#дварфы"><span>Дварфы</span></a></h3>
                     <h4 id="длинные-горы" tabindex="-1"><a class="header-anchor" href="#длинные-горы"><span>Длинные горы</span></a></h4>
                     <div class="div-with-image"><img alt="Дварфы" src="/img/ancestry/dwarf2.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p>Вторая половина дварфской цивилизации — <code>дварфы дальних гор</code> — расположена севернее Селании за дикими лесами. Разделение произошло из-за какой-то прошлой катастрофы и теперь это часть сильно отличается от другой. Опасность региона, войны с зеленокожими, отсутствие культуры торговли и политических связей с людьми сделало северных дварфов более резкими во всех аспектах характера. Мало кто видел северного дварфа без доспехов или оружия, готового к использованию. Сильные и выносливые они страдают от недостатка харизмы, отталкивая других от себя.</p><p>От <code>северных дварфов</code> ожидают твёрдости слова, педантичности, скупости, вспыльчивости, ксенофобии. И, как и все дварфы, они очень дорожат связями со своим кланом.</p></div>
                     <h3>Foci</h3>
                     <p><b>Dwarven focus</b>:<br/>Level 1: Gain Exert as a bonus skill. You have a natural resistance to magic, gaining a +2 bonus on all saves against hostile magical effects. You need only half the usual amount of food, water, and air and gain a +1 CON modifier.<br/>Level 2: You have such a deep connection with your dwarven nature that once per day, as an Instant action, you can simply negate an unwanted magical effect that would otherwise affect you.</p>
             `,
-        }],
-    }, {
-        "id":"rat",
-        "name":"Крысолюды",
-        "foci": "Ratman Focus",
-        "description":`
+            }],
+        }, {
+            "id": "rat",
+            "toRoll": 3,
+            "name": "Крысолюд",
+            "foci": "Ratman Focus",
+            "description": `
             <h3 id="солтес" tabindex="-1"><a class="header-anchor" href="#солтес"><span>Солтес</span></a></h3>
             <div class="div-with-image"><img alt="Чульти" src="/img/ancestry/rat.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p>Крысолюды, или <code>солти</code> встречаются во всех крупных селанских городах. Меньшие чем люди, они быстро заполняют целые кварталы, в которых, после этого, стараются не появляться представители других происхождений. Крысолюды часто терпят пренебрежительное отношение. Однако они обладают живым умом, тягой к знаниям и экспериментам. И хоть многие из них предпочитают жизнь в тесных общинах, бывают и те, кто желает вырваться из тесных объятий своего народа.</p><p>От других их отличает выразительная внешность, размер. Количество мелких вещей и инструментов, которые они часто таскают с собой.</p><p>От солти ожидают суетни, навязчивости, смекалки, игнорирования некоторых человеческих социальных норм.</p></div>
             <h3>Foci</h3>
             <p><b>Ratfolk focus</b>: Gain Sneak as a bonus skill. Your Constitution and Dexterity modifier increases by +1. You are too small to effectively use two-handed melee weapons or large bows.</p>
         `,
-    }, {
-        "id":"lizard",
-        "name":"Ящеры",
-        "foci": "Lizardfolk Focus",
-        "description":`
+        }, {
+            "id": "lizard",
+            "toRoll": 2,
+            "name": "Ящер",
+            "foci": "Lizardfolk Focus",
+            "description": `
             <h3 id="скальцы" tabindex="-1"><a class="header-anchor" href="#скальцы"><span>Скальцы</span></a></h3>
             <div class="div-with-image"><img alt="Ящеролюды" src="/img/ancestry/lizard.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p><code>Скальцы</code> (ящеролюды) встречаются в прибрежной Селании, чаще ближе к западу. Родом из далёких земель по ту сторону двух морей, они не так часто встречаются тут. Частично из-за этого местные обитатели испытывают недоверие и иногда даже страх перед ними. Их лишённые человеческой мимики лица вносят в это немалый вклад. Общество ящеров довольно разнообразно, но в Селании чаще других оказываются путешественники, охранники и моряки. Из-за этого у местных есть представление об их свирепости и силе.</p><p>От <code>ящеролюдов</code> ожидают свирепости, силы, холодности, невыразительности эмоций.</p></div>
             <h3>Foci</h3>
             <p><b>Lizardfolk focus</b>: Gain Punch and Survive as bonus skills. Your Strength or Charisma modifier increases by +1, but your Dexterity or Charisma modifier decreases by -1. Your unarmored Armor Class is 13, and if you wear better armor you get a +1 bonus to its AC.</p>
         `,
-    }, {
-        "id":"gnome",
-        "name":"Гномы",
-        "foci": "Gnome Focus",
-        "description":`
+        }, {
+            "id": "halfling",
+            "toRoll": 1,
+            "name": "Полурослик",
+            "foci": "Halfling Focus",
+            "description": `
+            <h3 id="полурослики" tabindex="-1"><a class="header-anchor" href="#полурослики"><span>Полурослики</span></a></h3>
+            <div class="div-with-image"><img alt="Халфлинги" src="/img/ancestry/halfling.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p>У <code>халфлингов</code> (или <code>полурослики</code>) есть традиция в юности путешествовать по миру. Поэтому их можно встретить по всему побережью внутреннего и южного моря. Где они с возрастом обживаются и оставляют путешествия. Часто их можно встретить в тавернах, пекарнях, рынках. Слабее людей, они восполняют этот недостаток своей удачливостью и мудростью. Со стороны они могут показаться наивными и по-детски доверчивыми, однако на самом деле полурослики довольно наблюдательные и рассудительные.</p><p>От <code>полуросликов</code> ожидают доверчивости, простоты, добродушия. Из-за их размера и характера, многие могут не воспринимать полуросликов в серьёз.</p></div>
+            <h3>Foci</h3>
+            <p><b>Halfling focus</b>: Gain Connect and any one skill as bonus skills. You can see out to thirty feet in any light condition short of perfect darkness. Increase your CON modifier by +1 but then also take a -1 to your STR modifier.</p>
+        `,
+        }, {
+            "id": "gnome",
+            "toRoll": 1,
+            "name": "Гном",
+            "foci": "Gnome Focus",
+            "description": `
             <h3 id="гномы" tabindex="-1"><a class="header-anchor" href="#гномы"><span>Гномы</span></a></h3>
             <div class="div-with-image"><img alt="Гномы" src="/img/ancestry/gnome.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p><code>Гномы</code> встречаются в неожиданных местах по всему миру. Много кто относится к ним с недоверием, потому что никто не знает, чего от них можно ожидать. И редкий гном похож на другого гнома. Они мало привязаны к традициям и обществу, гораздо больше их связывает с природой или местностью в которой они родились. В остальном гномы часто слепо следуют своим временным желаниям, быстро теряя или меняя объекты интереса.</p><p>Внешне они меньше халфлингов, с кожей разной расцветки и волосами самых разных форм. Но всегда длиннющими бровями.</p><p>От <code>гномов</code> ожидают непостоянности, опрометчивости, легкомыслия, экспрессивности, бесстрашия.</p></div>
             <h3>Foci</h3>
             <p><b>Gnome focus</b>: Gain Magic and Convince as bonus skills. Your Dexterity or Intelligence modifier increases by +1 and your Constitution modifier decreases by -1. You gain 1 additional art as Elementalist.</p>
         `,
-    },
-]
-    import { ref } from 'vue'
-    //const races = require('./classes/races.json')
-  const picked = ref();
+        },
+    ]
+import { ref } from 'vue'
+//const races = require('./classes/races.json')
+const picked = ref();
+
+console.log("Races reduce: " + races.reduce((prev, cur, idx, array) => {
+    if (!!cur.suboptions) return cur.suboptions.reduce((p, c, i, arr) => {
+        c.minRoll = p + 1;
+        c.maxRoll = p + c.toRoll;
+        return c.toRoll + p;
+    }, prev);
+    cur.minRoll = prev + 1;
+    cur.maxRoll = prev + cur.toRoll;
+    return cur.toRoll + prev;
+}, 0));
+
 </script>
 
 <template>
     <h2>Выбор расы и культуры</h2>
-    <div class="flex-container">        
+    <div class="flex-container">
         <div class="race-list">
+            <p>Roll 1D20 or choose:</p>
             <ul class="ul-empty">
                 <li v-for="race in races" :key="race.id">
-                    <input type="radio" :id="race.id" :value="race" v-model="picked" v-if="!race.suboptions" @update:model-value="$emit('onrace', picked)"/>
+                    <span v-if="!race.suboptions"><b>{{ race.minRoll }}-{{ race.maxRoll }}</b></span>
+                    <input type="radio" :id="race.id" :value="race" v-model="picked" v-if="!race.suboptions"
+                        @update:model-value="$emit('onrace', picked)" />
                     <label :for="race.id">{{ race.name }}</label>
                     <ul class="ul-empty">
                         <li v-for="option in race.suboptions" :key="option.id">
-                            <input type="radio" :id="option.id" :value="option" v-model="picked" @update:model-value="$emit('onrace', picked)"/>
+                            <span><b>{{ option.minRoll }}-{{ option.maxRoll }}</b></span>
+                            <input type="radio" :id="option.id" :value="option" v-model="picked"
+                                @update:model-value="$emit('onrace', picked)" />
                             <label :for="option.id">{{ option.name }}</label>
                         </li>
                     </ul>
-                </li> 
+                </li>
             </ul>
         </div>
         <div v-if="!!picked">
@@ -166,7 +194,7 @@
 <style>
 .ul-empty {
     list-style-type: none;
-    padding-inline-start: 16px!important;
+    padding-inline-start: 16px !important;
 }
 
 li label {
