@@ -119,7 +119,7 @@ const races =
             <h3 id="скальцы" tabindex="-1"><a class="header-anchor" href="#скальцы"><span>Скальцы</span></a></h3>
             <div class="div-with-image"><img alt="Ящеролюды" src="/img/ancestry/lizard.webp" align="right" class="anc-img" photo-swipe="" style="cursor: zoom-in;"><p><code>Скальцы</code> (ящеролюды) встречаются в прибрежной Селании, чаще ближе к западу. Родом из далёких земель по ту сторону двух морей, они не так часто встречаются тут. Частично из-за этого местные обитатели испытывают недоверие и иногда даже страх перед ними. Их лишённые человеческой мимики лица вносят в это немалый вклад. Общество ящеров довольно разнообразно, но в Селании чаще других оказываются путешественники, охранники и моряки. Из-за этого у местных есть представление об их свирепости и силе.</p><p>От <code>ящеролюдов</code> ожидают свирепости, силы, холодности, невыразительности эмоций.</p></div>
             <h3>Foci</h3>
-            <p><b>Lizardfolk focus</b>: Gain Punch and Survive as bonus skills. Your Strength or Charisma modifier increases by +1, but your Dexterity or Charisma modifier decreases by -1. Your unarmored Armor Class is 13, and if you wear better armor you get a +1 bonus to its AC.</p>
+            <p><b>Lizardfolk focus</b>: Gain Punch and Survive as bonus skills. Your Strength or Constitution modifier increases by +1, but your Dexterity or Charisma modifier decreases by -1. Your unarmored Armor Class is 13, and if you wear better armor you get a +1 bonus to its AC.</p>
         `,
         }, {
             "id": "halfling",
