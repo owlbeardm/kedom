@@ -1,3 +1,37 @@
 // you can change config here
-$colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
-  #7f8c8d !default;
+/* layout */
+// navbar
+/* $navbar-height: 3.75rem !default; */
+/* $navbar-horizontal-padding: 1.5rem !default; */
+/* $navbar-vertical-padding: 0.7rem !default; */
+/* $navbar-mobile-height: 3.25rem !default; */
+/* $navbar-mobile-horizontal-padding: 1rem !default; */
+/* $navbar-mobile-vertical-padding: 0.5rem !default; */
+/**/
+/* // sidebar */
+/* $sidebar-width: 18rem !default; */
+/* $sidebar-mobile-width: 16rem !default; */
+/**/
+/* // content */
+/* $content-width: 780px !default; */
+/* $home-page-width: 1160px !default; */
+/**/
+/* // font */
+/* $font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", STHeiti, "Microsoft YaHei", SimSun, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' !default; */
+/* $font-family-heading: $font-family !default; */
+/* $font-family-mono: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace' !default; */
+/**/
+/* // code */
+/* $code-line-number-width: 2rem !default; */
+
+// transition
+$color-transition: "0.05s ease";
+$transform-transition: "0.05s ease";
+
+.fade-slide-y-enter-active {
+    transition: all 0.05s ease !important;
+}
+
+.fade-slide-y-leave-active {
+    transition: all 0.05s cubic-bezier(1, 0.5, 0.8, 1) !important;
+}
