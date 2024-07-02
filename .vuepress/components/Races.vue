@@ -188,7 +188,7 @@ console.log("Races reduce: " + races.reduce((prev, cur, idx, array) => {
                 </li>
             </ul>
         </div>
-        <div v-if="!!picked">
+        <div v-if="!!picked" class="no-click">
             <div v-html="picked.description">
             </div>
         </div>
@@ -196,6 +196,10 @@ console.log("Races reduce: " + races.reduce((prev, cur, idx, array) => {
 </template>
 
 <style>
+
+.no-click {
+    pointer-events: none;
+}
 .toRoll {
     display: inline-block;
     min-width: 45px;
