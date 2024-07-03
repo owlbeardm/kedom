@@ -212,7 +212,7 @@ const calcSpellPrepared = (l, p1, p2) => {
                     <td>{{ index }}d6{{ calcHd(picked1, picked2) == 0 ? '' : ((calcHd(picked1, picked2) > 0 ? '+' : '')
                         +
                         (index * calcHd(picked1, picked2))) }}</td>
-                    <td>+{{ (!!picked1.minAb || !!picked2.minAb) ? Math.ceil(calcAb(picked1, picked2) * (index) / 10) : Math.floor(calcAb(picked1, picked2) * index / 10) }}</td>
+                    <td>+{{ (picked1.partial && (!!picked1.minAb || !!picked2?.minAb)) ? Math.ceil(calcAb(picked1, picked2) * (index) / 10) : Math.floor(calcAb(picked1, picked2) * index / 10) }}</td>
                     <td>
                         <span v-if="index == 1">Race Focus, {{ picked1.foci }}{{ picked1.foci.length > 0 ? ', ' : '' }}<span
                                 v-if="picked1.partial">{{ picked2.foci }}{{ picked2.foci.length > 0 ? ', ' : '' }}</span></span>
