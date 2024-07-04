@@ -52,6 +52,14 @@
         <li v-if="!!race && !!background"><b>Background:</b> {{background.title}} {{race.name}} </li>
         <li v-if="canShowClass(class1, class2)"><b>Attack Bonus:</b> {{ calcAb(class1, class2)}}</li>
         <li v-if="canShowClass(class1, class2)"><b>Class Hit Dice:</b> 1d6{{ calcHd(class1, class2) == 0 ? '' : ((calcHd(class1, class2) > 0 ? '+' : '') + (calcHd(class1, class2))) }}</li>
+        <li v-if="!!race"><b>Foci:</b>
+            <ul>
+                <li><b>Race:</b> {{race.foci}}</li>
+                <li v-if="(!!class1 && !!class1.foci)"><b>{{ class1.title }}:</b> {{ class1.foci }}</li>
+                <li v-if="(class1?.partial && !!class2 && !!class2.foci)"><b>{{ class2.title }}:</b> {{ class2.foci }}</li>
+                <li>+1 Any Focus</li>
+            </ul>
+        </li>
         <li v-if="!!background"><b>Skills:</b>
             <ul>
                 <li><b>{{ background.title }}:</b> +1 {{ background.freeSkill }}</li>
@@ -60,14 +68,6 @@
                 <li v-if="(class1?.partial && !!class2 && !!class2.skill)"><b>{{ class2.title }}:</b> +1 {{ class2.skill }}</li>
                 <li>+1 to any skill</li>
                 <li><i>(check if foci add to any skill)</i></li>
-            </ul>
-        </li>
-        <li v-if="!!race"><b>Foci:</b>
-            <ul>
-                <li><b>Race:</b> {{race.foci}}</li>
-                <li v-if="(!!class1 && !!class1.foci)"><b>{{ class1.title }}:</b> {{ class1.foci }}</li>
-                <li v-if="(class1?.partial && !!class2 && !!class2.foci)"><b>{{ class2.title }}:</b> {{ class2.foci }}</li>
-                <li>+1 Any Focus</li>
             </ul>
         </li>
         <li v-if="canShowClass(class1, class2) && calcArts(class1, class2).length>0"><b>Arts:</b> {{ calcArts(class1, class2) }}</li>
