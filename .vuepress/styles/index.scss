@@ -3,75 +3,93 @@
 @import "config";
 
 .theme-hope-content a:hover {
-  text-decoration: none;
-  color: $theme-color-light;
+    text-decoration: none;
+    color: $theme-color-light;
 }
 
-.vp-page-title h1 .icon{
-  color: $text-color;
+.vp-page-title h1 .icon {
+    color: $text-color;
 }
+
 h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
+
 h2 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
+
 h3 {
-  font-size: 1.75rem;
+    font-size: 1.75rem;
 }
+
 h4 {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
+
 h5 {
-  font-size: 1.12rem;
+    font-size: 1.12rem;
 }
+
 h6 {
-  font-size: 1rem;
+    font-size: 1rem;
 }
+
 table {
-  display: table;
-  width: 100%;
+    display: table;
+    width: 100%;
 }
+
 blockquote {
-  font-size: 90%;
-  font-style: italic;
-  /* background-color: #9C4C2D; */
+    font-size: 90%;
+    font-style: italic;
+    /* background-color: #9C4C2D; */
 }
+
 .god-img {
-  width: 150px;
-  background: $bg-color;
+    width: 150px;
+    background: $bg-color;
 }
 
 .anc-img {
-  width: 200px;
+    width: 200px;
 }
 
 .anc-big-img {
-  width: 350px;
+    width: 350px;
 }
 
 @media only screen and (max-width: 550px) {
-  .anc-img {
-    width: 100%;
-  }
+    .anc-img {
+        width: 100%;
+    }
 
-  .anc-big-img {
-    width: 100%;
-  }
+    .anc-big-img {
+        width: 100%;
+    }
 }
 
 .div-with-image {
-  display: inline-block;
-  width: 100%;
+    display: inline-block;
+    width: 100%;
 }
 
 .flex-container {
     display: flex;
 }
+
 @media only screen and (max-width: 550px) {
     .flex-container {
         flex-direction: column;
     }
+}
+
+.bold-to-red strong {
+    color: $theme-color-light;
+}
+
+.bold-to-red em {
+    color: $theme-color-light;
 }
 
 
@@ -79,86 +97,86 @@ blockquote {
 /* ----------------------------------------------------------- */
 
 @font-face {
-  font-family: 'Old_Runic';
-  src: url('/fonts/Old_Runic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Old_Runic';
+    src: url('/fonts/Old_Runic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 @font-face {
-  font-family: 'Cirth';
-  src: url('/fonts/cirth.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Cirth';
+    src: url('/fonts/cirth.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 @font-face {
-  font-family: 'Annatar';
-  src: url('/fonts/tengwar-annatar-glaemscrafu.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Annatar';
+    src: url('/fonts/tengwar-annatar-glaemscrafu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 @font-face {
-  font-family: 'Annatar Italic';
-  src: url('/fonts/tengwar-annatar-glaemscrafu-italic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Annatar Italic';
+    src: url('/fonts/tengwar-annatar-glaemscrafu-italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 /* ------------------------------------------------------ */
 .dwarf-font {
-  font-family: "Noto Serif", serif;
-  /* color: #BFCDE0; */
-  font-size: 93.75%;
+    font-family: "Noto Serif", serif;
+    /* color: #BFCDE0; */
+    font-size: 93.75%;
 }
 
 :not(.md-nav__link) .cirth-dwarf-font {
-  font-family: 'Cirth';
-  /* color: #BFCDE0; */
-  font-size: 112.5%;
-  text-transform: uppercase;
-  font-weight: bold;
+    font-family: 'Cirth';
+    /* color: #BFCDE0; */
+    font-size: 112.5%;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .elf-font {
-  font-family: "EB Garamond", serif;
-  /* color: #9CC69B; */
-  font-size: 112.5%;
+    font-family: "EB Garamond", serif;
+    /* color: #9CC69B; */
+    font-size: 112.5%;
 }
 
 .sylvan-font {
-  font-family: 'EB Garamond', serif;
-  /* color: #252537; */
-  font-size: 112.5%;
+    font-family: 'EB Garamond', serif;
+    /* color: #252537; */
+    font-size: 112.5%;
 }
 
 .tengwar-elf-font {
-  font-family: 'Annatar';
-  font-size: 112.5%;
+    font-family: 'Annatar';
+    font-size: 112.5%;
 }
 
 .tengwar-sylvan-font {
-  font-family: 'Annatar';
-  font-size: 112.5%;
+    font-family: 'Annatar';
+    font-size: 112.5%;
 }
 
 .runic-old-font {
-  font-family: 'Old_Runic'!important;
-  font-size: 112.5%;
-  /* font-weight: bold; */
+    font-family: 'Old_Runic' !important;
+    font-size: 112.5%;
+    /* font-weight: bold; */
 }
 
 .orc-font {
-  font-family: "Andika", sans-serif;
-  /* color: #3e2723; */
+    font-family: "Andika", sans-serif;
+    /* color: #3e2723; */
 }
 
 .runic-font {
-  font-family: "Girassol", cursive;
-  /* color: #4f4a4a; */
+    font-family: "Girassol", cursive;
+    /* color: #4f4a4a; */
 }
