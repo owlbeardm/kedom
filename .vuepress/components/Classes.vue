@@ -13,21 +13,21 @@ const raceToClass = [
     { id: "gnome", forcedClass: ["elementalist", "partial-elementalist"], classes: ["elementalist", "partial-warrior", "partial-expert", "partial-duelist"] },
 ];
 const classes = [
-    { id: "warrior", title: "Воин", hd: 2, ab: 10, foci: "+1 Warrior Focus, Killing Blow, Veteran's Luck", description: `
+    { id: "warrior", title: "Воин", hd: 2, ab: 10, foci: "+1 Warrior Focus, Смертельный удар, Везение ветерана", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/warrior.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>Воин — герой, рожденный для битвы, несущий в себе врожденный дар к физическому насилию. От свирепых варваров и закаленных наемников до смелых деревенских парней и простых работников с талантом к кровопролитию — воины происходят из самых разных слоев общества. Формально они не всегда являются солдатами или ветеранами, но любой искатель приключений, встречающий вызовы грубой силой, может быть воином.</p>
         <p>Воины обладают большим запасом здоровья, чем любой другой класс, выдерживая раны и трудности, которые бы сломили обычных людей. Они обладают превосходным боевым мастерством и наносят сокрушительный урон, делая их грозными противниками в бою.</p>
-        <h4>Class Ability: Killing Blow</h4>
+        <h4>Смертельный удар</h4>
         <p>Whenever a Warrior inflicts damage with any attack, spell, or special ability they may add half their character level, rounded up, to the damage done. This damage is also added to any Shock they may inflict.</p>
-        <h4>Class Ability: Veteran’s Luck</h4>
+        <h4>Везение ветерана</h4>
         <p>Once per scene, as an Instant action, the Warrior may turn a missed attack they have made into a hit. Alternately, they may turn a successful attack against them into a miss, also as an Instant action. This ability is particularly lethal when used with the <i>Make a Snap Attack</i> action and leveled against weaker monsters or ordinary human warriors.</p></div>` },
-    { id: "expert", title: "Эксперт", hd: 0, ab: 5, foci: "+1 Expert Focus, Masterful Expertise, Quick Learner", description: `
+    { id: "expert", title: "Эксперт", hd: 0, ab: 5, foci: "+1 Expert Focus, Непревзойденное мастерство, Способный ученик", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/expert.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>Эксперты — мастера искусств, блистающие в ролях воров, дипломатов, целителей, ученых, исследователей или ремесленников. Эти герои посвящают себя совершенствованию своих умений, доводя их до уровня легенд, способные на поистине волшебные подвиги. Обладая невероятным талантом к успеху, многие Эксперты способны в последний момент вырывая победу из пасти поражения. Их неутомимая жажда знаний и самосовершенствования простирается даже на умения, выходящие за рамки их основной специализации.</p>
         <p>Хотя их основное внимание сосредоточено на мирных умениях, Эксперты далеки от беззащитности. Многие из них способны постоять за себя в бою, а некоторые, как смертельные ассасины, используют свою скрытность и обман для быстрого летального эффекта. Эксперты — это воплощение стремления к знанию и мастерству, а их путь — это путь искусства и тайны.</p>
-        <h4>Class Ability: Masterful Expertise</h4>
+        <h4>Непревзойденное мастерство</h4>
         <p>Once per scene, the Expert may reroll any non-combat skill check as an Instant action. This allows the Expert to make a roll and then immediately use this ability if the resulting total isn’t good enough to succeed. In cases where it matters, the better of the two rolls may be used.</p>
-        <h4>Class Ability: Quick Learner</h4>
+        <h4>Способный ученик</h4>
         <p>When you advance a character level, you gain an extra skill point which may only be spent on gaining or improving non-combat skills or raising attributes. You may save this point to spend later if you wish.</p></div>` },
     { id: "mage", title: "Кверанский арканист", spells: true, hd: -1, ab: 2, arts: ["+2 Арканист", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист", "", "+1 Арканист"], foci: "Кверанский арканист", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/mage.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
@@ -40,6 +40,14 @@ const classes = [
         <p>В отличие от арканистов, чьи знания черпаются из древних трактатов и пыльных гримуаров, элементалисты черпают свою магию из глубин собственного существа. Чаще всего их силы объясняются фейским родством или древним влиянием магических существ. Магия элементалистов связана с классическими стихиями земли, огня, воздуха и воды, элементами, которые по своей природе проще и стабильнее, чем сложные арканные заклинания. С помощью своих врождённых сил элементалисты управляют этими стихиями, адаптируя фрагменты природы для манипуляции.</p>
         <p>Многие элементалисты отдают предпочтение одному определённому элементу, связывая свою судьбу с ним. Однако они могут управлять и другими стихиями, хоть и с меньшей степенью мастерства. Их избранный элемент оказывает на них глубокое влияние, меняя их внешность и даже характер.</p>
         <p>Элементалистам не нужно обучение у опытных наставников или в магических школах, чтобы овладеть своими силами. Их магия течёт в них естественно и интуитивно, словно древние силы природы пробуждаются в их жилах.</p>
+        <h4>Элементалист</h4>
+        <p>All Elementalists gain Magic as a bonus skill, acquiring it at level-0, or level-1 if was already level-0.</p>
+        <p>Elementalist Effort is calculated as usual, with each PC’s maximum being equal to one plus their Magic skill level plus the better of their Intelligence or Charisma modifiers. Partial Elementalists have a score one point lower than this, albeit not less than one.</p>
+        <p>All Elementalists learn the Элементальная сущность and Вызов элементов arts as part of their basic training.</p>
+        <h4>Элементальная сущность</h4>
+        <p>You are unharmed by mundane extremes of cold or by heat less than that of a furnace. You suffer only half damage from magical or extremely intense flame or frost attacks.</p>
+        <h4>Вызов элементов</h4>
+        <p>You can conjure petty amounts of flame, water, ice, stone, or wind, sufficient to do small tricks, chill drinks, light candles, or do other minor things. Conjured substances last no longer than a scene, and conjured water cannot lastingly quench thirst. This art cannot actually be useful in solving a problem or overcoming a challenge more than once per game session.</p>
         </div>
     `},
     { id: "necromancer", title: "Некромант", spells: true, hd: -1, ab: 2, arts: ["+1 Некромант", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант", "", "+1 Некромант"], foci: "Некромант", description: `
@@ -47,18 +55,22 @@ const classes = [
         <p>Некроманты восставшие против неизбежности смерти, уверены, что человечество когда-то обладало бессмертием, пока загадочные события не изменили этот баланс. Изучая древние тексты кверанцев, они обнаружили, что магия, управляющая жизненной энергией, была изъята из общего доступа. Многие из них начинают свой путь как арканисты, стремясь понять основы древней магии и применить их в новых практиках, нацеливаясь на восстановление вечной жизни. Их методы включают изучение смерти и манипуляцию трупами. Они часто используют сомнительные техники для расширения своих знаний.</p>
         <p>Опытные некроманты способны оживлять трупы, вызывая эхо разума или призывая образы прежних личностей. Но истинное мастерство, такое как полное восстановление давно умерших, является редким и высоко ценится. Они также владеют древней магией кверанцев, хотя и не так искусно, как арканисты. Несмотря на свои способности, некроманты обладают разной репутацией — от востребованных советников и законопослушных магов до опасных практиков, которые внушают ужас своими методами. Некоторые культуры терпят их, в то время как у других мрачные и безжалостные традиции скрываются в тайных орденах.</p>
         <p>Начинающие некроманты могут быть скрыто обучены наставниками, выдающими себя за арканистов, или таинственными мастерами. В некоторых регионах существуют формальные школы некромантии, однако они часто таят нечестивые практики амбициозных волшебников.</p>
-    </div>` },
-    //
+        <h4>Некромант</h4>
+        <p>All Necromancers gain Magic as a bonus skill, acquiring it at level-0, or level-1 if was already level-0.</p>
+        <p>Necromancers can prepare and cast High Magic spells in addition to the New Magic spells specific to Necromancers.</p>
+        <p>Necromancer Effort is calculated as usual, with each PC’s maximum being equal to one plus their Magic skill level plus the better of their Intelligence or Charisma modifiers. Partial Necromancers have a score one point lower than this, albeit not less than one.</p>
+        </div>
+    `},
     { id: "partial-warrior", partial: true, title: "Воин", hd: 2, ab: 10, minAb: 6.5, foci: "+1 Warrior Focus", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/warrior.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>Воин — герой, рожденный для битвы, несущий в себе врожденный дар к физическому насилию. От свирепых варваров и закаленных наемников до смелых деревенских парней и простых работников с талантом к кровопролитию — воины происходят из самых разных слоев общества. Формально они не всегда являются солдатами или ветеранами, но любой искатель приключений, встречающий вызовы грубой силой, может быть воином.</p>
         <p>Воины обладают большим запасом здоровья, чем любой другой класс, выдерживая раны и трудности, которые бы сломили обычных людей. Они обладают превосходным боевым мастерством и наносят сокрушительный урон, делая их грозными противниками в бою.</p>
         </div>` },
-    { id: "partial-expert", partial: true, title: "Эксперт", hd: 0, ab: 5, foci: "+1 Expert Focus, Quick Learner", description: `
+    { id: "partial-expert", partial: true, title: "Эксперт", hd: 0, ab: 5, foci: "+1 Expert Focus, Способный ученик", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/expert.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>Эксперты — мастера искусств, блистающие в ролях воров, дипломатов, целителей, ученых, исследователей или ремесленников. Эти герои посвящают себя совершенствованию своих умений, доводя их до уровня легенд, способные на поистине волшебные подвиги. Обладая невероятным талантом к успеху, многие Эксперты способны в последний момент вырывая победу из пасти поражения. Их неутомимая жажда знаний и самосовершенствования простирается даже на умения, выходящие за рамки их основной специализации.</p>
         <p>Хотя их основное внимание сосредоточено на мирных умениях, Эксперты далеки от беззащитности. Многие из них способны постоять за себя в бою, а некоторые, как смертельные ассасины, используют свою скрытность и обман для быстрого летального эффекта. Эксперты — это воплощение стремления к знанию и мастерству, а их путь — это путь искусства и тайны.</p>
-        <h4>Class Ability: Quick Learner</h4>
+        <h4>Способный ученик</h4>
         <p>When you advance a character level, you gain an extra skill point which may only be spent on gaining or improving non-combat skills or raising attributes. You may save this point to spend later if you wish.</p></div>` },
     { id: "partial-mage", partial: true, spells: true, title: "Кверанский арканист", hd: -1, ab: 2, arts: ["+1 Арканист", "+1 Арканист", "+1 Арканист", "", "", "+1 Арканист", "", "", "+1 Арканист", ""], foci: "Кверанский арканист", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/mage.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
@@ -71,12 +83,24 @@ const classes = [
         <p>Некроманты восставшие против неизбежности смерти, уверены, что человечество когда-то обладало бессмертием, пока загадочные события не изменили этот баланс. Изучая древние тексты кверанцев, они обнаружили, что магия, управляющая жизненной энергией, была изъята из общего доступа. Многие из них начинают свой путь как арканисты, стремясь понять основы древней магии и применить их в новых практиках, нацеливаясь на восстановление вечной жизни. Их методы включают изучение смерти и манипуляцию трупами. Они часто используют сомнительные техники для расширения своих знаний.</p>
         <p>Опытные некроманты способны оживлять трупы, вызывая эхо разума или призывая образы прежних личностей. Но истинное мастерство, такое как полное восстановление давно умерших, является редким и высоко ценится. Они также владеют древней магией кверанцев, хотя и не так искусно, как арканисты. Несмотря на свои способности, некроманты обладают разной репутацией — от востребованных советников и законопослушных магов до опасных практиков, которые внушают ужас своими методами. Некоторые культуры терпят их, в то время как у других мрачные и безжалостные традиции скрываются в тайных орденах.</p>
         <p>Начинающие некроманты могут быть скрыто обучены наставниками, выдающими себя за арканистов, или таинственными мастерами. В некоторых регионах существуют формальные школы некромантии, однако они часто таят нечестивые практики амбициозных волшебников.</p>
+        <h4>Некромант</h4>
+        <p>All Necromancers gain Magic as a bonus skill, acquiring it at level-0, or level-1 if was already level-0.</p>
+        <p>Necromancers can prepare and cast High Magic spells in addition to the New Magic spells specific to Necromancers.</p>
+        <p>Necromancer Effort is calculated as usual, with each PC’s maximum being equal to one plus their Magic skill level plus the better of their Intelligence or Charisma modifiers. Partial Necromancers have a score one point lower than this, albeit not less than one.</p>
         </div>` },
     { id: "partial-elementalist", partial: true, spells: true, title: "Элементалист", hd: -1, ab: 2, arts: ["Elemental Resilience, Elemental Sparks, +1 Элементалист", "", "+1 Элементалист", "", "", "+1 Элементалист", "", "", "+1 Элементалист", ""], foci: "Элементалист", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/elementalist.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>В отличие от арканистов, чьи знания черпаются из древних трактатов и пыльных гримуаров, элементалисты черпают свою магию из глубин собственного существа. Чаще всего их силы объясняются фейским родством или древним влиянием магических существ. Магия элементалистов связана с классическими стихиями земли, огня, воздуха и воды, элементами, которые по своей природе проще и стабильнее, чем сложные арканные заклинания. С помощью своих врождённых сил элементалисты управляют этими стихиями, адаптируя фрагменты природы для манипуляции.</p>
         <p>Многие элементалисты отдают предпочтение одному определённому элементу, связывая свою судьбу с ним. Однако они могут управлять и другими стихиями, хоть и с меньшей степенью мастерства. Их избранный элемент оказывает на них глубокое влияние, меняя их внешность и даже характер.</p>
         <p>Элементалистам не нужно обучение у опытных наставников или в магических школах, чтобы овладеть своими силами. Их магия течёт в них естественно и интуитивно, словно древние силы природы пробуждаются в их жилах.</p>
+        <h4>Элементалист</h4>
+        <p>All Elementalists gain Magic as a bonus skill, acquiring it at level-0, or level-1 if was already level-0.</p>
+        <p>Elementalist Effort is calculated as usual, with each PC’s maximum being equal to one plus their Magic skill level plus the better of their Intelligence or Charisma modifiers. Partial Elementalists have a score one point lower than this, albeit not less than one.</p>
+        <p>All Elementalists learn the Элементальная сущность and Вызов элементов arts as part of their basic training.</p>
+        <h4>Элементальная сущность</h4>
+        <p>You are unharmed by mundane extremes of cold or by heat less than that of a furnace. You suffer only half damage from magical or extremely intense flame or frost attacks.</p>
+        <h4>Вызов элементов</h4>
+        <p>You can conjure petty amounts of flame, water, ice, stone, or wind, sufficient to do small tricks, chill drinks, light candles, or do other minor things. Conjured substances last no longer than a scene, and conjured water cannot lastingly quench thirst. This art cannot actually be useful in solving a problem or overcoming a challenge more than once per game session.</p>
         </div>` },
     { id: "partial-accursed", partial: true, title: "Проклятый", hd: -1, ab: 2, arts: ["Accursed Blade или Accurded Bolt, +1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "+1 Проклятый", "+1 Проклятый", "", "+1 Проклятый", "", "+1 Проклятый"], foci: "Проклятый", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/accursed.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
@@ -101,11 +125,17 @@ const classes = [
         <h4>Природная броня</h4>
         <p>When not wearing armor and not using a shield, your base Armor Class is equal to 13 plus half your character level, rounded down.</p>
         <table><thead><tr><th>Lvl</th><th>Natural Weapon Attack Bonus<br></th><th>Savage Claws Damage</th><th>Savage Claws Shock</th><th>Natural Armor AC</th></tr></thead><tbody><tr><td>1</td><td>+0</td><td>1d6</td><td>1/15</td><td>13</td></tr><tr><td>2</td><td>+1</td><td>1d6</td><td>2/15</td><td>14</td></tr><tr><td>3</td><td>+1</td><td>1d8</td><td>2/15</td><td>14</td></tr><tr><td>4</td><td>+2</td><td>1d8</td><td>2/15</td><td>15</td></tr><tr><td>5</td><td>+2</td><td>1d10</td><td>2/15</td><td>15</td></tr><tr><td>6</td><td>+3</td><td>1d10</td><td>3/15</td><td>16</td></tr><tr><td>7</td><td>+3</td><td>1d10+1</td><td>3/15</td><td>16</td></tr><tr><td>8</td><td>+4</td><td>1d10+1</td><td>3/15</td><td>17</td></tr><tr><td>9</td><td>+4</td><td>1d10+2</td><td>4/15</td><td>17</td></tr><tr><td>10</td><td>+5</td><td>1d10+3</td><td>4/15</td><td>18</td></tr></tbody></table></div>` },
-    { id: "partial-duelist", partial: true, title: "Дуэлянт", hd: -1, ab: 5, arts: ["+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "", "+1 Дуэлянт"], foci: "Дуэлянт", description: `
+    { id: "partial-duelist", partial: true, title: "Дуэлянт", maxHd: 0, hd: -1, ab: 5, arts: ["+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "+1 Дуэлянт", "+1 Дуэлянт", "", "+1 Дуэлянт", "", "+1 Дуэлянт"], foci: "Дуэлянт", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/duelist.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>Фейри-дуэлянты известны своими исключительными навыками владения клинком и сверхъестественной ловкостью. Многие из них унаследовали своё мастерство от древних предков, которые довели искусство убийства до совершенства. Других обучают эльфийские племена, разработавшие свои методы использования магии фейри со сталью.</p>
         <p>Дуэлянты используют тайные оккультные техники и внутреннюю энергию, чтобы наделить свои мечи магическими свойствами. Некоторые даже способны создавать оружие силой воли. Однако это делает их менее выносливыми, чем традиционные мечники, и не позволяет носить тяжелую броню, не ставя под угрозу свой стиль боя. Некоторые фейри учатся искусству дуэли как запасному варианту на случай, если их магия подведет.</p>
         <p>Это искусство редкое и требует врожденного таланта и огромного мастерства. Лишь немногие могут овладеть им в полной мере. Высококвалифицированные дуэлянты часто служат своим собственным целям, столь же таинственным, как и их искусство.</p>
+        <h4>Дуэлянт</h4>
+        <p>All Duelists gain Stab-0 as a bonus skill, or Stab-1 if they already have the skill at level-0.</p>
+        <p>Duelist Effort is based on Stab, and is equal to the PC’s Stab skill plus the highest of their Dexterity or Intelligence modifiers, to a minimum of one point.</p>
+        <p>All Duelists begin with the Любимое оружие art and one more of their choice.</p>
+        <h4>Любимое оружие</h4>
+        <p>Choose one specific type of non-un armed melee weapon from the list on page 37. You begin play with such a weapon, and when using this type you may use the Favored Weapon attack bonus column on the Duelist table to determine your base hit bonus, unless it’s already better for some other reason. If your second partial class is Partial Warrior, your class’ base hit bonus with the weapon is instead equal to your level. You cannot apply this or other arts to thrown weapons./p>
         </div>` },
     { id: "partial-empath", partial: true, title: "Эмпат", hd: 0, ab: 5, arts: ["+1 Эмпат", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат", "", "+1 Эмпат"], foci: "Эмпат", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/empath.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
@@ -113,25 +143,38 @@ const classes = [
         <p>В сражениях эмпаты становятся источником вдохновения для своих союзников и способны сбивать с толку противников, направляя их эмоциональные всплески в нужное русло. Их умение читать людей даже без слов позволяет адаптироваться к различным обстановкам и оперативно реагировать на изменения в окружающем мире.</p>
         <p>В мирное время эмпаты часто становятся ключевыми фигурами в дворцовых интригах и судебных процессах. Им доверяют роль высоких советников, способных разрешать конфликты и обнаруживать ложь благодаря своей особой способности восприятия эмоций.</p>
         <p>Эмпаты всегда готовы помогать окружающим, но в то же время у них есть собственные цели, часто связанные с важными личностями и существами, с которыми они находят неразрывную связь. Их способности делают их неоценимыми членами общества, способными укреплять социальные узы и улучшать взаимодействие среди людей.</p>
+        <h4>Эмпат</h4>
+        <p>All Empath gain Connect-0 during character creation.</p>
+        <p>An Empath has an Effort score equal to their Connect skill level plus the better of their Charisma or Wisdom modifier, to a minimum of one point.</p>
         </div>` },
-    { id: "partial-priest", partial: true, title: "Жрец", hd: -1, ab: 2, arts: ["+1 Жрец", "+1 Жрец", "", "+1 Жрец", "+1 Жрец", "+1 Жрец", "", "+1 Жрец", "", "+1 Жрец"], foci: "Жрец, +1 God's focus", description: `
+    { id: "partial-priest", partial: true, title: "Жрец", hd: -1, ab: 2, arts: ["+2 Жрец", "+1 Жрец", "", "+1 Жрец", "+1 Жрец", "+1 Жрец", "", "+1 Жрец", "", "+1 Жрец"], foci: "Жрец, +1 God's focus", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/priest.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>Жрецы — истинные хранители древних тайн и воплощение божественной воли. Они обретают свою силу благодаря дару от богов. Одни из них приобщаются к мистическим тайнам великих храмов и монастырей, в то время как другие непосредственно общаются с провидением.</p>
         <p>Практика каждого жреца разнообразна, и она сильно зависит от того божества, которому он служит. Некоторые обретают свою мощь в роскошных и пышных храмах, где царит кверанская вера, пользуясь при этом общественным признанием и уважением. В то же время другие предпочитают уединенное поклонение Старым богам, осторожно скрывая свои мистические способности. Требования богов также разнообразны: одни из них жаждут кровавых жертвоприношений, в то время как другие предпочитают, чтобы их слуги оказывали добрые дела и помогали нуждающимся.</p>
        <p>Силы, которые боги даруют своим жрецам, также варьируются: одни получают способность читать мысли, другие — могут превращаться в зверей или исцелять раны, а некоторые могут уничтожать врагов мощным священным огнем.</p>
        <p>Искусство жречества требует от жрецов веры и преданности, но для каждого бога это имеет свой особый смысл и назначение. Только избранные жрецы способны раскрыть замыслы своих божеств и успешно выполнить их священные задания, которые не под силу обычным смертным.</p>
-        <h4>Жрец</h4><p>All Priests gain Pray as a bonus skill, acquiring it at level-0, or level-1 if they already have it at level-0.</p><p>Priest Effort is calculated with Pray, with their total maximum Effort being equal to their Pray skill plus the higher of their Wisdom or Charisma modifiers, to a minimum of one point.</p><h4>Gods foci</h4><p>All priests must choose a god to serve. And receive a bonus focus from this god.</p></div>` },
+        <h4>Жрец</h4>
+        <p>All Priests gain Pray as a bonus skill, acquiring it at level-0, or level-1 if they already have it at level-0.</p>
+        <p>Priest Effort is calculated with Pray, with their total maximum Effort being equal to their Pray skill plus the higher of their Wisdom or Charisma modifiers, to a minimum of one point.</p>
+        </div>
+    `},
     { id: "partial-rune-guardian", partial: true, title: "Рунный защитник", hd: 0, ab: 10, minAb: 7, foci: "Рунный защитник", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/rune.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>В древние времена, когда дварфы были лишены способности к колдовству, они искали защиту от могущественных чародеев и волшебников. Тогда родились рунные надписи и мастерские техники кузнецов, которые стали щитом против магии. Дварфы начали выводить потомков с природной антимагической способностью, надеясь создать новую линию защитников.</p>
         <p>Со временем эти искусства распространились по всем дварфским королевствам, сливаясь с местными методами борьбы с колдовством. Кланы рунных защитников возникали и исчезали, процветая в землях, страдающих от чародейства. В некоторых местах традиция сохранилась в виде передачи знаний от наставника к ученику или через древние рунические письмена. Порой рунные защитники рождались в семьях, не подозревавших о своих антимагических способностях.</p>
         <p>Рунные защитники высоко ценятся среди дварфов. Хотя они не обладают широкими боевыми навыками, их мастерство позволяет им легко справляться с архимагами. Осознавая эту угрозу, волшебники часто нанимают обычных телохранителей или призывают демонических стражей, которых сложно изгнать магическим путем. Некоторые арканисты даже начали использовать рунных защитников для борьбы со своими соперниками, а дварфы, известные своей любовью к торговле, охотно предлагают свои услуги магам, видя в этом не меньшую выгоду, чем в продаже металлов.</p>
+        <h4>Рунный защитник</h4>
+        <p>All Rune Guardian gain Magic-0 during character creation. While it cannot be used for item creation or other magical pursuits, it allows them an intellectual understanding of their prey’s abilities.</p>
+        <p>An Rune Guardian has an Effort score equal to their Magic skill level plus the better of their Intellect or Constitution modifier, to a minimum of one point.</p>
         </div>` },
     { id: "partial-wise", partial: true, title: "Ведун", hd: 0, ab: 5, arts: ["+1 Ведун", "+1 Ведун", "", "+1 Ведун", "+1 Ведун", "+1 Ведун", "", "+1 Ведун", "", "+1 Ведун"], foci: "Ведун", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/wise.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
         <p>В древние времена ведуны были уважаемыми членами сельских общин и владели магией, глубже и старше самых лесов. С течением веков кверанская культура почти истребила их, оставив лишь немногих выживших, разбросанных и забытых. Они обитают в самых далеких уголках, их скромные лачуги и дымные хижины стоят на границе между цивилизацией и дикой природой. Большинство предпочитает одиночество, защищаясь от посторонних глаз, но их умения известны местным жителям. Знания о защите от зла часто таинственны, но их мастерство в травничестве, акушерстве и исцелении всегда востребовано, когда приходит время.</p>
         <p>Ведуны, часто первыми замечающие сверхъестественное, умеют скрываться от арканистов и прочих знатоков кверанской магии.</p>
         <p>Ведунов называют по разному по всему миру, но их объединяет одна цель: сохранение древних традиций. Они относятся к школам арканы, кверанским магам и ученым с осторожностью, зная, что тот, кто погружается в магическое знание, часто теряет связь со своим народом, предпочитая высокие миссии помощи своему сообществу.</p>
+        <h4>Ведун</h4>
+        <p>All Wise gain level-0 in a bonus skill appropriate to their concept, be it Pray, Know, Magic, Survive, or some other skill that makes sense.</p>
+        <p>The Wise do not use Effort. All of their arts are either constantly in effect or can be used under particular circumstances or a particular number of times each day.</p>
         </div>` },
 ]
 import { ref, watch } from 'vue'
@@ -170,7 +213,7 @@ const showClass = (p1, p2) => !!p1 && (!p1?.partial || (p1?.partial && p2?.parti
 const calcHd = (p1, p2) => {
     if (!p1) { return 0 }
     if (!p1.partial) return p1.hd;
-    return Math.max(p1.hd, p2.hd);
+    return Math.min(p1.maxHd!==undefined?p1.maxHd:2, p2.maxHd!==undefined?p2.maxHd:2, Math.max(p1.hd, p2.hd));
 }
 
 const calcAb = (p1, p2) => {
