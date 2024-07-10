@@ -107,6 +107,12 @@ const classes = [
         <p>Проклятые, омраченные потусторонними силами, обладают темными способностями к насилию и чарам. Их проклятие течет в их крови, и никто не может сказать, что именно и когда вызвало это загадочное явление. Оно пробуждается раз в несколько столетий, неся хаос и разрушение.</p>
         <p>Проклятые воины могут служить боевой рукой мрачных культов или тёмных жрецов. Редкие арканисты нанимают проклятых в качестве телохранителей, надеясь, что смогут удержать их силу под контролем. Эти воины, яростно преданные своим покровителям, сохраняют свои способности даже если отрекаются от веры в богов.</p>
         <p>Цена их силы окутана тайной. Мудрецы предполагают, что только в моменты катастрофических и всепоглощающих разрушений может появиться шанс раскрыть этот секрет.</p>
+        <h4>Проклятый</h4>
+        <p>All Accursed gain Magic-0 during character creation.</p>
+        <p>An Accursed has an Effort score equal to their Magic skill level plus their Intelligence or Charisma modifier, to a minimum of one point.</p>
+        <p>Every Accursed gains Проклятое оружие as a starting art, plus one more of their choice.</p>
+        <h4>Проклятое оружие</h4>
+        <p>As an On Turn action, manifest an occult magic into your weapon. The new damage of the weapon is 1d8 for one-handed melee, 2d6 for two-handed melee, or 1d8 for ranged. Both add your Magic skill to the damage roll, have a Shock rating of 2/15 (for melee), and use Magic as the attack skill and the best of Str, Dex, Int, or Cha as its modifying attribute.</p>
         </div>` },
     { id: "partial-beast", partial: true, title: "Зверь", hd: 0, ab: 2, arts: ["Natural Weapon, Savage Claws, Natural Armor, +1 Зверь", "+1 Зверь", "", "+1 Зверь", "+1 Зверь", "+1 Зверь", "", "+1 Зверь", "", "+1 Зверь"], foci: "Зверь", description: `
         <div class="div-with-image"><img alt="warrior" src="/img/class/beast.webp" align="right" class="class-img" photo-swipe="" style="cursor: zoom-in;">
