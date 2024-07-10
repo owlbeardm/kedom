@@ -7,6 +7,7 @@
 </script>
 
 <template>
+    <div id="dice-box"></div>
     <h1>Создание персонажа</h1>
     <Races @onrace="(r) => race = r"></Races>
     <Backgrounds v-if="!!race?.id" :race="race.id" @onback="(b) => background = b"></Backgrounds>
