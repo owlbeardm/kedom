@@ -196,7 +196,7 @@ console.log("Races reduce: " + races.reduce((prev, cur, idx, array) => {
     <h2>Выбор расы и культуры</h2>
     <div class="flex-container">
         <div class="race-list">
-            <p>Roll 1D20 or choose:</p>
+            <p><Roll :dice="20" /> or choose:</p>
             <ul class="ul-empty">
                 <li v-for="race in races" :key="race.id">
                     <span v-if="!race.suboptions" class="toRoll"><b>{{ race.minRoll }}-{{ race.maxRoll }}</b></span>

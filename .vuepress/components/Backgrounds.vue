@@ -264,7 +264,7 @@
         </div>
         <template v-if="!!back">
             <div class="list">
-                <p>Roll 1D{{ back.length }} or choose:</p>
+                <p><Roll :dice="back.length" /> or choose:</p>
                 <ol>
                     <li v-for="b in back" :key="b">
                         <input type="radio" :id="b.title" :value="b" v-model="picked"  @update:model-value="emit('onback', picked)"/>
@@ -284,7 +284,7 @@
                         </div>
                         <div>
                             <h4>Background Skills</h4>
-                            <p>Roll 1d8 twice or pick the highlighted ones:</p>
+                            <p><Roll :dice="8" /> twice or pick the highlighted ones:</p>
                             <ul><li v-for="s in picked.allSkills.sort()" :key="s">
                                     <span v-if="!picked.quickSkills.includes(s)"> {{ toTitleCase(s) }} </span>
                                     <b v-if="picked.quickSkills.includes(s)" class="highlighted-skill"> {{ toTitleCase(s) }} </b>
