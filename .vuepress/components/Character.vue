@@ -8,7 +8,6 @@
 
 <template>
     <div id="dice-box"></div>
-    <h1>Создание персонажа</h1>
     <Races @onrace="(r) => race = r"></Races>
     <Backgrounds v-if="!!race?.id" :race="race.id" @onback="(b) => background = b"></Backgrounds>
     <Classes v-if="!!race?.id" :race="race.id" @picked1="(p1) => class1 = p1" @picked2="(p2) => class2 = p2"></Classes>
