@@ -1,5 +1,4 @@
 ---
-id: concept
 title: Создание концепция персонажа
 sidebar_position: 1
 ---

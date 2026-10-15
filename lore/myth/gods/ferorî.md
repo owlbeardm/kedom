@@ -3,24 +3,24 @@ id: ferorî
 title: Пантеон ферори
 ---
 
-| Name                       | Category     | Domains |
-| -------------------------- | ------------ | ------- |
-| [Ǧemosom](#ar-ǧemosom)     | Queran gods  |         |
-| [Mârtezor](#ar-mârtezor)   | Queran gods  |         |
-| [Tehlemaza](#ar-tehlemaza) | Queran gods  |         |
-| [Ačrez](#ar-ačrez)         | Old pantheon |         |
-| [Dînîsa](#ar-dînîsa)       | Old pantheon |         |
-| [Îčnon](#ar-îčnon)         | Old pantheon |         |
-| [Îfeon](#ar-îfeon)         | Old pantheon |         |
-| [Îǧesema](#ar-îǧesema)     | Old pantheon |         |
-| [Îš Gaǧez](#ar-îš-gaǧez)   | Old pantheon |         |
-| [Îš Sraĥez](#ar-îš-sraĥez) | Old pantheon |         |
-| [Îš Yorbez](#ar-îš-yorbez) | Old pantheon |         |
-| [Keresa](#ar-keresa)       | Old pantheon |         |
-| [Meyaz](#ar-meyaz)         | Old pantheon |         |
-| [Nemeas](#ar-nemeas)       | Old pantheon |         |
-| [Orîzar](#ar-orîzar)       | Old pantheon |         |
-| [Refĥaza](#ar-refĥaza)     | Old pantheon |         |
+| Name                       | Category     |
+| -------------------------- | ------------ |
+| [Ǧemosom](#ar-ǧemosom)     | Queran gods  |
+| [Mârtezor](#ar-mârtezor)   | Queran gods  |
+| [Tehlemaza](#ar-tehlemaza) | Queran gods  |
+| [Ačrez](#ar-ačrez)         | Old pantheon |
+| [Dînîsa](#ar-dînîsa)       | Old pantheon |
+| [Îčnon](#ar-îčnon)         | Old pantheon |
+| [Îfeon](#ar-îfeon)         | Old pantheon |
+| [Îǧesema](#ar-îǧesema)     | Old pantheon |
+| [Îš Gaǧez](#ar-îš-gaǧez)   | Old pantheon |
+| [Îš Sraĥez](#ar-îš-sraĥez) | Old pantheon |
+| [Îš Yorbez](#ar-îš-yorbez) | Old pantheon |
+| [Keresa](#ar-keresa)       | Old pantheon |
+| [Meyaz](#ar-meyaz)         | Old pantheon |
+| [Nemeas](#ar-nemeas)       | Old pantheon |
+| [Orîzar](#ar-orîzar)       | Old pantheon |
+| [Refĥaza](#ar-refĥaza)     | Old pantheon |
 
 ## Ar Ǧemosom
 

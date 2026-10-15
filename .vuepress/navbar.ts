@@ -11,6 +11,8 @@ export default navbar([
     icon: "book",
     prefix: "/guide/",
     children: [
+      { text: "Персонаж", link: "character-concept" },
+      { text: "Arcanum", link: "arcanum" },
       {
         text: "WWN",
         prefix: "rules/wwn/",

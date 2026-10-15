@@ -3,24 +3,24 @@ id: ñiziel
 title: Пантеон нитольцев
 ---
 
-| Name                      | Category      | Domains                                                               |
-| ------------------------- | ------------- | --------------------------------------------------------------------- |
-| [Imuezo](#imuezo)         | Main pantheon | **Decay**, **Glyph**, **Magic**, **Soul**, Sorrow, Vigil              |
-| [Marzuer](#marzuer)       | Main pantheon | **Cities**, **Duty**, **Fate**, **Might**, Change, Wealth             |
-| [Tercema](#tercema)       | Main pantheon | **Earth**, **Family**, **Healing**, **Repose**, Freedom, Nature       |
-| [Aj Dorbez](#aj-dorbez)   | Old gods      |                                                                       |
-| [Aj Gajiez](#aj-gajiez)   | Old gods      |                                                                       |
-| [Aj Traciez](#aj-traciez) | Old gods      |                                                                       |
-| [Ajliez](#ajliez)         | Old gods      |                                                                       |
-| [Cueleza](#cueleza)       | Old gods      | **Creation**, **Delirium**, **Knowledge**, **Magic**, Air, Fate       |
-| [Deñeza](#deñeza)         | Old gods      |                                                                       |
-| [Ebuen](#ebuen)           | Old gods      |                                                                       |
-| [Ejnuen](#ejnuen)         | Old gods      |                                                                       |
-| [Liebca](#liebca)         | Old gods      |                                                                       |
-| [Maz](#maz)               | Old gods      |                                                                       |
-| [Ñemas](#ñemas)           | Old gods      | **Destruction**, **Earth**, **Might**, **Water**, Confidence, Passion |
-| [Uerrer](#uerrer)         | Old gods      |                                                                       |
-| [Agecima](#agecima)       | Godly being   |                                                                       |
+| Name                      | Category      |
+| ------------------------- | ------------- |
+| [Imuezo](#imuezo)         | Main pantheon |
+| [Marzuer](#marzuer)       | Main pantheon |
+| [Tercema](#tercema)       | Main pantheon |
+| [Aj Dorbez](#aj-dorbez)   | Old gods      |
+| [Aj Gajiez](#aj-gajiez)   | Old gods      |
+| [Aj Traciez](#aj-traciez) | Old gods      |
+| [Ajliez](#ajliez)         | Old gods      |
+| [Cueleza](#cueleza)       | Old gods      |
+| [Deñeza](#deñeza)         | Old gods      |
+| [Ebuen](#ebuen)           | Old gods      |
+| [Ejnuen](#ejnuen)         | Old gods      |
+| [Liebca](#liebca)         | Old gods      |
+| [Maz](#maz)               | Old gods      |
+| [Ñemas](#ñemas)           | Old gods      |
+| [Uerrer](#uerrer)         | Old gods      |
+| [Agecima](#agecima)       | Godly being   |
 
 ## Imuezo
 
@@ -121,16 +121,6 @@ title: Пантеон нитольцев
 **Ньемас** — бог моря, штормов, землетрясений и возмездия. Носитель разрушительного копья. Безжалостный и капризный, он всё равно покровительствует рыбакам, мореходам и прибрежным городам.
 
 Его символом являются рога красного быка. И это один из немногих старых богов, которому могли в жетву приносить целого быка.
-
-:::info "Pathfinder 2e: Devotee Benefits"
-**Divine Ability**: Strength or Charisma  
-**Divine Font**: Harm/Heal  
-**Divine Skill**: Intimidation  
-**Favored Weapon**: Spear  
-**Domains**: [Destruction](https://2e.aonprd.com/Domains.aspx?ID=8), [Earth](https://2e.aonprd.com/Domains.aspx?ID=10), [Might](https://2e.aonprd.com/Domains.aspx?ID=20), [Water](https://2e.aonprd.com/Domains.aspx?ID=35)  
-**Alternate Domains**: [Confidence](https://2e.aonprd.com/Domains.aspx?ID=4), [Passion](https://2e.aonprd.com/Domains.aspx?ID=25)  
-**Cleric Spells**:  
-:::
 
 ## Uerrer
 

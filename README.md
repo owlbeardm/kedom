@@ -20,7 +20,7 @@ highlights:
   features:
     - title: Дикая земля, погруженная в хаос и загадки прошлого
       icon: hand-sparkles
-      link: ./lore/campaigns/arcanum/
+      link: ./lore/geography/Selaña/
 
 - header: Переплетение мифов  
   bgImageDark: assets/image/temple.webp

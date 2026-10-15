@@ -3,24 +3,24 @@ id: náirlanska
 title: Пантеон нерланар
 ---
 
-| Name                          | Category    | Domains                                                                   |
-| ----------------------------- | ----------- | ------------------------------------------------------------------------- |
-| [Ajsk Drahiz](#ajsk-drahiz)   | Old gods    |                                                                           |
-| [Ajsk Kaskiz](#ajsk-kaskiz)   | Old gods    |                                                                           |
-| [Ajsk Taúrpiz](#ajsk-taúrpiz) | Old gods    |                                                                           |
-| [Ajskiz](#ajskiz)             | Old gods    |                                                                           |
-| [Areitar](#areitar)           | Old gods    |                                                                           |
-| [Asgliz](#asgliz)             | Old gods    |                                                                           |
-| [Eign](#eign)                 | Old gods    |                                                                           |
-| [Eipi](#eipi)                 | Old gods    |                                                                           |
-| [Ƕiliz](#ƕiliz)               | Old gods    | **Creation**, **Knowledge**, **Magic**, **Protection**, Freedom, Trickery |
-| [Liwhad](#liwhad)             | Old gods    |                                                                           |
-| [Mataz](#mataz)               | Old gods    |                                                                           |
-| [Nimiaz](#nimiaz)             | Old gods    |                                                                           |
-| [Teináiz](#teináiz)           | Old gods    |                                                                           |
-| [Jimaz](#jimaz)               | Queran gods |                                                                           |
-| [Mōrtidars](#mōrtidars)       | Queran gods |                                                                           |
-| [Þaírsimada](#þaírsimada)     | Queran gods |                                                                           |
+| Name                          | Category    |
+| ----------------------------- | ----------- |
+| [Ajsk Drahiz](#ajsk-drahiz)   | Old gods    |
+| [Ajsk Kaskiz](#ajsk-kaskiz)   | Old gods    |
+| [Ajsk Taúrpiz](#ajsk-taúrpiz) | Old gods    |
+| [Ajskiz](#ajskiz)             | Old gods    |
+| [Areitar](#areitar)           | Old gods    |
+| [Asgliz](#asgliz)             | Old gods    |
+| [Eign](#eign)                 | Old gods    |
+| [Eipi](#eipi)                 | Old gods    |
+| [Ƕiliz](#ƕiliz)               | Old gods    |
+| [Liwhad](#liwhad)             | Old gods    |
+| [Mataz](#mataz)               | Old gods    |
+| [Nimiaz](#nimiaz)             | Old gods    |
+| [Teináiz](#teináiz)           | Old gods    |
+| [Jimaz](#jimaz)               | Queran gods |
+| [Mōrtidars](#mōrtidars)       | Queran gods |
+| [Þaírsimada](#þaírsimada)     | Queran gods |
 
 ## Ajsk Drahiz
 
@@ -82,20 +82,6 @@ náir. / ʍiliz / Хвилиз
 </small>
 
 **Хвилис** — богиня оберегов, знаний и мудрости. Покровительница наук, мастерства, ремёсел, ума и сноровки. Одна из почитаемых древних богинь. Внешний вид её менялся из истории в историю, но всегда её можно было узнать по светящимся глазам фиолетового света.
-
-**Edicts**: seek out new or lost arcane knowledge, create artifacts  
-**Anathema**: destroy unique knowledge or artifacts  
-**Areas of Concern**: lost knowledge  
-
-:::info "Pathfinder 2e: Devotee Benefits"
-**Divine Ability**: Wisdom or Intelligence  
-**Divine Font**: Harm/Heal  
-**Divine Skill**: Arcana  
-**Favored Weapon**: Staff  
-**Domains**: [Creation](https://2e.aonprd.com/Domains.aspx?ID=5), [Knowledge](https://2e.aonprd.com/Domains.aspx?ID=17), [Magic](https://2e.aonprd.com/Domains.aspx?ID=19), [Protection](https://2e.aonprd.com/Domains.aspx?ID=27)  
-**Alternate Domains**: [Fate](https://2e.aonprd.com/Domains.aspx?ID=12), [Perfection](https://2e.aonprd.com/Domains.aspx?ID=26)  
-**Cleric Spells**: 1st: [*mage armor*](https://2e.aonprd.com/Spells.aspx?ID=176), 2nd: [*mirror image*](https://2e.aonprd.com/Spells.aspx?ID=197), 3rd: [*nondetection*](https://2e.aonprd.com/Spells.aspx?ID=209), 4th: [*clairvoyance*](https://2e.aonprd.com/Spells.aspx?ID=40), 5th: [*mind probe*](https://2e.aonprd.com/Spells.aspx?ID=193), 6th: [*scrying*](https://2e.aonprd.com/Spells.aspx?ID=268), 7th: [*spell turning*](https://2e.aonprd.com/Spells.aspx?ID=297), 8th: [*dream council*](https://2e.aonprd.com/Spells.aspx?ID=89), 9th: [*prismatic shield*](https://2e.aonprd.com/Spells.aspx?ID=838)
-:::
 
 ## Liwhad
 

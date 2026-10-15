@@ -3,9 +3,6 @@ id: characters
 title: Создание персонажа
 ---
 
-<!-- import Tabs from '@theme/Tabs'; -->
-<!-- import TabItem from '@theme/TabItem'; -->
-
 ## Происхождение
 
 В Селании, можно встретить довольно разных персонажей. И мнение у местных о них тоже будет разное:
