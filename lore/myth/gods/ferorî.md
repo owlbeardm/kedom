@@ -64,6 +64,8 @@ title: Пантеон ферори
 *fer.*  / iːfeon / Ар Ифеон
 </small>
 
+- [Эбвен и Эхнвен и сестра Ахесима](/lore/myth/stories/ferorî/ebion/)
+
 ## Ar Îǧesema
 
 <small>

@@ -119,6 +119,8 @@ náir. / ʍiliz / Хвилиз
 *náir.*  / moːrtiðars / Мортизар
 </small>
 
+- [Mōrtidar](/lore/myth/stories/náirlanska/mortidar/)
+
 ## Þaírsimada
 
 <small>
