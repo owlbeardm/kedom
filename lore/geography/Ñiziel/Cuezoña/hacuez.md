@@ -23,8 +23,8 @@ title: Hacuez
 - Кузницы
 - Рынок
 - Порт
-- храм Мартетора
-- гильдия дварфов **Kibil–Khavûr**
+- храм [Мартетора](/lore/myth/gods/ñiziel/marzuer)
+- гильдия [дварфов](/lore/society/culture/western-dwarves) **Kibil–Khavûr**
 - Бордель **Красный Бархат**
 - Таверны
     - дорогой **Тёплый Очаг** в старом городе

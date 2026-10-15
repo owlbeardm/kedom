@@ -1,0 +1,39 @@
+---
+description: When editing lore pages, turn the first mention of each wiki entity into an internal link. Gods link only within the same pantheon. Links never end with a trailing slash.
+globs: lore/**/*.md
+alwaysApply: false
+---
+
+# First-mention wiki links
+
+When writing or editing a page under `lore/`, link the first prose mention of each entity that already has its own page.
+
+## Rules
+
+1. **First mention only.** Link the first occurrence of that entity in the page body. Later mentions stay plain text.
+2. **One target per entity.** Aliases count as the same entity (e.g. нитольцы / нитилья / ñizoles; халфлинги / полурослики; Хвилиз / Хвилис). After any alias is linked, do not link another alias of the same target on that page.
+3. **Do not link the page to itself.** Skip names for the entity the current page is about.
+4. **Do not change existing links.** If a mention is already inside `[...](...)`, leave it. Do not wrap markdown inside code spans, headings you are not editing, image alts, or frontmatter.
+5. **No trailing slash.** Good: `/lore/society/culture/orcs`. Bad: `/lore/society/culture/orcs/`.
+6. **Gods stay inside one pantheon.** On a god page, or when linking a god from another god page, only link gods that live in the same pantheon folder (`ñiziel`, `náirlanska`, `ferorî`, `elven`, `dwarven`). Never link a Ñiziel god to a Náirlanska god page, and so on. Culture and geography pages may link to any pantheon’s god pages.
+
+## Where to look for targets
+
+- Cultures: `lore/society/culture/<slug>.md` → `/lore/society/culture/<slug>`
+- Places: `lore/geography/...` → matching path without trailing slash
+- Gods: `lore/myth/gods/<pantheon>/<god>.md` → `/lore/myth/gods/<pantheon>/<god>`
+- Pantheon indexes: `lore/myth/gods/<pantheon>/` → `/lore/myth/gods/<pantheon>`
+
+Match titles, Russian names in the page body, and clear aliases already used in the vault or on the public site. If there is no page, leave the text plain.
+
+## Examples
+
+On `lore/myth/gods/ñiziel/imuezo.md`:
+
+```markdown
+**Imuezo** — брат [Марсвэра](/lore/myth/gods/ñiziel/marzuer).
+```
+
+On `lore/myth/gods/náirlanska/mortidars.md`, first-mention link each Náirlanska deity named in the myth ([Терсимада](/lore/myth/gods/náirlanska/thairsimad), [Йимас](/lore/myth/gods/náirlanska/jimaz), [Айск Драхиз](/lore/myth/gods/náirlanska/ajsk-drahiz), [Хвилиз](/lore/myth/gods/náirlanska/hviliz)). Do not link to Ñiziel pages for the same figures (Tercema, Ñemas, …).
+
+On a culture page, first «Селания» → `[Селания](/lore/geography/Selaña)`.

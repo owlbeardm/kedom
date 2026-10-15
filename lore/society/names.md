@@ -6,12 +6,12 @@ order: 1
 
 ## Human
 
-### Ñizoles
+### [Ñizoles](/lore/society/culture/ñizoles)
 
 - Spain-like names. **Not Biblical Origin**! Example: [Male names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=0), [Female Names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=1144847730).
 - [Hispanic name generator](https://www.fantasynamegenerators.com/hispanic_names.php). Beware of Biblical Origin!
 
-### Nerlenders
+### [Nerlenders](/lore/society/culture/náirlans)
 
 - Goths names. Example: [Male names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=2044173983), [Female Names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=1912216393).
 - [Gothic name generator](https://www.fantasynamegenerators.com/gothic-names.php).
@@ -20,7 +20,7 @@ order: 1
 
 - *TBD https://web.archive.org/web/20191229044459/http://www.infernaldreams.com/names/Asia/Ancient/Persia.htm это греческая форма, нужно найти адпаведник древнеперсидский и возможно его апгрейднуть*
 
-## Halflings
+## [Halflings](/lore/society/culture/halflings)
 
 - *TBD (https://web.archive.org/web/20191227082938/http://infernaldreams.com/names/Europe/Medieval/Anglo_Saxon.htm)*.
 
@@ -33,7 +33,7 @@ order: 1
 
 ## Fairy
 
-### Gnomes
+### [Gnomes](/lore/society/culture/gnomes)
 
 - TBD
     - найс если женское имя заканчивается на 
@@ -58,7 +58,7 @@ order: 1
         - -u
         - -fë
 
-### Elves
+### [Elves](/lore/society/culture/edhil)
 
 - Tolkien Sindarin names. [Name generator](https://www.fantasynamegenerators.com/lotr-sindarin-names.php). Example: [Male names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=1965361401), [Female names](https://docs.google.com/spreadsheets/d/1g0IzYYx9L7eJSJG-DGGJpXfZuZZgfnYLY0QLEYdTE1Y/edit#gid=813111400).
 - To make name yourself:

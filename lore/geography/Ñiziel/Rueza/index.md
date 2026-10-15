@@ -19,7 +19,7 @@ The province of Rueza covers an area of 31 thousand square miles. Of this, 31% (
 The province of Rueza has a total population of 1.2 million people.  
 The largest city has a population of 16 thousand people, the second largest 5041. There are no other cities of note in the kingdom, and 28 towns. The remaining population lives in numerous small villages, isolated dwellings, etc.
 
-### The town of Calduero
+### The town of [Calduero](/lore/geography/Ñiziel/Rueza/calduero)
 
 covers an area of approximately 35 acres, with a total population of 2110 people.  
 The town has 5 noble houses. The peace is kept by 20 guardsmen, and there are 2 advocates to assist with legal matters. For those more concerned about their soul, there are 31 clergymen and 1 priests.
