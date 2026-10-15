@@ -11,3 +11,7 @@ sidebar_position: 1
 :::info *Itsh Uzbud Inbaramu*
 / ʔitʃ 'uzbud ʔin'baramu / Итш **У**збуд Инб**а**раму
 :::
+
+## Народы
+
+- [Дварфы длинных гор](/lore/society/culture/long-mountain-dwarves)

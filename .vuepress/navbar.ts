@@ -5,7 +5,7 @@ export default navbar([
   {
       text: "Мир Кедома",
       icon: "scroll",
-      link: "/lore/",
+      link: "/lore",
   }, {
     text: "Guide",
     icon: "book",

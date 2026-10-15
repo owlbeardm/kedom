@@ -7,7 +7,7 @@ title: Hacuez
 / akʷeθ / *Аквэс*
 :::
 
-Город в [Кведонии](/lore/geography/Ñiziel/Cuezoña/).
+Город в [Кведонии](/lore/geography/Ñiziel/Cuezoña).
 
 ## Районы города
 

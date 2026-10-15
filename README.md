@@ -11,7 +11,7 @@ heroText: false
 tagline: false
 actions:
   - text: Start
-    link: ./lore/
+    link: ./lore
     type: primary
 
 highlights:
@@ -20,21 +20,21 @@ highlights:
   features:
     - title: Дикая земля, погруженная в хаос и загадки прошлого
       icon: hand-sparkles
-      link: ./lore/geography/Selaña/
+      link: ./lore/geography/Selaña
 
 - header: Переплетение мифов  
   bgImageDark: assets/image/temple.webp
   features:
     - title: Рассказы о богах
       icon: bolt
-      link: ./lore/myth/gods/
+      link: ./lore/myth/gods
     
 - header: Земли магии и тайн
   bgImageDark: assets/image/city.webp
   features:
     - title: География
       icon: earth-europe
-      link: ./lore/geography/
+      link: ./lore/geography
 
 copyright: false
 footer: Copyright © 2022-present Kedôm, <a href="https://owlbeardm.com/" target="_blank">OwlbearDM</a>.

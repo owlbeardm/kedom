@@ -1,15 +1,9 @@
 ---
-id: dwarven
-title: Пантеон дварфов
+id: hanmir
+title: Hanmir
 ---
 
-| Name                | Category         |
-| ------------------- | ---------------- |
-| [Hanmir](#hanmir)   | Dwarven pantheon |
-
 <img alt="Hanmir symbol" src="/img/gods/hanmir.svg" align="right" class="god-img"/>
-
-## Hanmir
 
 <small>
 *khuz.*  / hanmir / <span class="cirth-dwarf-font">HANMIR</span>  
