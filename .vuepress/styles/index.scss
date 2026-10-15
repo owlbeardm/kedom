@@ -2,6 +2,69 @@
 @import "palette";
 @import "config";
 
+/* ----------------------------------------------------------- */
+/* Typography: Lora (prose) + PT Sans (UI / section headings) */
+/* Sizes use rem/em so browser & OS text scaling apply.       */
+/* ----------------------------------------------------------- */
+
+:root {
+    --font-ui: "PT Sans", ui-sans-serif, system-ui, sans-serif;
+    --font-body: "Lora", "PT Sans", ui-serif, Georgia, serif;
+    --font-heading-display: "Lora", "PT Sans", ui-serif, Georgia, serif;
+    --font-heading-section: "PT Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+// Respect user/browser default size; override theme's fixed 17px bump
+html body {
+    font-family: var(--font-ui);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.vp-navbar,
+.vp-sidebar,
+.vp-nav-screen,
+.vp-page-nav,
+.vp-toc,
+.vp-breadcrumb,
+.vp-page-meta,
+.vp-footer {
+    font-family: var(--font-ui);
+    font-size: 0.9375em;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.theme-hope-content {
+    font-family: var(--font-body);
+    font-size: 1.0625em; // ~17px at default 1rem root; scales with user prefs
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.theme-hope-content strong {
+    font-weight: 600;
+}
+
+// Display titles: Lora; section headings: PT Sans
+.vp-page-title h1,
+.theme-hope-content h1 {
+    font-family: var(--font-heading-display);
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.theme-hope-content h2,
+.theme-hope-content h3,
+.theme-hope-content h4,
+.theme-hope-content h5,
+.theme-hope-content h6 {
+    font-family: var(--font-heading-section);
+    font-weight: 700;
+    line-height: 1.3;
+}
+
 .theme-hope-content a:hover {
     text-decoration: none;
     color: $theme-color-light;
@@ -28,7 +91,7 @@ h4 {
 }
 
 h5 {
-    font-size: 1.12rem;
+    font-size: 1.125rem;
 }
 
 h6 {

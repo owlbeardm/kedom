@@ -16,9 +16,9 @@
 /* $content-width: 780px !default; */
 /* $home-page-width: 1160px !default; */
 /**/
-/* // font */
-/* $font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", STHeiti, "Microsoft YaHei", SimSun, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' !default; */
-/* $font-family-heading: $font-family !default; */
+// font — UI default PT Sans; prose overrides to Lora in index.scss
+$font-family: '"PT Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"';
+$font-family-heading: '"Lora", "PT Sans", ui-serif, Georgia, serif';
 /* $font-family-mono: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace' !default; */
 /**/
 /* // code */
