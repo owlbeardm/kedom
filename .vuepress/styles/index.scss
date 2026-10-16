@@ -1,6 +1,5 @@
 // place your custom styles here
-@import "palette";
-@import "config";
+// (palette/config are injected by the theme — do not @import them)
 
 /* ----------------------------------------------------------- */
 /* Typography: Lora (prose) + PT Sans (UI / section headings) */
@@ -12,6 +11,23 @@
     --font-body: "Lora", "PT Sans", ui-serif, Georgia, serif;
     --font-heading-display: "Lora", "PT Sans", ui-serif, Georgia, serif;
     --font-heading-section: "PT Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+.fade-slide-y-enter-active {
+    transition: all 0.05s ease !important;
+}
+
+.fade-slide-y-leave-active {
+    transition: all 0.05s cubic-bezier(1, 0.5, 0.8, 1) !important;
+}
+
+.hint-container.info {
+    border-color: #444459;
+    background: #4e4e5820;
+}
+
+.hint-container.info > .hint-container-title::before {
+    background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-11v6h2v-6h-2zm0-4v2h2V7h-2z' fill='%23444459'/%3E%3C/svg%3E");
 }
 
 // Respect user/browser default size; override theme's fixed 17px bump
@@ -67,11 +83,11 @@ html body {
 
 .theme-hope-content a:hover {
     text-decoration: none;
-    color: $theme-color-light;
+    color: var(--vp-c-accent);
 }
 
 .vp-page-title h1 .icon {
-    color: $text-color;
+    color: var(--vp-c-text);
 }
 
 h1 {
@@ -111,7 +127,7 @@ blockquote {
 
 .god-img {
     width: 150px;
-    background: $bg-color;
+    background: var(--vp-c-bg);
 }
 
 .anc-img {
@@ -148,11 +164,11 @@ blockquote {
 }
 
 .bold-to-red strong {
-    color: $theme-color-light;
+    color: var(--vp-c-accent);
 }
 
 .bold-to-red em {
-    color: $theme-color-light;
+    color: var(--vp-c-accent);
 }
 
 

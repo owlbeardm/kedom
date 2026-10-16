@@ -9,6 +9,9 @@ title: Mōrtidars
 
 ## Миф
 
+<div class="div-with-image">
+<img alt="Эльфы" src="https://scontent.cdninstagram.com/v/t51.82787-15/618872480_18085082450169454_6071766388234206154_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MjQ1NjU5NzI0OTI0ODM2NzU0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vLU9E7C6rG0Q7kNvwELvRzq&_nc_oc=AdrbdQaQmP3tQgErmWOYhFQ9ZZpUenncqRwbat5Qc_5eH0bg6rKAjTs4XgsZfG4B5xI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=JXKztCEGf17Q1xzKtE3p9Q&_nc_ss=7a22e&oh=00_AQOXWC_Qiap_1W4woG8hu7wHHzWH9rYALeR2sXTBj1fsIA&oe=6AD7379E" align="right" class="anc-img"/>
+
 В давние времена, когда человечество томилось под гнётом жестоких владык-надсмотрщиков, среди угнетённых появилась женщина по имени [Терсимада](/lore/myth/gods/náirlanska/thairsimad). Она не была похожа на других: появившись из ниоткуда, она принялась помогать людям, давая им силы и умение возделывать землю, собирать обильные урожаи и исцелять больных.
 
 Но Терсимада не была одна: она была беременна и в положенное время родила двух сыновей. Мальчики, Мортидар и [Йимас](/lore/myth/gods/náirlanska/jimaz), с самого рождения поражали окружающих своей красотой и силой. Мортидар был кротким и трудолюбивым, готовым находить радость даже в тяжёлых буднях. Йимас, напротив, кипел ненавистью к надсмотрщикам и мечтал о свободе.
@@ -22,3 +25,4 @@ title: Mōrtidars
 Она взглянула на него и сказала: «Ты блуждаешь, не зная, кто ты. Иди в пустынные земли, где хранится древняя память, и отыщи ключ к своей сущности. Тогда ты познаешь, что ты можешь изменить».
 
 И Хвилиз исчезла, оставив Мортидара в раздумьях.
+</div>

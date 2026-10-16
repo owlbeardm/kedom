@@ -1,26 +1,41 @@
-// you can change colors here
-$theme-color: #c46955;
-$text-color: #e0e0e0;
-$theme-color-light: #df4e2e;
+// colors — site is always dark (`darkmode: "enable"`)
+$vp-c-bg: (
+  light: #262626,
+  dark: #262626,
+);
+$vp-c-bg-alt: (
+  light: #333,
+  dark: #333,
+);
+$vp-c-bg-elv: (
+  light: #333,
+  dark: #333,
+);
 
-$bg-color: #262626;
-$bg-color-secondary: #333;
-$border-color: #352a26;
+$vp-c-text: (
+  light: #e0e0e0,
+  dark: #e0e0e0,
+);
 
-$info-border-color: #444459;
-$info-bg-color: #4e4e5820;
-.hint-container.info {
-  border-color: #444459;
-  background: #4e4e5820;
-}
-.hint-container.info > .hint-container-title::before {
-  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-1-11v6h2v-6h-2zm0-4v2h2V7h-2z' fill='%23444459'/%3E%3C/svg%3E");
-}
+$vp-c-border: (
+  light: #352a26,
+  dark: #352a26,
+);
+$vp-c-divider: (
+  light: #352a26,
+  dark: #352a26,
+);
 
-html[data-theme="dark"] #app {
-  //--code-color: #abb2bf;
-  //--code-line-color: rgba(171, 178, 191, .67);
-  --code-bg-color: $bg-color;
-  //--code-border-color: #343e51;
-  //--code-highlight-line-color: #2f3542;
-}
+// accent: keep the brighter coral used previously as `$theme-color-light`
+$vp-c-accent: (
+  light: #df4e2e,
+  dark: #df4e2e,
+);
+$vp-c-accent-bg: (
+  light: #c46955,
+  dark: #c46955,
+);
+$vp-c-accent-hover: (
+  light: #df4e2e,
+  dark: #df4e2e,
+);
