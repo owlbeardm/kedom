@@ -1,0 +1,1 @@
+var e=`/img/culture/nithel.webp`;export{e as t};

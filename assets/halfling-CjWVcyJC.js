@@ -1,0 +1,1 @@
+var e=`/img/culture/halfling.webp`;export{e as t};

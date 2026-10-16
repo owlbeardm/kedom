@@ -1,0 +1,1 @@
+var e=`/img/culture/elf.png`;export{e as t};

@@ -1,0 +1,1 @@
+import{f as e,s as t,x as n}from"./app-HjxE5kgF.js";var r={__name:`ButtonCounter`,setup(r){return(r,i)=>(e(),t(`span`,null,n(r.races),1))}};export{r as default};

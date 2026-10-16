@@ -1,0 +1,1 @@
+var e=`/img/culture/dwarf1.webp`;export{e as t};

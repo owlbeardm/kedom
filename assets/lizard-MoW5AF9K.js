@@ -1,0 +1,1 @@
+var e=`/img/culture/lizard.webp`;export{e as t};

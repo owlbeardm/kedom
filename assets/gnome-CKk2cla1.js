@@ -1,0 +1,1 @@
+var e=`/img/culture/gnome.webp`;export{e as t};
